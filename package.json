@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sowd/w2vserv#readme",
   "dependencies": {
+    "mecab-async": "^0.1.0",
     "ncmb": "^2.1.4"
   }
 }
