@@ -19,7 +19,8 @@ var q_cache = {} ;
 try {
 	q_cache = JSON.parse(fs.readFileSync('q_cache.json').toString()) ;
 } catch(e){} ;
-function q_cache_replacer(k,v){if( v instanceof Array ) return v.join(','); return v}
+//function q_cache_replacer(k,v){if( v instanceof Array ) return v.join(','); return v}
+var q_cache_replacer = null ;
 
 function q(word){
 	return new Promise((ac,rj)=>{
