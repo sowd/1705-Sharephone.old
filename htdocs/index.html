@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+<select id='corpusselect'><option value="null">Select corpus</select><br />
+<div id='srctxt'></div>
+</body>
+<script src='jquery.min.js'></script>
+<script>
+var log = console.log ;
+
+var raw_lines = [] , lines = [] ;
+
+function oncorpusloaded(){
+	if( raw_lines.length==0 ){
+		alert('No corpus selected.') ;
+		return ;
+	}
+
+	var ht = '' , lineid=0 ;
+	var speaker = '' ;
+	lines = [] ;
+
+	function genhtline(li){
+		var l = lines[li] ;
+		return l.lineid+':'+l.speaker+':'+l.content ;
+	}
+	
+	raw_lines.forEach( line => {
+		var idx ;
+		if( line.charAt(0)== '＠' ){
+			lines.push( {lineid:lineid , speaker:'sys' , content: line.substring(1) } ) ;
+			ht += genhtline(lineid++) +'<br />' ;
+			return ;
+		}
+		if( (idx=line.indexOf('：')) >=0 ){
+			speaker = line.substring(0,idx) ;
+			line = line.substring(idx+1) ;
+		}
+		lines.push( {lineid:lineid , speaker:speaker , content: line } )
+		ht += genhtline(lineid)
+			+ ' <input type="button" onclick="analyze('+lineid+');" value="analyze"></input>'
+			+'<br />' ;
+		++lineid ;
+	}) ;
+
+	$('#srctxt').html(ht) ;
+}
+
+function analyze(lineid){
+	$.getJSON(
+		'/mecab/'
+		,{ q:lines[lineid].content }
+		,m_re=>{
+			// Mecab completed
+			log('形態素解析結果：'+JSON.stringify(m_re)) ;
+
+			// Choose nouns
+			var nouns = [] , cur_noun = '' ;
+			m_re.forEach(w=>{
+				if( w[1]== '名詞' && w[2] != '非自立' ){
+					cur_noun += w[0] ;
+				} else {
+					if( cur_noun.length>0 )
+						nouns.push(cur_noun) ;
+						cur_noun = '' ;
+				}
+			}) ;
+
+			log('名詞:'+ (nouns.length==0?'なし':nouns.join(','))) ;
+
+			// analyze by word2vec
+			$.getJSON(
+				'/w2v/'
+				,{ q:nouns }
+				,w_re=>{
+					var a_re = '名詞:'+ (nouns.length==0?'なし':nouns.join(',')) +"\n";
+					a_re += 'w2v:'+JSON.stringify(w_re) ;
+					alert(a_re) ;
+				}
+			) ;
+
+		}
+	);
+}
+
+onload = function(){
+	$.getJSON('/corpus/',re=>{
+		var selector = $('#corpusselect') ;
+		re.corpus.forEach(corpusname=>{
+			var option = $('<option>')
+				.val(corpusname)
+				.text(corpusname)
+				//.prop('selected', isSelected)
+				;
+			selector.append(option) ;
+		}) ;
+		selector.change(()=>{
+			//log( selector.val() );
+			$.getJSON('/corpus/'+selector.val(),
+				_lines=>{raw_lines=_lines;oncorpusloaded();}
+			) ;
+		}) ;
+	}) ;
+} ;
+</script>
+</html>
