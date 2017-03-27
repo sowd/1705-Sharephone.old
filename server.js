@@ -1,10 +1,13 @@
 //  /corpus/				corpus list
 //  /corpus/nagoya1			get corpus content
 //	/mecab/?q=SENTENSE		analyze 'SETNTENSE' by mecab
-//	/w2v/?q=[w1,w2,..]		calculate w2v average for word array
+//	/w2v/?q=w				calculate word freq and word2vec vector
 
+
+// when just want to update word_freq_array.json & word_freq_map.json,
+// just call post_process_word_freq() after loading word_freq, rather than
+// setting this to true.
 const OUTPUT_WORD_FREQUENCY_STATISTICS = false ;
-
 
 var fs = require('fs');
 var NCMB = require("ncmb");
@@ -122,42 +125,52 @@ function post_process_word_freq(){
 	var wfarray = [] ;
 	for( var k in word_freq ){
 		var ts = k.split(':') ;
-		//if( ts[1] != '名詞' || ts[2] == '数' ) continue ;
-		if( ts[2] != '固有名詞' ) continue ;
+		//if( ts[1] != '名詞' || ts[2] == '数' || ) continue ;
+		if( ts[1] != '名詞' ) continue ;
+		if( ts[2] != '固有名詞' && ts[2] != '一般' ) continue ;
 		wfarray.push( {word:ts[0], type:ts[2], count:word_freq[k]} ) ;
 		w_total += word_freq[k] ;
 	}
 	wfarray.sort((p,q)=>(q.count-p.count)) ;
 
-	log('ll:'+wfarray.length) ;
+	log('Target word num to compute w2v score:'+wfarray.length) ;
 	var word_only_for_w2v = [] ;
 	wfarray.forEach( wfa=>{
 		word_only_for_w2v.push(wfa.word) ;
 	}) ;
 
 	word_freq = {} ;
-	analyze_w2v_eachword(word_only_for_w2v).then(re=>{
-		var w2vsuccess = 0 ;
-		log(re.length+':'+wfarray.length) ;
-		for( var ri=0;ri<re.length;++ri ){
-			var v = wfarray[ri] ;
-			v.freq = v.count / w_total ;
-			if( re[ri] instanceof Array ){
-				v.w2v = re[ri].join(',') ;	// Just to display the result efficiently
-				word_freq[v.word] = {type:v.type , freq:v.freq , w2v:re[ri] } ;
-				++w2vsuccess ;
-			} else log('w2v unsuccessful:'+v.word) ;
+	var w2v_i = 0 ;
+	function analyze_step(){
+		if( word_only_for_w2v.length == 0 ){
+			log(`Word frequency data post processed. Selected word count=${w2vsuccess}/${re.length}`) ;
+			fs.writeFileSync('word_freq_array.json',JSON.stringify(wfarray,null,"\t")) ;
+			fs.writeFileSync('word_freq_map.json',JSON.stringify(word_freq,null,"\t")) ;
+			delete wfarray ;
+			return ;
 		}
-
-		log(`Word frequency data post processed. Selected word count=${w2vsuccess}/${re.length}`) ;
-		fs.writeFileSync('word_freq_array.json',JSON.stringify(wfarray,null,"\t")) ;
-		fs.writeFileSync('word_freq_map.json',JSON.stringify(word_freq,null,"\t")) ;
-
-		delete wfarray ;
-	}).catch( e=>{
-		log('analyze_w2v_eachword unsuccessful.') ;
-		console.error(e);
-	} ) ;
+		var target = word_only_for_w2v.slice(0,50) ;
+		word_only_for_w2v = word_only_for_w2v.slice(50) ;
+		analyze_w2v_eachword(target).then(re=>{
+			var w2vsuccess = 0 ;
+			for( var ri=0;ri<re.length;++ri ){
+				var v = wfarray[w2v_i+ri] ;
+				v.freq = v.count / w_total ;
+				if( re[ri] instanceof Array ){
+					v.w2v = re[ri].join(',') ;	// Just to display the result efficiently
+					word_freq[v.word] = {type:v.type , freq:v.freq , w2v:re[ri] } ;
+					++w2vsuccess ;
+				} else log('w2v unsuccessful:'+v.word) ;
+			}
+			w2v_i += target.length ;
+			log(w2v_i+'/'+wfarray.length) ;
+			analyze_step() ;
+		}).catch( e=>{
+			log('analyze_w2v_eachword unsuccessful.') ;
+			console.error(e);
+		} ) ;
+	}
+	analyze_step() ;
 }
 
 if( !OUTPUT_WORD_FREQUENCY_STATISTICS ){
@@ -236,7 +249,11 @@ app.get('/corpus*',(req,res)=>{
 // APIs
 [
 	['mecab',analyze_mecab]
-	,['w2v',w=>new Promise((ac,rj)=>{var r=word_freq[w];return r==undefined?rj({error:`No ${w} in db`}):ac(r);})]
+	,['w2v',w=>new Promise((ac,rj)=>{
+		var r=word_freq[w];
+		return r==undefined?rj({error:`No ${w} in db`}):ac(r);
+	})
+	]
 ].forEach(fun=>{
 	app.get('/'+fun[0]+'*',(req,res)=>{
 		if( req.query.q == undefined ){

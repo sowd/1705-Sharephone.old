@@ -12,37 +12,32 @@ var log = console.log ;
 
 var raw_lines = [] , lines = [] ;
 
+function genhtline(li){
+	var l = lines[li] ;
+	return `${l.lineid}:${l.speaker}:<span id="line_${li}" style="color:#aaa;">${l.content}</span><br />` ;
+}
+
 function oncorpusloaded(){
 	if( raw_lines.length==0 ){
 		alert('No corpus selected.') ;
 		return ;
 	}
 
-	var ht = '' , lineid=0 ;
+	var ht = '' ;
 	var speaker = '' ;
 	lines = [] ;
-
-	function genhtline(li){
-		var l = lines[li] ;
-		return l.lineid+':'+l.speaker+':'+l.content ;
-	}
 	
 	raw_lines.forEach( line => {
-		var idx ;
-		if( line.charAt(0)== '＠' ){
-			lines.push( {lineid:lineid , speaker:'sys' , content: line.substring(1) } ) ;
-			ht += genhtline(lineid++) +'<br />' ;
-			return ;
-		}
-		if( (idx=line.indexOf('：')) >=0 ){
-			speaker = line.substring(0,idx) ;
-			line = line.substring(idx+1) ;
-		}
-		lines.push( {lineid:lineid , speaker:speaker , content: line } )
-		ht += genhtline(lineid)
-			+ ' <input type="button" onclick="analyze('+lineid+');" value="analyze"></input>'
-			+'<br />' ;
-		++lineid ;
+		var match_result = line.match( /(^[MF]...)：/ ) ;
+			if( match_result == null ) return ;
+		var speaker = match_result[1] ;
+		var body = line.slice(5) ;
+
+		var lineid = lines.length ;
+
+		lines.push( {lineid:lineid , speaker:speaker , content: body } )
+		ht += genhtline(lineid) ;
+		analyze(lineid) ;
 	}) ;
 
 	$('#srctxt').html(ht) ;
@@ -54,32 +49,34 @@ function analyze(lineid){
 		,{ q:lines[lineid].content }
 		,m_re=>{
 			// Mecab completed
-			log('形態素解析結果：'+JSON.stringify(m_re)) ;
+			//log('形態素解析結果：'+JSON.stringify(m_re)) ;
 
-			// Choose nouns
-			var nouns = [] , cur_noun = '' ;
-			m_re.forEach(w=>{
-				if( w[1]== '名詞' && w[2] != '非自立' ){
-					cur_noun += w[0] ;
-				} else {
-					if( cur_noun.length>0 )
-						nouns.push(cur_noun) ;
-						cur_noun = '' ;
+			// highlight 名詞
+			var ht = '' ;
+			for( var wi=0;wi<m_re.length;++wi){
+				var w = m_re[wi] ;
+				if( w[1] != '名詞' || (w[2] != '固有名詞' && w[2] != '一般') ){
+				//if( w[2] != '固有名詞' ){
+					ht += w[0] ;
+					continue ;
 				}
-			}) ;
+				ht += `<span id="word_${lineid}_${wi}" style="color:#000;">[${w[0]}]</span>` ;
 
-			log('名詞:'+ (nouns.length==0?'なし':nouns.join(','))) ;
+				(()=>{
+					var tgt_id = `#word_${lineid}_${wi}` ;
+					// analyze by word2vec
+					$.getJSON(
+						'/w2v/'
+						,{ q:w[0] }
+						,w_re=>{
+							if(w_re.freq>0.0001) return ;
+							$(tgt_id).css('color','#f00') ;
+						}
+					) ;
+				})() ;
+			}
 
-			// analyze by word2vec
-			$.getJSON(
-				'/w2v/'
-				,{ q:nouns }
-				,w_re=>{
-					var a_re = '名詞:'+ (nouns.length==0?'なし':nouns.join(',')) +"\n";
-					a_re += 'w2v:'+JSON.stringify(w_re) ;
-					alert(a_re) ;
-				}
-			) ;
+			$('#line_'+lineid).html(ht) ;
 
 		}
 	);
