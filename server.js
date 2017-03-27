@@ -3,6 +3,7 @@
 //	/mecab/?q=SENTENSE		analyze 'SETNTENSE' by mecab
 //	/w2v/?q=[w1,w2,..]		calculate w2v average for word array
 
+const OUTPUT_WORD_FREQUENCY_STATISTICS = false ;
 
 
 var fs = require('fs');
@@ -22,6 +23,7 @@ try {
 //function q_cache_replacer(k,v){if( v instanceof Array ) return v.join(','); return v}
 var q_cache_replacer = null ;
 
+// vector query main.
 function q(word){
 	return new Promise((ac,rj)=>{
 		if( q_cache[word] != undefined ){
@@ -71,38 +73,43 @@ function remove_unnecessary(text){
 	log(v) ;
 }).catch(()=>{log('No entry found.')});
 */
-var MeCab = new require('mecab-async') , mecab = new MeCab() ;
-
-function analyze_w2v( nouns ){
+function analyze_w2v_eachword( nouns ){
 	return new Promise( (accept,reject)=>{
 		if( nouns.length>0 ){
 			Promise.all(nouns.map(w=>{
 				return new Promise((ac,rj)=>{
 					q(w).then(ac).catch(ac) ;
 				}) ;
-			})).then(vecs=>{
-				var v_av , avail_num = 0 ;
-				vecs.forEach(vec=>{
-					if( vec instanceof Array ){
-						++avail_num ;
-						if( v_av == undefined ) v_av = vec ;
-						else {
-							for( var xi=0;xi<v_av.length;++xi )
-								v_av[xi] += vec[xi] ;
-						}
-					}
-				})
-				for( var xi=0;xi<v_av.length;++xi )
-					v_av[xi] /= avail_num ;
-				//log(nouns.join('') +'=>'+JSON.stringify(v_av) ) ;
-				accept(v_av) ;
-			}).catch(reject) ;
+			})).then(accept).catch(reject) ;
 		} else {
 			reject('No nouns provided.') ;
 		}
 	}) ;
 }
+function analyze_w2v_phrase( nouns ){
+	return new Promise( (accept,reject)=>{
+		analyze_w2v_eachword.then(vecs=>{
+			var v_av , avail_num = 0 ;
+			vecs.forEach(vec=>{
+				if( vec instanceof Array ){
+					++avail_num ;
+					if( v_av == undefined ) v_av = vec ;
+					else {
+						for( var xi=0;xi<v_av.length;++xi )
+							v_av[xi] += vec[xi] ;
+					}
+				}
+			}) ;
+			for( var xi=0;xi<v_av.length;++xi )
+				v_av[xi] /= avail_num ;
+			//log(nouns.join('') +'=>'+JSON.stringify(v_av) ) ;
+			accept(v_av) ;
+		}).catch(reject) ;
+	}) ;
+}
 
+
+var MeCab = new require('mecab-async') , mecab = new MeCab() ;
 function analyze_mecab(qstr){
 	return new Promise((ac,rj)=>{
 		mecab.parse(qstr, function(err, result) {
@@ -112,17 +119,116 @@ function analyze_mecab(qstr){
 	}) ;
 }
 
+var corpus_id_to_filename_map = {} ;
+
+var lines_for_freq=[] ;	// 頻度マップを作る
+for( var i=1;i<=129;++i ){
+	corpus_id_to_filename_map['nagoya'+i] = 'data/nagoyacorpus/data'+('00'+i).slice(-3)+'.utf8.txt' ;
+
+	if( OUTPUT_WORD_FREQUENCY_STATISTICS ){
+		fs.readFileSync('data/nagoyacorpus/data'+('00'+i).slice(-3)+'.utf8.txt').toString().split("\n").forEach(line=>{
+			var match_result = line.match( /(^[MF]...)：/ ) ;
+			if( match_result == null ) return ;
+
+			var speaker = match_result[1] ;
+			var body = line.slice(5) ;
+			lines_for_freq.push([speaker,body]) ;
+		}) ;
+	}
+}
+
+
+var word_freq = {} ;
+function post_process_word_freq(){
+	var w_total = 0 ;
+	var wfarray = [] ;
+	for( var k in word_freq ){
+		var ts = k.split(':') ;
+		//if( ts[1] != '名詞' || ts[2] == '数' ) continue ;
+		if( ts[2] != '固有名詞' ) continue ;
+		wfarray.push( {word:ts[0], type:ts[2], count:word_freq[k]} ) ;
+		w_total += word_freq[k] ;
+	}
+	wfarray.sort((p,q)=>(q.count-p.count)) ;
+
+	log('ll:'+wfarray.length) ;
+	var word_only_for_w2v = [] ;
+	wfarray.forEach( wfa=>{
+		word_only_for_w2v.push(wfa.word) ;
+	}) ;
+
+	word_freq = {} ;
+	analyze_w2v_eachword(word_only_for_w2v).then(re=>{
+		var w2vsuccess = 0 ;
+		log(re.length+':'+wfarray.length) ;
+		for( var ri=0;ri<re.length;++ri ){
+			var v = wfarray[ri] ;
+			v.freq = v.count / w_total ;
+			if( re[ri] instanceof Array ){
+				v.w2v = re[ri].join(',') ;	// Just to display the result efficiently
+				word_freq[v.word] = {type:v.type , freq:v.freq , w2v:re[ri] } ;
+				++w2vsuccess ;
+			} else log('w2v unsuccessful:'+v.word) ;
+		}
+
+		log(`Word frequency data post processed. Selected word count=${w2vsuccess}/${re.length}`) ;
+		fs.writeFileSync('word_freq_array.json',JSON.stringify(wfarray,null,"\t")) ;
+		fs.writeFileSync('word_freq_map.json',JSON.stringify(word_freq,null,"\t")) ;
+
+		delete wfarray ;
+	}).catch( e=>{
+		log('analyze_w2v_eachword unsuccessful.') ;
+		console.error(e);
+	} ) ;
+}
+
+if( !OUTPUT_WORD_FREQUENCY_STATISTICS ){
+	word_freq = JSON.parse( fs.readFileSync('word_freq_map.json').toString() ) ;
+	//word_freq = JSON.parse( fs.readFileSync('word_freq.json').toString() ) ;
+	//post_process_word_freq() ;
+} else {
+	const MAX_MECAB_PROCESS = 100 ;
+	function gen_word_freq(){
+		var lines_promises = [] ;
+
+		for( var i = 0 ; i < MAX_MECAB_PROCESS && lines_for_freq.length > 0 ; ++i ){
+			var la = lines_for_freq.shift() ;
+			lines_promises.push( new Promise((ac,rj)=>{
+				analyze_mecab(la[1]).then(ac).catch(e=>{
+					log('mecab error ('+e+') for:'+body);
+					ac([]);
+				})
+			})) ;
+		}
+
+		Promise.all(lines_promises).then(result_array=>{
+			log('Lines promises all fired ('+lines_for_freq.length+' more elements)') ;
+			result_array.forEach(mecab_split=>{
+				mecab_split.forEach(w=>{
+					if( w[0] == "\r" || w[1] == 'フィラー') return ;
+					var token = `${w[0]}:${w[1]}:${w[2]}` ;
+					if( word_freq[token] == undefined )	word_freq[token] = 1 ;
+					else								++word_freq[token] ;
+				}) ;
+				//log(mecab_split) ;
+			}) ;
+
+			fs.writeFileSync('word_freq.json',JSON.stringify(word_freq,null,"\t")) ;
+			if( lines_for_freq.length == 0 ){
+				log('Final freq map generated.') ;
+				delete lines_for_freq ;
+				post_process_word_freq() ;
+			} else gen_word_freq() ;
+		}) ;
+	}
+
+	gen_word_freq() ;
+}
+
+
 // Start server
 var express = require('express')
 var app = express();
-
-var iconvLite = require('iconv-lite');
-
-var corpus_id_to_filename_map = {} ;
-for( var i=1;i<=129;++i ){
-	corpus_id_to_filename_map['nagoya'+i] = 'data/nagoyacorpus/data'+(i<10?'00':(i<100?'0':''))+i+'.utf8.txt' ;
-}
-
 
 app.get('/corpus*',(req,res)=>{
 	if( req.params.length == 0 || req.params[0].length==0 || req.params[0] == '/'){
@@ -150,7 +256,7 @@ app.get('/corpus*',(req,res)=>{
 }) ;
 
 // APIs
-[['mecab',analyze_mecab],['w2v',analyze_w2v]].forEach(fun=>{
+[['mecab',analyze_mecab],['w2v',analyze_w2v_phrase]].forEach(fun=>{
 	app.get('/'+fun[0]+'*',(req,res)=>{
 		if( req.query.q == undefined ){
 			res.jsonp({error:'Please specify a sentence as GET parameter q!'}) ;
