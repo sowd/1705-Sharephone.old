@@ -86,28 +86,6 @@ function analyze_w2v_eachword( nouns ){
 		}
 	}) ;
 }
-function analyze_w2v_phrase( nouns ){
-	return new Promise( (accept,reject)=>{
-		analyze_w2v_eachword.then(vecs=>{
-			var v_av , avail_num = 0 ;
-			vecs.forEach(vec=>{
-				if( vec instanceof Array ){
-					++avail_num ;
-					if( v_av == undefined ) v_av = vec ;
-					else {
-						for( var xi=0;xi<v_av.length;++xi )
-							v_av[xi] += vec[xi] ;
-					}
-				}
-			}) ;
-			for( var xi=0;xi<v_av.length;++xi )
-				v_av[xi] /= avail_num ;
-			//log(nouns.join('') +'=>'+JSON.stringify(v_av) ) ;
-			accept(v_av) ;
-		}).catch(reject) ;
-	}) ;
-}
-
 
 var MeCab = new require('mecab-async') , mecab = new MeCab() ;
 function analyze_mecab(qstr){
@@ -256,7 +234,10 @@ app.get('/corpus*',(req,res)=>{
 }) ;
 
 // APIs
-[['mecab',analyze_mecab],['w2v',analyze_w2v_phrase]].forEach(fun=>{
+[
+	['mecab',analyze_mecab]
+	,['w2v',w=>new Promise((ac,rj)=>{var r=word_freq[w];return r==undefined?rj({error:`No ${w} in db`}):ac(r);})]
+].forEach(fun=>{
 	app.get('/'+fun[0]+'*',(req,res)=>{
 		if( req.query.q == undefined ){
 			res.jsonp({error:'Please specify a sentence as GET parameter q!'}) ;
@@ -268,7 +249,6 @@ app.get('/corpus*',(req,res)=>{
 			arg = decodeURIComponent(req.query.q.trim())  ;
 		else
 			arg = req.query.q ;
-
 		fun[1](arg).then(re=>{
 			res.jsonp(re) ;
 		}).catch(e=>{
