@@ -8,6 +8,9 @@
 </body>
 <script src='jquery.min.js'></script>
 <script>
+
+const WORD_FREQ_THRESHOLD = 0.0011 ;
+
 var log = console.log ;
 
 var raw_lines = [] , lines = [] ;
@@ -55,7 +58,7 @@ function analyze(lineid){
 			var ht = '' ;
 			for( var wi=0;wi<m_re.length;++wi){
 				var w = m_re[wi] ;
-				if( w[1] != '名詞' || (w[2] != '固有名詞' && w[2] != '一般') ){
+				if( w[0] == 'F' || w[1] != '名詞' || (w[2] != '固有名詞' && w[2] != '一般') ){
 				//if( w[2] != '固有名詞' ){
 					ht += w[0] ;
 					continue ;
@@ -69,7 +72,7 @@ function analyze(lineid){
 						'/w2v/'
 						,{ q:w[0] }
 						,w_re=>{
-							if(w_re.freq>0.0001) return ;
+							if(w_re.freq>WORD_FREQ_THRESHOLD) return ;
 							$(tgt_id).css('color','#f00') ;
 						}
 					) ;

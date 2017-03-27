@@ -140,19 +140,18 @@ function post_process_word_freq(){
 	}) ;
 
 	word_freq = {} ;
-	var w2v_i = 0 ;
+	var w2v_i = 0, w2vsuccess = 0 ;
 	function analyze_step(){
 		if( word_only_for_w2v.length == 0 ){
-			log(`Word frequency data post processed. Selected word count=${w2vsuccess}/${re.length}`) ;
 			fs.writeFileSync('word_freq_array.json',JSON.stringify(wfarray,null,"\t")) ;
 			fs.writeFileSync('word_freq_map.json',JSON.stringify(word_freq,null,"\t")) ;
+			log(`Word frequency data post processed. Selected word count=${w2vsuccess}/${wfarray.length}`) ;
 			delete wfarray ;
 			return ;
 		}
 		var target = word_only_for_w2v.slice(0,50) ;
 		word_only_for_w2v = word_only_for_w2v.slice(50) ;
 		analyze_w2v_eachword(target).then(re=>{
-			var w2vsuccess = 0 ;
 			for( var ri=0;ri<re.length;++ri ){
 				var v = wfarray[w2v_i+ri] ;
 				v.freq = v.count / w_total ;
@@ -177,6 +176,8 @@ if( !OUTPUT_WORD_FREQUENCY_STATISTICS ){
 	word_freq = JSON.parse( fs.readFileSync('word_freq_map.json').toString() ) ;
 	//word_freq = JSON.parse( fs.readFileSync('word_freq.json').toString() ) ;
 	//post_process_word_freq() ;
+
+	log('word freq data setup completed.')
 } else {
 	const MAX_MECAB_PROCESS = 100 ;
 	function gen_word_freq(){
