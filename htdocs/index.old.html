@@ -3,8 +3,8 @@
 <head>
 </head>
 <body>
-K=<select id='numclusters'><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
- <select id='corpusselect'><option value="null">Select corpus</option></select>
+<select id='corpusselect'><option value="null">Select corpus</option></select>
+　K=<select id='numclusters'><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option></select>
 <span id='msgarea'></span><br />
 <div id='srctxt'></div>
 </body>
@@ -125,15 +125,9 @@ function word_analylsis_completed(){
 
 	msg('Lines analyzed. clustering them..') ;
 
-	clustering_main() ;
-}
+	var K = $('#numclusters').val() ;
 
-var L , vlen ;
-var score_table , line_d;
-
-function preprocess(){
-	score_table = [] ;
-	line_d = [] ;
+	var line_d = [] ;
 	for( var li=0;li<lines.length;++li ){
 		if( lines[li].analysis == undefined ) continue ;
 		var w2v = lines[li].analysis.w2v ;
@@ -144,9 +138,15 @@ function preprocess(){
 
 	}
 
-	L = line_d.length ;
 
-	vlen = line_d[0].w2v.length ;
+	// Clustering by k-means
+	const L = line_d.length ;
+
+	if( L < K ){
+		alert( 'available lines num ('+L+') is less than cluster size ('+K ) ;
+		return ;
+	}
+	const vlen = line_d[0].w2v.length ;
 
 	msg('Creating sumtable.') ;
 	var sumtable = [] ;
@@ -162,7 +162,7 @@ function preprocess(){
 				sumtable[x][y].push(sumtable[x][y-1][vi] + line_d[y].w2v[vi]) ;
 		}
 	}
-
+	var score_table = [] ;
 	for( var x=0;x<L;++x ){
 		msg(`Creating scoretable (${x+1}/${L})`) ;
 		score_table.push([]) ;
@@ -185,25 +185,12 @@ function preprocess(){
 
 	delete sumtable ;
 
-
-}
-
-function clustering_main(){
-	if( score_table == undefined )
-		preprocess() ;	// Heavy
-
-	var K = $('#numclusters').val() ;
-
-	if( L < K ){
-		alert( 'available lines num ('+L+') is less than cluster size ('+K ) ;
-		return ;
-	}
 	var split_point = [0] ;
 
 	var best_score = Number.MAX_VALUE ;
 	var best_split_point ;
 
-	msg('Splitting into '+K+' clusters.') ;
+	msg('Calculating split point.') ;
 	function gensp(i0,sco){
 		var pi = split_point[split_point.length-1] ;
 
@@ -247,13 +234,7 @@ function clustering_main(){
 			$(`#line_${li}`).css('background',col) ;
 			++li ;
 		}
-
-		if( ldi == best_split_point.length-1 ){
-			while( li < lines.length ){
-				$(`#line_${li++}`).css('background',col) ;
-			}
-		}
-
+		$(`#line_${li}`).css('background',col) ;
 		col = getnextcolor() ;
 	}
 
@@ -273,18 +254,11 @@ onload = function(){
 			selector.append(option) ;
 		}) ;
 		selector.change(()=>{
-			score_table = undefined ;
 			msg( 'loading '+selector.val() );
 			$.getJSON('/corpus/'+selector.val(),
 				_lines=>{raw_lines=_lines;oncorpusloaded();}
 			) ;
 		}) ;
-	}) ;
-
-
-	$('#numclusters').change(()=>{
-		if( score_table == undefined ) return ;
-		clustering_main() ;
 	}) ;
 } ;
 </script>
