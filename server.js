@@ -218,9 +218,50 @@ if( !OUTPUT_WORD_FREQUENCY_STATISTICS ){
 }
 
 
+/////////////
+//  Store summary examples
+function storeLivedoorNewsSummaryData(args){
+	return new Promise((ac,rj)=>{
+		args = JSON.parse(args) ;
+		//log('url:'+args.url) ;
+		//log('summary:'+args.summary) ;
+		//log('body:'+args.body) ;
+
+		var id = args.url.trim().split('/') ;
+		id = id[id.length-2] ;
+
+		const DBPATH = './data/summarySupervise.json' ;
+
+		var ss = {} ;
+		try {
+			ss = JSON.parse( fs.readFileSync(DBPATH).toString() ) ;
+		}catch(e){}
+
+		//log(JSON.stringify(ss)) ;
+
+		if( ss[id] == undefined )			ss[id] = {} ;
+		if( args.summary != undefined )		ss[id].summary = args.summary ;
+		if( args.body != undefined )		ss[id].body = args.body ;
+		if( args.headline != undefined )	ss[id].headline = args.headline ;
+		log(JSON.stringify(ss)) ;
+		fs.writeFile(DBPATH,JSON.stringify(ss,null,"\t"),ac) ;
+
+//		ac({success:true}) ;
+	}) ;
+}
+
+
+
 // Start server
 var express = require('express')
 var app = express();
+
+// CORSを許可する
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 app.get('/corpus*',(req,res)=>{
 	if( req.params.length == 0 || req.params[0].length==0 || req.params[0] == '/'){
@@ -253,15 +294,14 @@ app.get('/corpus*',(req,res)=>{
 	,['w2v',w=>new Promise((ac,rj)=>{
 		var r=word_freq[w];
 		return r==undefined?rj({error:`No ${w} in db`}):ac(r);
-	})
-	]
+	})]
+	,['livedoorNews',storeLivedoorNewsSummaryData]
 ].forEach(fun=>{
 	app.get('/'+fun[0]+'*',(req,res)=>{
 		if( req.query.q == undefined ){
 			res.jsonp({error:'Please specify a sentence as GET parameter q!'}) ;
 			return ;
 		}
-
 		var arg ;
 		if( typeof req.query.q == 'string')
 			arg = decodeURIComponent(req.query.q.trim())  ;
