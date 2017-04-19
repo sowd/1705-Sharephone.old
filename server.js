@@ -220,6 +220,9 @@ if( !OUTPUT_WORD_FREQUENCY_STATISTICS ){
 
 /////////////
 //  Store summary examples
+const SUMMARY_DBPATH = './data/summarySupervise.json' ;
+const SUMMARY_DBPATH2 = './data/summaryOnly.json' ;
+
 function storeLivedoorNewsSummaryData(args){
 	return new Promise((ac,rj)=>{
 		args = JSON.parse(args) ;
@@ -230,11 +233,9 @@ function storeLivedoorNewsSummaryData(args){
 		var id = args.url.trim().split('/') ;
 		id = id[id.length-2] ;
 
-		const DBPATH = './data/summarySupervise.json' ;
-
 		var ss = {} ;
 		try {
-			ss = JSON.parse( fs.readFileSync(DBPATH).toString() ) ;
+			ss = JSON.parse( fs.readFileSync(SUMMARY_DBPATH).toString() ) ;
 		}catch(e){}
 
 		//log(JSON.stringify(ss)) ;
@@ -244,12 +245,39 @@ function storeLivedoorNewsSummaryData(args){
 		if( args.body != undefined )		ss[id].body = args.body ;
 		if( args.headline != undefined )	ss[id].headline = args.headline ;
 		//log(JSON.stringify(ss)) ;
-		fs.writeFile(DBPATH,JSON.stringify(ss,null,"\t"),ac) ;
+		fs.writeFile(SUMMARY_DBPATH,JSON.stringify(ss,null,"\t"),ac) ;
 
-//		ac({success:true}) ;
 	}) ;
 }
 
+function getLivedoorNewsSummary(args){
+	return new Promise((ac,rj)=>{
+		var rexp = new RegExp("<li>(.+?)</li>",'g') ;
+		var re = {} ;
+		try {
+			var srcData = JSON.parse( fs.readFileSync(SUMMARY_DBPATH).toString() ) ;
+			for( var id in srcData ){
+				var summary = srcData[id].summary.split("\n").join("") ;
+
+				var ts = summary.match(rexp) ;
+				if( ts.length!=3 ) continue ;
+
+				ts = ts.map(t=>t.slice(4,-5)) ;
+				re[id] = ts ;
+			}
+			
+			ac(re) ;
+			//log('Re:'+JSON.stringify(re)) ;
+
+			fs.writeFile(
+				SUMMARY_DBPATH2
+				,JSON.stringify(re,null,"\t")
+				,()=>{log('All summaries wrote out.');
+			}) ;
+		} catch(e){rj(e);}
+	}) ;
+
+}
 
 
 // Start server
@@ -296,12 +324,13 @@ app.get('/corpus*',(req,res)=>{
 		return r==undefined?rj({error:`No ${w} in db`}):ac(r);
 	})]
 	,['livedoorNews',storeLivedoorNewsSummaryData]
+	,['livedoorNewsSummary',getLivedoorNewsSummary]
 ].forEach(fun=>{
-	app.get('/'+fun[0]+'*',(req,res)=>{
-		if( req.query.q == undefined ){
+	app.get('/'+fun[0],(req,res)=>{
+		/*if( req.query.q == undefined ){
 			res.jsonp({error:'Please specify a sentence as GET parameter q!'}) ;
 			return ;
-		}
+		}*/
 		var arg ;
 		if( typeof req.query.q == 'string')
 			arg = decodeURIComponent(req.query.q.trim())  ;
