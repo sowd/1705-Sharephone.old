@@ -15,11 +15,11 @@ $ node server.js
 
 1. Bookmarkletとして
 ```
-javascript:$.getJSON('http://hems.gallery:8080/livedoorNews',{q:encodeURIComponent(JSON.stringify({summary:$('.summaryList').html(),body:$('span[itemprop="articleBody"]').html(),headline:$('h1[itemprop="headline"]').html(),url:location.href}))},function(re){alert('OK. result='+JSON.stringify(re));})
+javascript:$.getJSON('http://lifedesign.tech:8080/livedoorNews',{q:encodeURIComponent(JSON.stringify({summary:$('.summaryList').html(),body:$('span[itemprop="articleBody"]').html(),headline:$('h1[itemprop="headline"]').html(),url:location.href}))},function(re){alert('OK. result='+JSON.stringify(re));})
 ```
 を入れる。
 
-2. [livedoor news](http://news.livedoor.com/)のうち、「ざっくり言うと」がついているものを選ぶ。通常は*http://news.livedoor.com/topics/detail/[数値]/*みたいなURLになる。
+2. [livedoor news](http://news.livedoor.com/)のうち、「ざっくり言うと」がついているものを選ぶ。通常は**http://news.livedoor.com/topics/detail/[数値]/**みたいなURLになる。
 
 3. 「ざっくり言うと」が表示されているページで1.のBookmarklet実行。alertでOKとでるはず。
 

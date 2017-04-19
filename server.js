@@ -243,7 +243,7 @@ function storeLivedoorNewsSummaryData(args){
 		if( args.summary != undefined )		ss[id].summary = args.summary ;
 		if( args.body != undefined )		ss[id].body = args.body ;
 		if( args.headline != undefined )	ss[id].headline = args.headline ;
-		log(JSON.stringify(ss)) ;
+		//log(JSON.stringify(ss)) ;
 		fs.writeFile(DBPATH,JSON.stringify(ss,null,"\t"),ac) ;
 
 //		ac({success:true}) ;
