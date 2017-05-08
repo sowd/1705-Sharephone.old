@@ -100,10 +100,11 @@ function analyze_mecab(qstr){
 	}) ;
 }
 
+const CORPUS_TOTAL_NUMBER = 129 ;
 var corpus_id_to_filename_map = {} ;
 
 var lines_for_freq=[] ;	// 頻度マップを作る
-for( var i=1;i<=129;++i ){
+for( var i=1;i<=CORPUS_TOTAL_NUMBER;++i ){
 	corpus_id_to_filename_map['nagoya'+i] = 'data/nagoyacorpus/data'+('00'+i).slice(-3)+'.utf8.txt' ;
 
 	if( OUTPUT_WORD_FREQUENCY_STATISTICS ){
@@ -113,13 +114,14 @@ for( var i=1;i<=129;++i ){
 
 			var speaker = match_result[1] ;
 			var body = line.slice(5) ;
-			lines_for_freq.push([speaker,body]) ;
+			lines_for_freq.push([speaker,body,i]) ;
 		}) ;
 	}
 }
 
 
 var word_freq = {} ;
+var tf = {} ;
 function post_process_word_freq(){
 	var w_total = 0 ;
 	var wfarray = [] ;
@@ -128,7 +130,7 @@ function post_process_word_freq(){
 		//if( ts[1] != '名詞' || ts[2] == '数' || ) continue ;
 		if( ts[1] != '名詞' ) continue ;
 		if( ts[2] != '固有名詞' && ts[2] != '一般' ) continue ;
-		wfarray.push( {word:ts[0], type:ts[2], count:word_freq[k]} ) ;
+		wfarray.push( {word:ts[0], type:ts[2], count:word_freq[k], tf:Math.log( CORPUS_TOTAL_NUMBER/(Object.keys(tf[k]).length) ) } ) ;
 		w_total += word_freq[k] ;
 	}
 	wfarray.sort((p,q)=>(q.count-p.count)) ;
@@ -157,7 +159,7 @@ function post_process_word_freq(){
 				v.freq = v.count / w_total ;
 				if( re[ri] instanceof Array ){
 					v.w2v = re[ri].join(',') ;	// Just to display the result efficiently
-					word_freq[v.word] = {type:v.type , freq:v.freq , w2v:re[ri] } ;
+					word_freq[v.word] = {type:v.type , freq:v.freq , tf:v.tf ,  w2v:re[ri] } ;
 					++w2vsuccess ;
 				} else log('w2v unsuccessful:'+v.word) ;
 			}
@@ -175,9 +177,9 @@ function post_process_word_freq(){
 if( !OUTPUT_WORD_FREQUENCY_STATISTICS ){
 	word_freq = JSON.parse( fs.readFileSync('word_freq_map.json').toString() ) ;
 	//word_freq = JSON.parse( fs.readFileSync('word_freq.json').toString() ) ;
+	//tf = JSON.parse( fs.readFileSync('tf_src.json').toString() ) ;
 	//post_process_word_freq() ;
-
-	log('word freq data setup completed.')
+	//log('word freq data setup completed.')
 } else {
 	const MAX_MECAB_PROCESS = 100 ;
 	function gen_word_freq(){
@@ -186,7 +188,10 @@ if( !OUTPUT_WORD_FREQUENCY_STATISTICS ){
 		for( var i = 0 ; i < MAX_MECAB_PROCESS && lines_for_freq.length > 0 ; ++i ){
 			var la = lines_for_freq.shift() ;
 			lines_promises.push( new Promise((ac,rj)=>{
-				analyze_mecab(la[1]).then(ac).catch(e=>{
+				var sentence = la[1] , docid = la[2] ;
+				analyze_mecab(sentence).then(re=>{
+					ac([re,docid]);	// Add document id
+				}).catch(e=>{
 					log('mecab error ('+e+') for:'+body);
 					ac([]);
 				})
@@ -195,17 +200,27 @@ if( !OUTPUT_WORD_FREQUENCY_STATISTICS ){
 
 		Promise.all(lines_promises).then(result_array=>{
 			log('Lines promises all fired ('+lines_for_freq.length+' more elements)') ;
-			result_array.forEach(mecab_split=>{
-				mecab_split.forEach(w=>{
-					if( w[0] == "\r" || w[1] == 'フィラー') return ;
-					var token = `${w[0]}:${w[1]}:${w[2]}` ;
-					if( word_freq[token] == undefined )	word_freq[token] = 1 ;
-					else								++word_freq[token] ;
-				}) ;
-				//log(mecab_split) ;
+
+			result_array.forEach(re=>{
+				if( re.length==0 ) return ;
+				(function(){
+					mecab_split = re[0] ;
+					var docid = re[1] ;
+					mecab_split.forEach(w=>{
+						if( w[0] == "\r" || w[1] == 'フィラー') return ;
+						var token = `${w[0]}:${w[1]}:${w[2]}` ;
+						if( word_freq[token] == undefined )	word_freq[token] = 1 ;
+						else								++word_freq[token] ;
+
+						if( tf[token] == undefined ) tf[token] = {} ;
+						tf[token][docid] = 0 ;// Any value is ok.
+					}) ;
+					//log(mecab_split) ;
+				})() ;
 			}) ;
 
 			fs.writeFileSync('word_freq.json',JSON.stringify(word_freq,null,"\t")) ;
+			fs.writeFileSync('tf_src.json',JSON.stringify(tf,null,"\t")) ;
 			if( lines_for_freq.length == 0 ){
 				log('Final freq map generated.') ;
 				delete lines_for_freq ;
