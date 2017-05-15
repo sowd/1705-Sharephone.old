@@ -1,0 +1,201 @@
+[
+    {
+        "user": "U2JUP48HG",
+        "text": "<@U2JUP48HG|sowd> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485951022.000002"
+    },
+    {
+        "user": "U3QC4BL3V",
+        "inviter": "U2JUP48HG",
+        "text": "<@U3QC4BL3V|tetsuya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485951022.000003"
+    },
+    {
+        "user": "U2JUM58F8",
+        "inviter": "U2JUP48HG",
+        "text": "<@U2JUM58F8|komori> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485951022.000004"
+    },
+    {
+        "user": "U3PQ45JD7",
+        "inviter": "U2JUP48HG",
+        "text": "<@U3PQ45JD7|trello> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485951023.000005"
+    },
+    {
+        "text": "added an integration to this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3YM2VCQ1|Trello>",
+        "bot_id": "B3YM2VCQ1",
+        "type": "message",
+        "subtype": "bot_add",
+        "user": "U3QC4BL3V",
+        "ts": "1485951248.000006"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-02-03T18:00:00+09:00\",\"ped\":\"2017-02-14T00:00:00+09:00\"})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-02-03T18:00:00+09:00\",\"ped\":\"2017-02-14T00:00:00+09:00\"})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/Tyka6gly|既存研究レポート>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485951390.000007"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-01-31T18:00:00+09:00\",\"ped\":\"2017-02-14T00:00:00+09:00\"})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-01-31T18:00:00+09:00\",\"ped\":\"2017-02-14T00:00:00+09:00\"})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/Tyka6gly|既存研究レポート>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485951393.000008"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-02-06T12:00:00+09:00\",\"ped\":\"2017-02-22T12:00:00+09:00\"})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-02-06T12:00:00+09:00\",\"ped\":\"2017-02-22T12:00:00+09:00\"})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/wPg18PD7|MESH Plugin for Kadecot>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485992788.000002"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-02-06T12:00:00+09:00\",\"ped\":\"2017-02-10T12:00:00+09:00\"})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-02-06T12:00:00+09:00\",\"ped\":\"2017-02-10T12:00:00+09:00\"})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/wPg18PD7|MESH Plugin for Kadecot>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485992792.000003"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "Card renamed from \"MESH Plugin for Kadecot\" to \"<https:\/\/trello.com\/c\/wPg18PD7|小森さんにKadecot Plugin雛形作って渡す>\"",
+                "text": "Card renamed from \"MESH Plugin for Kadecot\" to \"<https:\/\/trello.com\/c\/wPg18PD7|小森さんにKadecot Plugin雛形作って渡す>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485992813.000004"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "コンパイル環境も一緒に作ったほうがいいかも？（本社スーパーエンジニアが設計したプロジェクトなので、大和田も自信ないんですが…）",
+                "text": "コンパイル環境も一緒に作ったほうがいいかも？（本社スーパーエンジニアが設計したプロジェクトなので、大和田も自信ないんですが…）",
+                "pretext": "New comment on card \"<https:\/\/trello.com\/c\/wPg18PD7|小森さんにKadecot Plugin雛形作って渡す>\" by Shigeru Owada",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485992850.000005"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-01-31T18:00:00+09:00\",\"ped\":\"2017-02-22T12:00:00+09:00\"})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-01-31T18:00:00+09:00\",\"ped\":\"2017-02-22T12:00:00+09:00\"})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/Tyka6gly|既存研究レポート>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485992935.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Trelloのコメント見づらいな…",
+        "ts": "1485992994.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Eleganttとslack連携の相性良くないですねー。開始日入れられればいいんですよ。何か探してみます。",
+        "ts": "1485993432.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そうですねえ。",
+        "ts": "1485993473.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Descriptionが要らないだけな気がする",
+        "ts": "1485993507.000010"
+    }
+]

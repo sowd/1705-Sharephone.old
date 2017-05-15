@@ -1,0 +1,132 @@
+[
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "Forge関連でいうと、5\/24小森さんにオートデスクのAccelarator Workshopに参加していただくので、それまでに情報整理したいなと思ってます！",
+        "ts": "1494549910.044076"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "メッセージ消しちゃってすみません",
+        "ts": "1494549997.053188"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ありがとうございます",
+        "ts": "1494550000.053452"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "終日のイベント？いきなり行ってわかるものですか？",
+        "ts": "1494550009.054402"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "終日ですね。大和田さんも参加されますか？",
+        "ts": "1494550169.070161"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "イベントの説明ページありますか？",
+        "ts": "1494550197.072771"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "あ、すいません、、定員に達してしまったようです。5\/26に大阪でも開催されますが。<http:\/\/adndevblog.typepad.com\/technology_perspective\/2017\/03\/3rd_forge-1-day-workshop.html>",
+        "attachments": [
+            {
+                "service_name": "Technology Perspective from Japan",
+                "title": "Forge 1 Day Workshop 開催 - 2017月5月",
+                "title_link": "http:\/\/adndevblog.typepad.com\/technology_perspective\/2017\/03\/3rd_forge-1-day-workshop.html",
+                "text": "来る、5月24日（水）東京、5月26日（金） 大阪にて、Forge Platform API の利用...",
+                "fallback": "Technology Perspective from Japan: Forge 1 Day Workshop 開催 - 2017月5月",
+                "image_url": "http:\/\/adndevblog.typepad.com\/.a\/6a0167607c2431970b01b7c8dec17c970b-600wi",
+                "from_url": "http:\/\/adndevblog.typepad.com\/technology_perspective\/2017\/03\/3rd_forge-1-day-workshop.html",
+                "image_width": 595,
+                "image_height": 195,
+                "image_bytes": 68667,
+                "service_icon": "http:\/\/adndevblog.typepad.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1494550326.085638"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ふぉっ",
+        "ts": "1494550376.090460"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "残念orz",
+        "ts": "1494550382.091082"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "WebAPI教えてくれるんですね",
+        "ts": "1494550388.091684"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "でもWebで頑張れば勉強できるのか",
+        "ts": "1494550394.092272"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "行ってキータにまとめたいと思います！",
+        "ts": "1494550629.109117"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "前回もそうだったけど、割と早く埋まっちゃうって事はみなさん関心高いんですね！",
+        "ts": "1494550741.120409"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "それは助かります！\nやばい、今キャッチアップしないとおいてかれる",
+        "ts": "1494550762.122377"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ところで、新しい仕事でAlexaとかWatsonとかCortanaとかの最新のボイスエージェントを使ったエンタメコンテンツ制御体験の可能性PoCをする事になったので、知見共有するようにしますね。逆にそういうことならこれ見とけ的な情報大歓迎です！",
+        "ts": "1494551883.237888"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "うーん、私はそこら辺しか知りません。\nソニー社内でやってる人はいますけどね",
+        "ts": "1494555052.544844"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "DocomoのAPIは対象外かな。インテリジェンスではないような気もするので",
+        "ts": "1494555094.548783"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Docomo良いですね!\n日本語でおkだしw\n\n山田君(凹)も自主的にいろいろやってますよね。\nいつも大いに\b\b参考にさせて\b\bもらってます。",
+        "ts": "1494557649.782922"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "山田さんのエネルギーはすごいですね。\n資金力も結構すごい気が^^;",
+        "ts": "1494570891.928917"
+    }
+]

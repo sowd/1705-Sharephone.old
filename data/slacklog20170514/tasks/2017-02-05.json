@@ -1,0 +1,90 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "22日水曜締め切りの、BT Plugin雛形を小森さんに渡すというタスクを完了したつもりです。説明不足な点もあると思うので、ご指摘ください。\n<https:\/\/github.com\/sowd\/BluetoothPlugin>\n\nREADME内に書かれているログイン情報は、Kadecot\/Moek@denです。\n\nTrello上の操作は、カード削除ですか？\nそうだとして、削除操作は私よりも、確認の上、納品先(?)の小森さんにしていただく方がいいですよね？",
+        "ts": "1486361279.000002"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New list \"Done\" added to board \"<https:\/\/trello.com\/b\/i63RqCzT|Tasks>\"",
+                "text": "New list \"Done\" added to board \"<https:\/\/trello.com\/b\/i63RqCzT|Tasks>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486362035.000003"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "plus! 1\/1 ",
+                "text": "plus! 1\/1 ",
+                "pretext": "New comment on card \"<https:\/\/trello.com\/c\/wPg18PD7|小森さんにKadecot Plugin雛形作って渡す>\" by Akihiro Komori",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486362151.000004"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "Card moved: \"<https:\/\/trello.com\/c\/wPg18PD7|小森さんにKadecot Plugin雛形作って渡す>\" from list \"Do Next\" to list \"Done\"",
+                "text": "Card moved: \"<https:\/\/trello.com\/c\/wPg18PD7|小森さんにKadecot Plugin雛形作って渡す>\" from list \"Do Next\" to list \"Done\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486362156.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Doneのリストを作りましたので、終わったものは進捗を変えて入れていくことにしましょう。",
+        "ts": "1486362196.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なるほど！\nありがとうございます！",
+        "ts": "1486362301.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なお今後はハードウェア製作と、今度こそ投稿可能な論文執筆に勤しむつもりです",
+        "ts": "1486362980.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あっ、Kadecotのアプリポータルについても説明が必要＋多少追加開発が必要な気がします。\nお二方に使って頂きたいので次のタスクとします",
+        "ts": "1486363096.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そうだandroid版はポータルと繋げないんだった…\n検討します",
+        "ts": "1486363564.000010"
+    }
+]

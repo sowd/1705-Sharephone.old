@@ -1,0 +1,20 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ひとまずForge Viewer APIを使って自前で用意したStanford bunnyを表示することが出来ました。(↑でRevitと書いたのはForgeの間違い)\nこんな感じです。\n<http:\/\/tororochan.com\/forge_viewer_test>\n\n実装はここを見つつやってみました。\n<https:\/\/developer.autodesk.com\/en\/docs\/viewer\/v2\/tutorials\/basic-viewer\/>\n\n手元のファイルをアップロードしてURN取得する部分は手抜きをしたくなり、これにたどり着きました。\n<https:\/\/models.autodesk.io\/>\n\n<@U3QC4BL3V> A360にアップロードしてあるファイルを自作のViewerで表示する方法はありますか?ご存知であれば教えて頂けたらうれしいです。",
+        "ts": "1488555498.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ひぇ～:sweat_drops:すごい！",
+        "ts": "1488611163.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "いま見れないけど",
+        "ts": "1488611183.000003"
+    }
+]

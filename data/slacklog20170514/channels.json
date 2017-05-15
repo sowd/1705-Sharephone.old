@@ -1,0 +1,237 @@
+[
+    {
+        "id": "C3QDGL63C",
+        "name": "170321vis",
+        "created": "1484184236",
+        "creator": "U2JUP48HG",
+        "is_archived": true,
+        "is_general": false,
+        "members": [],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "http:\/\/ieeevis.org\/",
+            "creator": "U2JUP48HG",
+            "last_set": "1484184237"
+        }
+    },
+    {
+        "id": "C3R4CKX8X",
+        "name": "ceilingrober",
+        "created": "1484184169",
+        "creator": "U2JUP48HG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U3PQ45JD7",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "http:\/\/web3d2017.web3d.org\/",
+            "creator": "U2JUP48HG",
+            "last_set": "1484184170"
+        }
+    },
+    {
+        "id": "C3R4XQCDC",
+        "name": "devenv",
+        "created": "1484191422",
+        "creator": "U2JUP48HG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "開発環境",
+            "creator": "U2JUP48HG",
+            "last_set": "1484191423"
+        }
+    },
+    {
+        "id": "C2JUBSU13",
+        "name": "general",
+        "created": "1475557362",
+        "creator": "U2JUP48HG",
+        "is_archived": false,
+        "is_general": true,
+        "members": [
+            "U2JU8AP7Y",
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U2KBP3D6X",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "Company-wide announcements and work-based matters",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "This channel is for team-wide communication and announcements. All team members are in this channel.",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C3UP5DZ4H",
+        "name": "idea",
+        "created": "1485218659",
+        "creator": "U2JUP48HG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U3PQ45JD7",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Random Ideas",
+            "creator": "U2JUP48HG",
+            "last_set": "1485218660"
+        }
+    },
+    {
+        "id": "C3T1D9C9M",
+        "name": "meeting",
+        "created": "1484623523",
+        "creator": "U2JUM58F8",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Skype",
+            "creator": "U2JUM58F8",
+            "last_set": "1484623524"
+        }
+    },
+    {
+        "id": "C2JUP4AAW",
+        "name": "random",
+        "created": "1475557362",
+        "creator": "U2JUP48HG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U2JU8AP7Y",
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U2KBP3D6X",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "Non-work banter and water cooler conversation",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C3ZR8JDKP",
+        "name": "sharephone",
+        "created": "1485989977",
+        "creator": "U2JUP48HG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U3PQ45JD7",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C3S9YM2QJ",
+        "name": "survey",
+        "created": "1484618644",
+        "creator": "U2JUP48HG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U3PQ45JD7",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "論文をよみ要約するスレ。Trelloの「Survey:」からはじまるボード（複数可）と連携させる。",
+            "creator": "U2JUP48HG",
+            "last_set": "1484618645"
+        }
+    },
+    {
+        "id": "C3YL7RWSC",
+        "name": "tasks",
+        "created": "1485951022",
+        "creator": "U2JUP48HG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U3PQ45JD7",
+            "U3QC4BL3V"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    }
+]

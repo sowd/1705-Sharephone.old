@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "今回オリジナルのForge Viewerを作るにあたり、最初の最初はここから読み始めたのですが、\n<https:\/\/developer.autodesk.com\/en\/docs\/viewer\/v2\/tutorials\/basic-viewer\/>\nAppを作成して、認証して、手元のファイルをBucketにアップロードして、そのURNを使ってViewerで表示するまでの一連の流れがあちこち飛んでわかりにくいように感じました。僕の英語力の問題もたぶんにあるかと思います(^^;\n\nどうやら、ここを順番に読んでいくのが良いようですね。\n<http:\/\/adndevblog.typepad.com\/technology_perspective\/2016\/02\/view-and-data-api-tutorial.html>",
+        "attachments": [
+            {
+                "service_name": "Technology Perspective from Japan",
+                "title": "View and Data API チュートリアル",
+                "title_link": "http:\/\/adndevblog.typepad.com\/technology_perspective\/2016\/02\/view-and-data-api-tutorial.html",
+                "text": "ご注意：View and Data API は2016年6月に Viewer と Model Der...",
+                "fallback": "Technology Perspective from Japan: View and Data API チュートリアル",
+                "image_url": "http:\/\/adndevblog.typepad.com\/.a\/6a0167607c2431970b01bb08c5afd2970d-600wi",
+                "from_url": "http:\/\/adndevblog.typepad.com\/technology_perspective\/2016\/02\/view-and-data-api-tutorial.html",
+                "image_width": 600,
+                "image_height": 181,
+                "image_bytes": 35212,
+                "service_icon": "http:\/\/adndevblog.typepad.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1488877680.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "ありがとうございます！！！！そうなのです、日本の方のブログは一応統一されています。",
+        "ts": "1488881439.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "目次が無いのはもったいないと思いました。勝手に目次リンク集作ってQiitaに投稿したら怒られるでしょうか？w",
+        "ts": "1488881782.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "いやいや！是非是非やってください！ｗ",
+        "ts": "1488883325.000009"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "user": "U2JUP48HG",
+        "old_name": "skype",
+        "name": "meeting",
+        "text": "<@U2JUP48HG|sowd> has renamed the channel from \"skype\" to \"meeting\"",
+        "type": "message",
+        "subtype": "channel_name",
+        "ts": "1485390304.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ほうほう",
+        "ts": "1485390422.000005"
+    },
+    {
+        "text": "sowd has started a new Skype video call. <https:\/\/join.skype.com\/DAkxF8zbteH7?source=slackJoin&amp;webOnly=true&amp;ring=false&amp;audio=on|Join call>",
+        "bot_id": "B3SD2HKDK",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485390428.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "へーこれでブラウザでSkypeできるんですね",
+        "ts": "1485390482.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "プラグインインストールは必要だったけど、アカウントは必要なさそう",
+        "ts": "1485390501.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ところで次回mtg日程を決めましょう",
+        "ts": "1485390515.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あと、菱田邸ツアー日程",
+        "ts": "1485390533.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "拙宅は2\/12,19はいかがでしょうか？",
+        "ts": "1485390938.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ありがとうございます。どちらもＯＫ",
+        "ts": "1485391003.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "小森さんは？",
+        "ts": "1485406702.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "遅くなってすみません！ちょっと調整中の件があるのですが19の方が空いている可能性が高いです。",
+        "ts": "1485410738.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ではとりあえず2\/19（日）ってことで",
+        "ts": "1485411402.000015"
+    }
+]

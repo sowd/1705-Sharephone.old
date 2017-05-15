@@ -1,0 +1,33 @@
+[
+    {
+        "user": "U3QC4BL3V",
+        "text": "<@U3QC4BL3V|tetsuya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484189219.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "明日15:00-15:45でしたら参加可能なのですが、もしご迷惑でなければ同行させて下さい。",
+        "ts": "1484201231.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "よろしくお願いします！",
+        "ts": "1484201429.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "お待ちしております。",
+        "ts": "1484201434.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ありがとうございます！どうぞよろしくお願いします！",
+        "ts": "1484201461.000006"
+    }
+]

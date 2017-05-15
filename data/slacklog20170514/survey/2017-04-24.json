@@ -1,0 +1,8 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "自動要約のサーベイ論文を読みました。読みにくいですがメモを作りました。\n<http:\/\/lifedesign.tech\/2017\/04\/a-review-on-automatic-text-summarization-approaches-by-kumar-et-al-2016\/>\n\n現在は、Extractiveな研究（元の文章から、要約にふさわしい文章を選び出す）がほとんどのようです。チャットは各文がちゃんと構造化されていないので、それらの手法は基本的に使えません。Abstractiveまたはテンプレートにはめ込むような手法を用いる必要があります。",
+        "ts": "1493042739.610177"
+    }
+]

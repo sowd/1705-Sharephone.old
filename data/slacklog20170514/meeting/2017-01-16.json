@@ -1,0 +1,48 @@
+[
+    {
+        "user": "U2JUM58F8",
+        "text": "<@U2JUM58F8|komori> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484623523.000002"
+    },
+    {
+        "user": "U2JUM58F8",
+        "purpose": "Skype",
+        "text": "<@U2JUM58F8|komori> set the channel purpose: Skype",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1484623524.000003"
+    },
+    {
+        "text": "added an integration to this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3S8GHERH|Skype>",
+        "bot_id": "B3S8GHERH",
+        "type": "message",
+        "subtype": "bot_add",
+        "user": "U2JUM58F8",
+        "ts": "1484623547.000004"
+    },
+    {
+        "text": "Congrats, Skype is now ready to use in any of your channels. Simply type \/skype to start a new video call.",
+        "bot_id": "B3S8GHERH",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484623548.000005"
+    },
+    {
+        "user": "U2JUP48HG",
+        "inviter": "U2JUM58F8",
+        "text": "<@U2JUP48HG|sowd> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484623582.000006"
+    },
+    {
+        "user": "U3QC4BL3V",
+        "inviter": "U2JUM58F8",
+        "text": "<@U3QC4BL3V|tetsuya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484623583.000007"
+    }
+]

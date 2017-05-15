@@ -1,0 +1,10 @@
+[
+    {
+        "text": "removed an integration from this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3S8GHERH|Skype>",
+        "bot_id": "B3S8GHERH",
+        "type": "message",
+        "subtype": "bot_remove",
+        "user": "USLACKBOT",
+        "ts": "1490984810.051890"
+    }
+]

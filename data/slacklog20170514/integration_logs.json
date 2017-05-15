@@ -1,0 +1,165 @@
+[
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1494810058",
+        "change_type": "added",
+        "service_id": "183468425541",
+        "service_type": "Bots",
+        "scope": "bot"
+    },
+    {
+        "user_id": 0,
+        "user_name": "slack",
+        "date": "1490984811",
+        "change_type": "removed",
+        "app_type": "Skype",
+        "app_id": "A0D0DAT1P",
+        "scope": "identify,commands,incoming-webhook"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1485951618",
+        "change_type": "updated",
+        "service_id": "127190458151",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3T1D9C9M"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1485951474",
+        "change_type": "enabled",
+        "service_id": "127190458151",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3RKHE917"
+    },
+    {
+        "user_id": "U3QC4BL3V",
+        "user_name": "tetsuya",
+        "date": "1485951372",
+        "change_type": "updated",
+        "service_id": "134716998817",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3YL7RWSC"
+    },
+    {
+        "user_id": "U3QC4BL3V",
+        "user_name": "tetsuya",
+        "date": "1485951248",
+        "change_type": "added",
+        "service_id": "134716998817",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3YL7RWSC"
+    },
+    {
+        "user_id": "U2JUM58F8",
+        "user_name": "komori",
+        "date": "1484623547",
+        "change_type": "added",
+        "app_type": "Skype",
+        "app_id": "A0D0DAT1P",
+        "scope": "identify,commands,incoming-webhook"
+    },
+    {
+        "user_id": 0,
+        "user_name": "slack",
+        "date": "1484620535",
+        "change_type": "disabled",
+        "reason": "channel_archive",
+        "service_id": "127190458151",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1484619876",
+        "change_type": "updated",
+        "service_id": "127190458151",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3RKHE917"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1484619787",
+        "change_type": "updated",
+        "service_id": "127190458151",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3R4CKX8X"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1484619626",
+        "change_type": "updated",
+        "service_id": "127190458151",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3S9YM2QJ"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1484618859",
+        "change_type": "expanded",
+        "app_type": "Trello",
+        "app_id": "A074YH40Z",
+        "scope": "identify,bot,commands,team:read,users:read,users:read.email,channels:history,groups:history,im:history,mpim:history,channels:read,emoji:read,groups:read,mpim:read,reminders:read,search:read,stars:read,chat:write:user,chat:write:bot,im:write,reminders:write"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1484194912",
+        "change_type": "updated",
+        "service_id": "127190458151",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3R4CKX8X"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1484194868",
+        "change_type": "added",
+        "service_id": "127190458151",
+        "service_type": "Trello Alerts",
+        "scope": "incoming-webhook",
+        "channel": "C3R4CKX8X"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1484194345",
+        "change_type": "added",
+        "app_type": "Trello",
+        "app_id": "A074YH40Z",
+        "scope": "identify,bot,commands,team:read,users:read,users:read.email,channels:history,groups:history,im:history,mpim:history,channels:read,emoji:read,groups:read,mpim:read,reminders:read,search:read,stars:read,chat:write:user,chat:write:bot,im:write,reminders:write"
+    },
+    {
+        "user_id": "U2JUP48HG",
+        "user_name": "sowd",
+        "date": "1475574501",
+        "change_type": "added",
+        "service_id": "87049999954",
+        "service_type": "Dropbox",
+        "scope": "files:write:user,files:read"
+    },
+    {
+        "user_id": 0,
+        "user_name": "slack",
+        "date": "1475557362",
+        "change_type": "added",
+        "service_id": "86968419479",
+        "service_type": "Google Drive",
+        "scope": "files:write:user"
+    }
+]

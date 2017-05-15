@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "山田君はいつも爆速ですね\n<https:\/\/www.youtube.com\/watch?v=iP_ylXeMGFM>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "HoloLens test",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=iP_ylXeMGFM",
+                "author_name": "hecomi",
+                "author_link": "https:\/\/www.youtube.com\/user\/dimentity",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/iP_ylXeMGFM\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: HoloLens test",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/iP_ylXeMGFM?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=iP_ylXeMGFM",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1486372034.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "うおぉ、すごいっすね。\n研究で使いたいけど、個人でこんなレベルのデモが作れるんなら、プロがやるべきことなんてあるのか？とおもっちゃったりします。",
+        "ts": "1486420927.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "CADデータがあるなら、いつも壁にピンを指すときに困る、壁の向こうの柱の位置を透視で見たいですね。類似の既存研究はありますが。",
+        "ts": "1486420974.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "研究どころか実用化されてた\n<http:\/\/www.gizmodo.jp\/2016\/09\/3dimage-walabot-diy.html>",
+        "attachments": [
+            {
+                "title": "DIYの必需品になるかも…スマホで壁の中を透視できちゃうデバイス「WalabotDIY」",
+                "title_link": "http:\/\/www.gizmodo.jp\/2016\/09\/3dimage-walabot-diy.html",
+                "text": "壁の中の物体をAndroidのスマートフォンと連携して探知するセンサーデバイス、Walabot DIYが登場しました。",
+                "fallback": "DIYの必需品になるかも…スマホで壁の中を透視できちゃうデバイス「WalabotDIY」",
+                "image_url": "http:\/\/www.gizmodo.jp\/images\/2016\/08\/20160820_walabot.png",
+                "from_url": "http:\/\/www.gizmodo.jp\/2016\/09\/3dimage-walabot-diy.html",
+                "image_width": 441,
+                "image_height": 250,
+                "image_bytes": 619609,
+                "service_icon": "http:\/\/www.gizmodo.jp\/assets\/favicon\/apple-touch-icon.png",
+                "service_name": "gizmodo.jp",
+                "id": 1
+            }
+        ],
+        "ts": "1486421064.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "すごい！",
+        "ts": "1486424663.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "局所的にしか見えないので、全体デザインが可能だという意味でCADデータ利用の方がベターだと思いますけどね。通常の使用ならこれでも役に立ちそう",
+        "ts": "1486424734.000007"
+    }
+]

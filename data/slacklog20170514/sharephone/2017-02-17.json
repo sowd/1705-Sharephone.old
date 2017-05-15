@@ -1,0 +1,104 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "MESHをAndroid版Kadecotから使えるようにする前に、事前実験としてNode.jsから使えるようにしてみました。\nとりあえずボタンタグ用。\n<https:\/\/github.com\/comoc\/node_mesh_button>",
+        "attachments": [
+            {
+                "title": "GitHub - comoc\/node_mesh_button: A script for accessing Sony MESH Button Tag",
+                "title_link": "https:\/\/github.com\/comoc\/node_mesh_button",
+                "text": "node_mesh_button - A script for accessing Sony MESH Button Tag",
+                "fallback": "GitHub - comoc\/node_mesh_button: A script for accessing Sony MESH Button Tag",
+                "from_url": "https:\/\/github.com\/comoc\/node_mesh_button",
+                "service_icon": "https:\/\/assets-cdn.github.com\/favicon.ico",
+                "service_name": "github.com",
+                "id": 1
+            }
+        ],
+        "ts": "1487321038.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "うおっ",
+        "ts": "1487323021.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "スゴイーー",
+        "ts": "1487323025.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "おお！！",
+        "ts": "1487323041.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "このままlinux版に組み込みたいけど",
+        "ts": "1487323046.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Sonycslオフィシャルで出しづらいですよねw",
+        "ts": "1487323133.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "早めに全てのタグをサポートしてしまってデファクトスタンダードとして市民権得たタイミングで、萩原さんにも公認してもらうことにしましょうか。そのタイミングで彼らに移管してもいいけど。",
+        "ts": "1487323676.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ヒヒヒ。すげえ",
+        "ts": "1487324779.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "研究目的では全部に対応は不要です",
+        "ts": "1487324852.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Linux版Kadecotで動けば自動的にクラウドに接続できます！",
+        "ts": "1487324925.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "萩原さん(MESHのリーダーです)に認めてほしいですね～",
+        "ts": "1487324979.000016"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "クラウドっていうか、webアプリポータル",
+        "ts": "1487325359.000017"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "WebSocketとか足せば良いですか?もしくは名前付きパイプとか。",
+        "ts": "1487325822.000018"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "コード拝見しました。あのままでプラグイン化可能だと思うのでやってみます！(しかしMESH持って帰り忘れた泣)",
+        "ts": "1487337177.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "僕のBTプラグイン雛形結構落ちますね。すみません…",
+        "ts": "1487380044.000002"
+    }
+]

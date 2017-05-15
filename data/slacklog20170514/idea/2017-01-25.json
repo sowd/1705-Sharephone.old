@@ -1,0 +1,181 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3X972JES\/____________7.png|Drone Dock>",
+        "file": {
+            "id": "F3X972JES",
+            "created": 1485389027,
+            "timestamp": 1485389027,
+            "name": "スライド7.PNG",
+            "title": "Drone Dock",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 64150,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3X972JES\/____________7.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3X972JES\/download\/____________7.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3X972JES-277aea9e12\/____________7_64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3X972JES-277aea9e12\/____________7_80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3X972JES-277aea9e12\/____________7_360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3X972JES-277aea9e12\/____________7_480.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3X972JES-277aea9e12\/____________7_160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3X972JES-277aea9e12\/____________7_720.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "image_exif_rotation": 1,
+            "original_w": 960,
+            "original_h": 720,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3X972JES\/____________7.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F3X972JES-89cace165e",
+            "channels": [
+                "C3UP5DZ4H"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1485389029.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "室内を隅々まで把握するために、Droneは最適だと思います。\n小森さんに教えていただいたAutowareはじめ、Droneで室内3Dマッピングするシステムはたくさんあるようですね。\n<https:\/\/github.com\/CPFL\/Autoware>\n<http:\/\/www.wired.co.uk\/article\/kinect-drone>\n我々はそれに、一般家庭向けに特化した機能をいろいろとつけていけばいいと思います。例えば、ドアのDetectionとか、照明の消し忘れとか、侵入検知とか。後処理で片付け支援とか、カーテン閉めリコメンとか。",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "CPFL\/Autoware",
+                "title_link": "https:\/\/github.com\/CPFL\/Autoware",
+                "text": "Autoware - Open-source software for urban autonomous driving",
+                "fallback": "GitHub: CPFL\/Autoware",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/2747893?v=3&s=400",
+                "from_url": "https:\/\/github.com\/CPFL\/Autoware",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            },
+            {
+                "service_name": "WIRED UK",
+                "title": "Kinect-carrying drone automatically builds 3D maps of rooms",
+                "title_link": "http:\/\/www.wired.co.uk\/article\/kinect-drone",
+                "text": "An MIT-built quadrocopter uses Microsoft Kinect, and some smart odometry algorithms, to fly around a room and spit out a 3D map of the environment",
+                "fallback": "WIRED UK: Kinect-carrying drone automatically builds 3D maps of rooms",
+                "image_url": "https:\/\/wi-images.condecdn.net\/image\/VqMWNR1BW6n\/crop\/620",
+                "image_width": 375,
+                "image_height": 250,
+                "from_url": "http:\/\/www.wired.co.uk\/article\/kinect-drone",
+                "image_bytes": 44585,
+                "service_icon": "http:\/\/www.wired.co.uk\/static\/icons\/apple-icon-57x57.png",
+                "id": 2
+            }
+        ],
+        "ts": "1485389573.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Autoware使えないかと思いましたが、velodyneでかいな\n<https:\/\/www.argocorp.com\/cam\/special\/Velodyne\/Velodyne.html>\nミニドローンに乗るサイズじゃない",
+        "attachments": [
+            {
+                "text": "Velodyne社の全方位LiDARイメージングユニットは、独自に開発した多点レーザー送受信センサーを内蔵し、全方位を高速でスキャンし、360°全周のリアルタイム3Dイメージを提供します。",
+                "fallback": "Velodyne社の全方位LiDARイメージングユニットは、独自に開発した多点レーザー送受信センサーを内蔵し、全方位を高速でスキャンし、360°全周のリアルタイム3Dイメージを提供します。",
+                "from_url": "https:\/\/www.argocorp.com\/cam\/special\/Velodyne\/Velodyne.html",
+                "service_icon": "https:\/\/www.argocorp.com\/favicon.ico",
+                "service_name": "argocorp.com",
+                "id": 1
+            }
+        ],
+        "ts": "1485391151.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "AutowareはDroneで使うようなもんではないという認識で正しいですか？\nPointCloud2形式でデータが吐ければ一応使える？",
+        "ts": "1485391221.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Autowareのドローン適用どうでしょう？運動特性が車とはだいぶ違うので最初からドローン用のツール使った方が精度で悩まなくて済むかも知れませんね。でも人が居る中で飛ばすならAutowareの人検出が使えるかも？\n\nソニー時代の元同僚がフランスにいてparrotと仕事してるので、機材とか資金とかの面で補助してもらえるかも。parrotは新規ユースケース開拓や実証実験にリソース投入してるとの事です。",
+        "ts": "1485392680.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "おおーParrotはすごい",
+        "ts": "1485392705.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "投資してもらえたらありがたいですね。",
+        "ts": "1485392720.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なんでParrotから出ているかわからないFlower Powerなら持ってまして、今観葉植物の育成に大活躍中ですw",
+        "ts": "1485392755.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Parrotはシードアクセラレーション系の活動にも力入れてるそうです。\n以前からその元同僚からコラボしないかと誘われてまして、具体な提案に落す段階で悩んで止まってしまっていたのでした。何か繋がると嬉しい！",
+        "ts": "1485393142.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そうなんですか！いい感じで繋がるかもしれませんね。それはKoozytとして？",
+        "ts": "1485393175.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Droneつき固定電話。わけがわかりませんねw",
+        "ts": "1485393275.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "個人的にです〜\n\nその特許佐古さんがだしてたかも",
+        "ts": "1485393421.000016"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Droneつき固定電話ですか！！？？",
+        "ts": "1485393439.000017"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Sonyにあるんなら助かる",
+        "ts": "1485393450.000018"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "かな",
+        "ts": "1485393453.000019"
+    }
+]

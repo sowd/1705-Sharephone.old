@@ -1,0 +1,51 @@
+[
+    {
+        "user": "U2JUP48HG",
+        "text": "<@U2JUP48HG|sowd> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485989977.000002"
+    },
+    {
+        "user": "U3QC4BL3V",
+        "inviter": "U2JUP48HG",
+        "text": "<@U3QC4BL3V|tetsuya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485989977.000003"
+    },
+    {
+        "user": "U2JUM58F8",
+        "inviter": "U2JUP48HG",
+        "text": "<@U2JUM58F8|komori> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485989977.000004"
+    },
+    {
+        "user": "U3PQ45JD7",
+        "inviter": "U2JUP48HG",
+        "text": "<@U3PQ45JD7|trello> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485989977.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "昨日おひつVAIOの話で上書きしてしまったのですが、菱田さんが言うように設置場所を想定しておくというのはとても大事ですね。どこ想定にしましょう？\n自宅だと子機しか使ってなくてキッチンカウンターの上、実家だと電話線が出てる壁の前に引き出しつきの小さな台を置いてその上に固定電話置いてますね。\nインターホンからの連続性からいくと壁かもしれないし、新しい使い方を模索するならテレビの横(壁掛けのときどうする？)、団欒状態のシェアを考えるならリビングのテーブルかもしれません(その場合はスマホ画面より、丸くテーブル面に投影するような単焦点プロジェクターの方がよいかも)",
+        "ts": "1485990663.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "テーブルに置くとテレコンシステムに近いですね",
+        "ts": "1485990874.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "認知症っぽい方想定だと、あまり新しく見えるものはよろしくないかも",
+        "ts": "1485990994.000008"
+    }
+]

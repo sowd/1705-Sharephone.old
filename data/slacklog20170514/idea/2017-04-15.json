@@ -1,0 +1,45 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "こういうのにブロックチェーンってつかえますかね？\n\n<https:\/\/www.buzzfeed.com\/daisukefuruta\/interview-with-ikegamiakira?utm_term=.aqXxjAxj0#.uoEMrVMrO>",
+        "attachments": [
+            {
+                "service_name": "BuzzFeed",
+                "title": "信頼失う新聞・テレビは滅ぶのか　池上彰さんが「楽観できない」と語る理由",
+                "title_link": "https:\/\/www.buzzfeed.com\/daisukefuruta\/interview-with-ikegamiakira?utm_term=.aqXxjAxj0#.uoEMrVMrO",
+                "text": "フェイクニュースやデマが拡散し、メディアは信頼を失いつつある。NHKからフリーとなり、新聞や雑誌でも活発に発信を続ける池上彰さんは現状をどう見ているのか。",
+                "fallback": "BuzzFeed: 信頼失う新聞・テレビは滅ぶのか　池上彰さんが「楽観できない」と語る理由",
+                "image_url": "https:\/\/img.buzzfeed.com\/buzzfeed-static\/static\/2017-04\/15\/1\/campaign_images\/buzzfeed-prod-fastlane-03\/--2-18069-1492233723-0_dblbig.jpg",
+                "from_url": "https:\/\/www.buzzfeed.com\/daisukefuruta\/interview-with-ikegamiakira?utm_term=.aqXxjAxj0#.uoEMrVMrO",
+                "image_width": 377,
+                "image_height": 250,
+                "image_bytes": 46910,
+                "service_icon": "https:\/\/www.buzzfeed.com\/static-assets\/img\/apple-touch-icon.186faa454878ee0d6582ba33b41d2044.png",
+                "id": 1
+            }
+        ],
+        "ts": "1492256289.979447",
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "信頼というキーワードですね。",
+        "ts": "1492260101.296985"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "はい。\n補足すると、誰がどういう情報を流したか、誰がそれを拾ったか、ブロックチェーンで残せば、信頼に足る情報源が見分けやすいかなと思ったんです。",
+        "ts": "1492263249.580576"
+    }
+]

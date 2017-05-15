@@ -1,0 +1,72 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "オープンソース自動運転ソフトウェア Autoware の話を聞いています。\n自動運転実現のためのセンサや3Dマップの使い方は、家用にも応用できる部分が多そうです。\n<https:\/\/github.com\/CPFL\/Autoware>\n詳しい情報がQiitaで公開されていました。\n<http:\/\/qiita.com\/yukkysaito\/items\/21a70ec6b07f1ca559cb>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "CPFL\/Autoware",
+                "title_link": "https:\/\/github.com\/CPFL\/Autoware",
+                "text": "Autoware - Open-source software for urban autonomous driving",
+                "fallback": "GitHub: CPFL\/Autoware",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/2747893?v=3&s=400",
+                "from_url": "https:\/\/github.com\/CPFL\/Autoware",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            },
+            {
+                "service_name": "Qiita",
+                "title": "Autowareの紹介と課題（1\/2） - Qiita",
+                "title_link": "http:\/\/qiita.com\/yukkysaito\/items\/21a70ec6b07f1ca559cb",
+                "text": "# はじめにはじめまして！画像データが増えすぎて書けなくなったので、急遽15日のアドベントカレンダーに参加しました。2回にわけます。12月15日は、オープンソース自動運転ソフトウェア [**Autoware**](https:...",
+                "fallback": "Qiita: Autowareの紹介と課題（1\/2） - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/yukkysaito\/items\/21a70ec6b07f1ca559cb",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 2
+            }
+        ],
+        "ts": "1485333223.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "レポートありがとうございます！オープンソースの運用の話も聞きたかったですね。\nイベント準備はうまくいきました。",
+        "ts": "1485348766.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今はもう、誰もがGitHubでプログラム公開、Qiitaで説明という流れができてますね^^;",
+        "ts": "1485348784.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "イベント準備、お疲れ様でした！\n\nこの会社のビジネスモデルは、ソフトウェア本体ではなく自動運転が実現するシェアリングエコノミーで儲けるというのが原点にあるので、技術を開放することで外部の知見が集まったり適用例が増えたりすることは嬉しいことなのだそうです。\nAutodeskさんの一連のクラウドの思想とも共通するものがありますね！",
+        "ts": "1485350460.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "それで儲かるのか！！？？\n某住宅メーカーがHEMSで直面する大きな問題は、住宅は売り切りビジネスだが、HEMSはずっと継続サポートが必要なものなので、そのサポート費用の負担が会社として難しいこと。また、住宅は家電付きで売っているが、トラブルがあった時のサポートまではできないこと。などだそうです。\nHEMSのサポートはオープンソースコミュニティのようなところに投げられないかと言っていましたが、HEMSから得られるデータは商品価値があるはずなので、そこでビジネスできるんじゃないかと思います。家をシェアする文化はなくはないけどはじまったばかりなので、モデルは違ったものになるかと思いますが。",
+        "ts": "1485386691.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "資料を見ていて、宅内の状況を隅々まで把握するためにドローンを飛ばしたらどうかと思って、MESH Phone Drone Dockというのを考えてみました。",
+        "ts": "1485388994.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "オープンソースコミュニティって面白い課題やこだわりが原動力だから、最初からサポートがメインだとなかなか回りませんよね。LinuxにしてもRubyにしても主導者が寝食忘れて勝手に楽しんでたところが起源だし。\nなので、まさに大和田さんがやられているような、「HEMSって面白い！」とか「未成熟だからこそ育て甲斐がある」という雰囲気を作れるかどうかが鍵な気がします。\nオープンとかシェアとか開放的になりすぎると薄まっちゃってつまらないので、たまにはタモリの密室芸的発想でやってみるべきなのかも、なんて考えています。",
+        "ts": "1485414293.000006"
+    }
+]

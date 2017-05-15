@@ -1,0 +1,169 @@
+[
+    {
+        "user": "U2JUP48HG",
+        "text": "<@U2JUP48HG|sowd> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484191422.000002"
+    },
+    {
+        "user": "U2JUP48HG",
+        "purpose": "開発環境",
+        "text": "<@U2JUP48HG|sowd> set the channel purpose: 開発環境",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1484191423.000003"
+    },
+    {
+        "user": "U2JUM58F8",
+        "inviter": "U2JUP48HG",
+        "text": "<@U2JUM58F8|komori> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484191423.000004"
+    },
+    {
+        "user": "U3QC4BL3V",
+        "inviter": "U2JUP48HG",
+        "text": "<@U3QC4BL3V|tetsuya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484191423.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "どうしてもRedmine + Backlogsがうまく入りません。\n<http:\/\/lifedesign.tech:10080\/redmine\/>",
+        "ts": "1484193400.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "午前中いっぱいかけてしまったため、もう諦めてTrelloにしようかと",
+        "ts": "1484193451.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "余計なこと言ってお手間取らせてすみませんm(_ _)m",
+        "ts": "1484193598.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "いえいえ、僕がもっとできる人だったら入ったのかもしれませんが、いろいろ情報集めても難しかったです。オンラインサービスで同様のことができるんなら何も不満はありません（セキュリティはちょっと気になりますが）",
+        "ts": "1484193654.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "早速Trelloでチームを作りました。どう小森さんをご招待すればいいですか？",
+        "ts": "1484193692.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "菱田さんはメールで呼べそう",
+        "ts": "1484193696.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "Trello使ったことないですが、便利そうでうね。アカウント作成しました。",
+        "ts": "1484193731.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "おっ、呼べたっぽい",
+        "ts": "1484193827.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これって、知らない人に名前で検索されて、勝手にチームに加えられちゃうってことはあり得ないんですか？",
+        "ts": "1484193845.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "<mailto:akihiro.komori@gmail.com|akihiro.komori@gmail.com>　で登録してます。\n招待はできますけど参加不参加は招待された人次第ですね。",
+        "ts": "1484193913.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "早くもＯＫされました？\n何も障害なく、追加ボタンで追加されちゃったように見えましたが",
+        "ts": "1484193971.000016"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "正確には招待者はチームに加えることが出来て、招待された人はチームを大会出来る権限がある、という仕様です",
+        "ts": "1484194126.000017"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なるほど",
+        "ts": "1484194145.000018"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Slack連携もできるんですね。セキュリティ大丈夫かな",
+        "ts": "1484194145.000019"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "結構歴史あるんだ。じゃあ大丈夫かな\n<http:\/\/album.cloudit.co.jp\/?p=3595>",
+        "attachments": [
+            {
+                "service_name": "クラウドの比較ならクラウド図鑑 by CloudIT",
+                "title": "Trello のタスク管理・プロジェクト管理サービス",
+                "title_link": "http:\/\/album.cloudit.co.jp\/?p=3595",
+                "text": "Trello は、ニューヨークに本社を置きオンデマンドで使えるプロジェクト管理・タスク管理・スケジュール管理のクラウドサービスを提供している。2011年に公開された Trello のサービスはソフトウェア開発者を中心に利用者が急増し、2012年には50万人であったが、2015年10月には1000万人を突破した。",
+                "fallback": "クラウドの比較ならクラウド図鑑 by CloudIT: Trello のタスク管理・プロジェクト管理サービス",
+                "thumb_url": "http:\/\/album.cloudit.co.jp\/wp-content\/uploads\/2016\/07\/329836_2485797946523_1034850252_o.jpg",
+                "ts": 1469430946,
+                "from_url": "http:\/\/album.cloudit.co.jp\/?p=3595",
+                "thumb_width": 2048,
+                "thumb_height": 1536,
+                "service_icon": "http:\/\/album.cloudit.co.jp\/wp-content\/uploads\/fbrfg\/apple-touch-icon-57x57.png",
+                "id": 1
+            }
+        ],
+        "ts": "1484194234.000020"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "最近bitbucketやsourcetreeで有名なあatlasianの傘下になった点も僕的には好印象です。",
+        "ts": "1484194489.000022"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "使ってみます",
+        "ts": "1484194700.000023"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Nozbeというのとか、Microsoftのなんかもあるみたいですね",
+        "ts": "1484194718.000024"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "この領域アツいのか",
+        "ts": "1484194722.000025"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "IoT的な仕事環境整備と連携したスマートハウスアプリは作りたいと思ってて、付箋ベースでテストプログラムを書いたこともありました。今はできないけど、いつか競合製品作りたいですねw",
+        "ts": "1484194803.000026"
+    }
+]

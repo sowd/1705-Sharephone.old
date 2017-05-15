@@ -1,0 +1,349 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "家の中で写真撮ることってどれくらいありますか？",
+        "ts": "1487664176.000046"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "子供の写真はよく撮りますね",
+        "ts": "1487664235.000047"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "うちもそうですね。でも子供が面白いことをした瞬間とか、取りこぼすこと結構ないですか？",
+        "ts": "1487664263.000048"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "もう一回やってって言ってもやってくれなかったり…",
+        "ts": "1487664274.000049"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "うちも子供の写真よく撮ります。\n撮りこぼしも多いですね。\n笠原君はWebcamで家のリビングをずっと撮影してて、その映像を振り返って観たら面白い瞬間たくさん見つけたって言ってました。",
+        "ts": "1487664444.000050"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "笠原君: <https:\/\/www.sonycsl.co.jp\/member\/tokyo\/198\/>",
+        "ts": "1487664480.000051"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "この人知ってます",
+        "ts": "1487664494.000052"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "共通の友達ですね",
+        "ts": "1487664529.000053"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "実はAlexis Andreの次くらいに一番見かける人ですw",
+        "ts": "1487664554.000054"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "例によって新規性が謎なんですが、（電話も含む）コミュニケーションの起点として、「大和田家新聞」みたいな感じで、主に宅内のライフログを要約したものを写真・文章取り混ぜで自動で作る。電話帳を見ると、相手の最新の新聞が見られる。\n記事は写真＋その前後の発話を文字に書き起こしたものを中心に構成。天気とか電力使用量などの定量的データもコンパクトに載せておく。",
+        "ts": "1487664939.000055"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "共有カレンダー上に、ヘッドラインとか一番大事な写真が表示される。日付を選択すると、その範囲内で記事を作る。一日なら一日分、一週間なら一週間分。",
+        "ts": "1487665069.000056"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "結果はpdfになり、そのままアーカイブ\/印刷できる",
+        "ts": "1487665081.000057"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "定量的データには、発話数や、各部屋への滞在時間などのデータも含まれる",
+        "ts": "1487665149.000058"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "タイムライン上で時間指定すると、その時間の定点カメラ画像を閲覧できる",
+        "ts": "1487665188.000059"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "結局のところライフログビューアですな",
+        "ts": "1487665201.000060"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "家族新聞にしたところは知人への公開前提",
+        "ts": "1487665224.000061"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "もうあったorz\n<http:\/\/www.kddi-research.jp\/sites\/default\/files\/newsrelease\/JA-pdf\/168_1.pdf>",
+        "ts": "1487665285.000062"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "2010年。。ようやく時代が追いついてきましたね。",
+        "ts": "1487665333.000063",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2JUP48HG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "僕は追いついていけてないようです（苦笑",
+        "ts": "1487665367.000064"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ただ、この研究とは入力が違いますね。",
+        "ts": "1487665400.000066"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "「近況報告素材」に入るのかな？ライフログ",
+        "ts": "1487665416.000067"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "どうやらbotのインタビューに答えながら記事を作るらしい：\n<http:\/\/www.kddi.com\/co\/r-and-d\/akaruimirai\/2010autumn\/05\/>",
+        "ts": "1487665553.000068"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "賢い",
+        "ts": "1487665557.000069"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ビデオもあった：\n<https:\/\/www.youtube.com\/watch?v=Elr3_uzjDPo>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "KDDI",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=Elr3_uzjDPo",
+                "author_name": "CEATECJapanSuite",
+                "author_link": "https:\/\/www.youtube.com\/user\/CEATECJapanSuite",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/Elr3_uzjDPo\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: KDDI",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/Elr3_uzjDPo?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=Elr3_uzjDPo",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1487665694.000070"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "研究自体は2010年で止まっていると思われますね",
+        "ts": "1487665702.000072"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "CRM目的の「パーソナライズド動画」というのもあった\n<http:\/\/amaterra.co.jp\/tag\/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%BA%E3%83%89%E5%8B%95%E7%94%BB>",
+        "attachments": [
+            {
+                "service_name": "Amaterra Inc.",
+                "title": "売上向上につながるOne to One マーケティング「パーソナライズドメール・動画」とは",
+                "title_link": "http:\/\/amaterra.co.jp\/tag\/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%BA%E3%83%89%E5%8B%95%E7%94%BB",
+                "fallback": "Amaterra Inc.: 売上向上につながるOne to One マーケティング「パーソナライズドメール・動画」とは",
+                "image_url": "http:\/\/amaterra.co.jp\/wp\/wp-content\/uploads\/about1.png",
+                "image_width": 621,
+                "image_height": 250,
+                "from_url": "http:\/\/amaterra.co.jp\/tag\/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%BA%E3%83%89%E5%8B%95%E7%94%BB",
+                "image_bytes": 93436,
+                "id": 1
+            }
+        ],
+        "ts": "1487665919.000073"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "普通の記事を自動生成するのもあった。松尾先生がらみの最新記事\n<http:\/\/news.infoseek.co.jp\/article\/itmedia_news_20170125115\/>",
+        "attachments": [
+            {
+                "service_name": "Infoseekニュース",
+                "title": "日経新聞、AIで決算記事を自動生成　「日経電子版」などに配信- 記事詳細｜Infoseekニュース",
+                "title_link": "http:\/\/news.infoseek.co.jp\/article\/itmedia_news_20170125115\/",
+                "text": "日本経済新聞社は1月25日、決算情報の要点を人工知能（AI）によって自動で文章化するサービス「決算サマリー」を開始",
+                "fallback": "Infoseekニュース: 日経新聞、AIで決算記事を自動生成　「日経電子版」などに配信- 記事詳細｜Infoseekニュース",
+                "image_url": "https:\/\/media.image.infoseek.co.jp\/isnews\/photos\/itmedia_news\/itmedia_news_20170125115_0.jpg",
+                "from_url": "http:\/\/news.infoseek.co.jp\/article\/itmedia_news_20170125115\/",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 161487,
+                "service_icon": "http:\/\/media.image.infoseek.co.jp\/isnews\/01\/p\/favicon-1.0.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1487665984.000075"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "AI利用ガンガンありますね\n<http:\/\/www.nishinippon.co.jp\/feature\/attention\/article\/304013>",
+        "attachments": [
+            {
+                "service_name": "西日本新聞Web",
+                "title": "ＡＩが新聞記事を書いてみた　執筆１秒、でも設定は人間",
+                "title_link": "http:\/\/www.nishinippon.co.jp\/feature\/attention\/article\/304013",
+                "text": "人工知能（ＡＩ）やロボットの技術革新が進み、文章を自動作成する手法も急速に向上している。ＡＩ関連技術はどこまで進...",
+                "fallback": "西日本新聞Web: ＡＩが新聞記事を書いてみた　執筆１秒、でも設定は人間",
+                "thumb_url": "http:\/\/www.nishinippon.co.jp\/import\/attention\/20170126\/201701260004_000.jpg?1485416643",
+                "from_url": "http:\/\/www.nishinippon.co.jp\/feature\/attention\/article\/304013",
+                "thumb_width": 414,
+                "thumb_height": 640,
+                "service_icon": "http:\/\/www.nishinippon.co.jp\/img\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1487666076.000077"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これすごい！\n結果の新聞がしょぼい気がするけど、家族新聞によって親を育てようとするもの。ここまで踏み込めば研究になるのか\n<http:\/\/www.e-sato.net\/tomomi\/pdf\/2015JSET-P3a-C103-16.pdf>",
+        "ts": "1487666371.000079"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "新聞で思い当たりました。\nうちの子供の保育園との連絡帳があり、毎日親の目から見た子供の様子を書いて、それに対して保育園の職員の方からのコメントや保育園でのエピソードが書かれて、という交換日記的な運用になっているのですが、それが凄く良いのです。\n日々読むのもいいし、しばらく寝かせて置いて纏めて読み返すのもいいし。\nというわけで、暮らしを見守る固定電話型botとの交換日記とかどうでしょう？",
+        "ts": "1487682528.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "いいですね！交換日記！",
+        "ts": "1487684085.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "また保育園というのがフォーカスされていてよさそうです",
+        "ts": "1487684141.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ライフログをある基準で絵日記のようなものにまとめるのはいろいろな見せ方ができそう。交換日記しかり。新聞しかり。",
+        "ts": "1487684315.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "著者の言う「思い出の危機」はDropboxの登場により解消していると思いますが、問題意識が秀逸なので必読です！\n<https:\/\/www.dropbox.com\/s\/d3i6zl2u2vitf2p\/omoidezukuriwokangaeru.pdf?dl=0>",
+        "ts": "1487743822.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> shared a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F481WNQ8H\/omoidezukuriwokangaeru.pdf|omoidezukuriwokangaeru.pdf>",
+        "file": {
+            "id": "F481WNQ8H",
+            "created": 1487743823,
+            "timestamp": 1487743823,
+            "name": "omoidezukuriwokangaeru.pdf",
+            "title": "omoidezukuriwokangaeru.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 322916,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/d3i6zl2u2vitf2p\/omoidezukuriwokangaeru.pdf?dl=0",
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F481WNQ8H\/omoidezukuriwokangaeru.pdf",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1487743823.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "この路線で行きたい",
+        "ts": "1487743828.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "スマートフォンの普及で、デバイスの点からもかなり進歩した。\nでも、その次に連なる「写真を用いたコミュニケーション」にはまだテクノロジーが入ってないと思われ",
+        "ts": "1487743935.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Wearable Camera 暫定勝ち組？\n<http:\/\/getnarrative.com\/>\n<https:\/\/usa.ioncamera.com\/snapcam\/>",
+        "attachments": [
+            {
+                "service_name": "Narrative Clip 2 - the world's most wearable camera.",
+                "title": "Narrative Clip 2",
+                "title_link": "http:\/\/getnarrative.com\/",
+                "text": "Clip 2 is the world's most wearable camera.",
+                "fallback": "Narrative Clip 2 - the world's most wearable camera.: Narrative Clip 2",
+                "from_url": "http:\/\/getnarrative.com\/",
+                "service_icon": "http:\/\/getnarrative.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1487748698.000006"
+    }
+]

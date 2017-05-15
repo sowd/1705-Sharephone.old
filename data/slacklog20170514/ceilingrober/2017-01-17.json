@@ -1,0 +1,865 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Kinectはツールや先行事例が豊富だから楽ですよね。\n\n昨今の測位業界的には先程のLIDARと、このUWBがアツいようです。\n<https:\/\/www.ubisense.jp\/%E4%BD%8D%E7%BD%AE%E6%B8%AC%E4%BD%8D%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0\/>\n方式の違いによるラフなプロコンはこの資料のP.2 (自動車用ですが)\n<http:\/\/www.meti.go.jp\/meti_lib\/report\/2016fy\/000460.pdf>\n\n&gt; 誰と誰が、どんなトーンで、どれくらいしゃべったかの情報\n\n部屋にAmazon Echoや[Lisnr](<https:\/\/listnr.cerevo.com\/ja\/>)があって、それぞれの発話頻度や感情推定が出来たとして、その会話が部屋のどこで行われているかは、初音ミクの人のようにアレイマイクを使う方法もありますが、UWBや簡単な背景差分や焦電センサアレイなどを使っても良いですね。",
+        "attachments": [
+            {
+                "title": "Listnr - Cerevo",
+                "title_link": "https:\/\/listnr.cerevo.com\/ja\/",
+                "text": "Cloud listening device 'Listnr'",
+                "fallback": "Listnr - Cerevo",
+                "image_url": "http:\/\/listnr.cerevo.com\/wp-content\/themes\/listnr\/img\/facebook.jpg",
+                "from_url": "https:\/\/listnr.cerevo.com\/ja\/",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 32751,
+                "service_name": "listnr.cerevo.com",
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1484641565.000000"
+        },
+        "ts": "1484641477.000034"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "参考になりますね〜ありがとうございます！",
+        "ts": "1484641771.000038"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "指扇子のやつは体験したことあります。なかなか完成度高いですよね。",
+        "ts": "1484641837.000039"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "lisnr知りませんでした。セレボすごいなあ…",
+        "ts": "1484641944.000040"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Listnrは元は別の会社のモノだったのですが、Kickstarterから停止処分を受けて、それをCelevoが引き継いだようです。(引き継ぎを決定したセンスがすごい)\n<http:\/\/jp.techcrunch.com\/2015\/12\/18\/listnr-ready-for-production\/>",
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1484642232.000000"
+        },
+        "ts": "1484642218.000041"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "停止の理由がわからないって…",
+        "ts": "1484642376.000044"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ところで突然ですが、全天球プロジェクターつけるってどうでしょう？",
+        "ts": "1484642417.000045"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あまり深く考えてないですが",
+        "ts": "1484642427.000046"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "プロジェクションマッピングするんなら、そういうのもありかなあと",
+        "ts": "1484642447.000047"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "明るくするのが大変なんですよね",
+        "ts": "1484642467.000048"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "小さなプロジェクターなりセンサーなりをスタンドに載せて動かすのが妥当な線かなあ",
+        "ts": "1484642595.000049"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ちょっと話の軸がずれてしまいました。すみません。",
+        "ts": "1484642610.000050"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "&gt; 全天球プロジェクター\n\nすごくいいですね！\nムービングプロジェクターもいいですね。\n例: <https:\/\/vimeo.com\/189192769>\n\nネットと繋がって、部屋の一部をアノテーション出来るの素敵です！",
+        "attachments": [
+            {
+                "service_name": "Vimeo",
+                "service_url": "https:\/\/vimeo.com\/",
+                "title": "Gallery Invasion",
+                "title_link": "https:\/\/vimeo.com\/189192769",
+                "author_name": "Skullmapping",
+                "author_link": "https:\/\/vimeo.com\/user8910866",
+                "thumb_url": "http:\/\/i.vimeocdn.com\/video\/599443112_295x166.jpg",
+                "thumb_width": 295,
+                "thumb_height": 166,
+                "text": "Experimental project with dynamic projection mapping by Skullmapping ()\nDirected and animated by Filip Sterckx \/\nConcept by Filip Sterckx + Antoon Verbeeck \/\nPaintings by Antoon Verbeeck \/\n3D modeling by Birgit Sterckx \/\nSounddesign by Roundhouse \/\nMocap actor: Nicolas Vanhole \/\nCreated with the Mirror Head and MDC-X by Dynamic Projection Institute ()",
+                "fallback": "Vimeo Video: Gallery Invasion",
+                "video_html": "<iframe src=\"https:\/\/player.vimeo.com\/video\/189192769?autoplay=1\" width=\"400\" height=\"225\" frameborder=\"0\" title=\"Gallery Invasion\" webkitallowfullscreen mozallowfullscreen allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/vimeo.com\/189192769",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/vimeo.png",
+                "id": 1
+            }
+        ],
+        "ts": "1484642769.000051"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Gallery Invasionのシステムはこれ\n<http:\/\/www.dynamicprojection.com\/skullmapping-gallery-invasion\/>\n\nちなみに多軸プロジェクターはソニーでも開発していて去年のSXSWに参考出品してました。\n超音波スピーカーアレイ(秋月で売ってるやつ)も付いていて、音もプロジェクションしています。\n<http:\/\/1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com\/wp-content\/uploads\/2016\/03\/sony-future-lab-projector-02-800x600.jpg>",
+        "attachments": [
+            {
+                "fallback": "800x600px image",
+                "image_url": "http:\/\/1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com\/wp-content\/uploads\/2016\/03\/sony-future-lab-projector-02-800x600.jpg",
+                "image_width": 800,
+                "image_height": 600,
+                "image_bytes": 95161,
+                "from_url": "http:\/\/1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com\/wp-content\/uploads\/2016\/03\/sony-future-lab-projector-02-800x600.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1484643216.000053"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あっ、「Gallery Invasion」誰かがFacebookでシェアしてるの見ました！小森さんだったような気もします*^ ^*",
+        "ts": "1484643332.000055"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "しましたよね？",
+        "ts": "1484643414.000056"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "あ、はい。シェアしてました(^^\n\n話飛んじゃいますけど、稲垣さんの記事いいですね！\n&gt; 場所別\/機器別にインフォグラフィックを制作\n<https:\/\/www.kokuyo-furniture.co.jp\/kaizen\/recipe051.html>",
+        "attachments": [
+            {
+                "title": "オフィスカイゼン委員会",
+                "title_link": "https:\/\/www.kokuyo-furniture.co.jp\/kaizen\/recipe051.html",
+                "text": "電気の使い方の見直し、できていますか？",
+                "fallback": "オフィスカイゼン委員会",
+                "image_url": "http:\/\/www.kokuyo-furniture.co.jp\/kaizen\/img\/recipe\/post\/051_recipe.jpg",
+                "from_url": "https:\/\/www.kokuyo-furniture.co.jp\/kaizen\/recipe051.html",
+                "image_width": 529,
+                "image_height": 250,
+                "image_bytes": 55346,
+                "service_icon": "https:\/\/www.kokuyo-furniture.co.jp\/favicon.ico",
+                "service_name": "kokuyo-furniture.co.jp",
+                "id": 1
+            }
+        ],
+        "ts": "1484643441.000057"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ねえ。私も見ました。１０年も前にやってたんですね",
+        "ts": "1484643463.000059"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "みんなやってるのかー",
+        "ts": "1484643543.000060"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "（プロジェクタの話）",
+        "ts": "1484643549.000061"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "この安いのを、みんな寝ている間に回して部屋の中をゆっくりスキャンするってどうでしょう。\n<http:\/\/akizukidenshi.com\/catalog\/g\/gM-06685\/>",
+        "attachments": [
+            {
+                "title": "超音波センサー　ＳＲＦ０２: マイコン関連 秋月電子通商 電子部品 ネット通販",
+                "title_link": "http:\/\/akizukidenshi.com\/catalog\/g\/gM-06685\/",
+                "text": "電子部品,通販,販売,半導体,IC,マイコン,電子工作超音波センサー　ＳＲＦ０２秋月電子通商 電子部品の通販・販売",
+                "fallback": "超音波センサー　ＳＲＦ０２: マイコン関連 秋月電子通商 電子部品 ネット通販",
+                "from_url": "http:\/\/akizukidenshi.com\/catalog\/g\/gM-06685\/",
+                "service_icon": "http:\/\/akizukidenshi.com\/img\/usr\/apple-touch-icon.png",
+                "service_name": "akizukidenshi.com",
+                "id": 1
+            }
+        ],
+        "ts": "1484643620.000062"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "横方向だけで。",
+        "ts": "1484643642.000064"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そんなに時間かからなそう",
+        "ts": "1484643651.000065"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "１ラインだけ。",
+        "ts": "1484643666.000066"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "プロジェクションも魅力的ですけどねー。",
+        "ts": "1484643690.000067"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "寝てなくてもいいか",
+        "ts": "1484643703.000068"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "テーブルの真ん中に置きやすいデザインということで、花瓶型ホームゲートウェイということで",
+        "ts": "1484643742.000069"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "回るリングを重ねることでカスタマイズできて、そこに将来ピコプロジェクターも設置可能にしたらどうでしょう",
+        "ts": "1484643765.000070"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "こんな感じのデザイン\n<http:\/\/www.artificial-flower.jp\/flowervase\/images\/glass\/FL-VG-17-2496B\/306.jpg>",
+        "attachments": [
+            {
+                "fallback": "306x460px image",
+                "image_url": "http:\/\/www.artificial-flower.jp\/flowervase\/images\/glass\/FL-VG-17-2496B\/306.jpg",
+                "image_width": 306,
+                "image_height": 460,
+                "image_bytes": 92385,
+                "from_url": "http:\/\/www.artificial-flower.jp\/flowervase\/images\/glass\/FL-VG-17-2496B\/306.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1484643806.000071"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なんか全方位カメラとかわんないか",
+        "ts": "1484643865.000073"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<http:\/\/www.surehobby.com\/ja-syl-668-360-panoramic-camera-mini-sports-action-camera-outdoor-hd-video-camera-wifi-wireless-0-96in-p242491.htm?source=ProductListAds&amp;id=18283950120&amp;currency=jpy&amp;country=JP&amp;gclid=Cj0KEQiAnvfDBRCXrabLl6-6t-0BEiQAW4SRUOa_VxxCcfRTmRyyUM4soqVqHwtqatw-JIJyLBqI-VAaAiqn8P8HAQ>",
+        "attachments": [
+            {
+                "title": "SYL-668 360° パノラマ カメラ ミニ スポーツ アクション カメラ 室外 HD ビデオ カメラ WIFI 無線 0.96インチ スクリーン - FPV HD カメラ - FPV 部品--5％割引",
+                "title_link": "http:\/\/www.surehobby.com\/ja-syl-668-360-panoramic-camera-mini-sports-action-camera-outdoor-hd-video-camera-wifi-wireless-0-96in-p242491.htm?source=ProductListAds&id=18283950120&currency=jpy&country=JP&gclid=Cj0KEQiAnvfDBRCXrabLl6-6t-0BEiQAW4SRUOa_VxxCcfRTmRyyUM4soqVqHwtqatw-JIJyLBqI-VAaAiqn8P8HAQ",
+                "text": "SYL-668 360° パノラマ カメラ ミニ スポーツ アクション カメラ 室外 HD ビデオ カメラ WIFI 無線 0.96インチ スクリーン を購入して、最低価格及び最高のサービス付き！ - FPV HD カメラ - FPV 部品--5％割引",
+                "fallback": "SYL-668 360° パノラマ カメラ ミニ スポーツ アクション カメラ 室外 HD ビデオ カメラ WIFI 無線 0.96インチ スクリーン - FPV HD カメラ - FPV 部品--5％割引",
+                "image_url": "https:\/\/img.surehobby.com\/49458_0.jpg",
+                "from_url": "http:\/\/www.surehobby.com\/ja-syl-668-360-panoramic-camera-mini-sports-action-camera-outdoor-hd-video-camera-wifi-wireless-0-96in-p242491.htm?source=ProductListAds&id=18283950120&currency=jpy&country=JP&gclid=Cj0KEQiAnvfDBRCXrabLl6-6t-0BEiQAW4SRUOa_VxxCcfRTmRyyUM4soqVqHwtqatw-JIJyLBqI-VAaAiqn8P8HAQ",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 86518,
+                "service_icon": "http:\/\/www.surehobby.com\/favicon.ico",
+                "service_name": "surehobby.com",
+                "id": 1
+            }
+        ],
+        "ts": "1484643972.000074"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "安い",
+        "ts": "1484643983.000076"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "安い！!",
+        "ts": "1484644027.000077"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "レンズの値段だけくらいの勢いですね！",
+        "ts": "1484644097.000078"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "小森さんとしゃべるの楽しすぎ",
+        "ts": "1484644117.000079"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "仕事忘れそう",
+        "ts": "1484644120.000080"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "僕も楽しいです〜！\n世の中にはいろんなものが...\n<https:\/\/www.alibaba.com\/showroom\/hidden-light-bulb-camera-e26.html>",
+        "attachments": [
+            {
+                "title": "Hidden Light Bulb Camera E26, Hidden Light Bulb Camera E26 Suppliers and Manufacturers at Alibaba.com",
+                "title_link": "https:\/\/www.alibaba.com\/showroom\/hidden-light-bulb-camera-e26.html",
+                "text": "Hidden Light Bulb Camera E26, Wholesale Various High Quality Hidden Light Bulb Camera E26 Products from Global Hidden Light Bulb Camera E26 Suppliers and Hidden Light Bulb Camera E26 Factory,Importer,Exporter at <http:\/\/Alibaba.com|Alibaba.com>.",
+                "fallback": "Hidden Light Bulb Camera E26, Hidden Light Bulb Camera E26 Suppliers and Manufacturers at Alibaba.com",
+                "from_url": "https:\/\/www.alibaba.com\/showroom\/hidden-light-bulb-camera-e26.html",
+                "service_icon": "http:\/\/is.alicdn.com\/favicon.ico",
+                "service_name": "alibaba.com",
+                "id": 1
+            }
+        ],
+        "ts": "1484644239.000081"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "リビングテーブルに置けるようなデザインのデバイスって魅力的なんだけど、電源がなー",
+        "ts": "1484644244.000083"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "おおおーなるほど！",
+        "ts": "1484644276.000084"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "電源の心配なくていいですね！",
+        "ts": "1484644289.000085"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ソニーだけじゃないんですね^^;",
+        "ts": "1484644328.000086"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ライトバルブにHGW(ゲートウェイ)ってアツい",
+        "ts": "1484644347.000087"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "電気スタンド的だったらテーブルにも置いてくれそう",
+        "ts": "1484644380.000088"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "欧米の家庭の天井にはソケットがない場合も多いと思いますが、スタンドタイプも用意すれば問題ないですね。",
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1484644469.000000"
+        },
+        "ts": "1484644456.000089"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "うむ",
+        "ts": "1484644468.000090"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "（失礼に感じたらすみません",
+        "ts": "1484644476.000092"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<https:\/\/www.alibaba.com\/product-detail\/hidden-camera-light-bulb-with-bluetooth_60228970668.html>",
+        "attachments": [
+            {
+                "service_name": "www.alibaba.com",
+                "title": "Hidden Camera Light Bulb With Bluetooth Speaker - Buy Hidden Camera Light Bulb,Bluetooth Speaker With Led Light,Led Light Bulb Speaker Product on Alibaba.com",
+                "title_link": "https:\/\/www.alibaba.com\/product-detail\/hidden-camera-light-bulb-with-bluetooth_60228970668.html",
+                "text": "Hidden Camera Light Bulb With Bluetooth Speaker , Find Complete Details about Hidden Camera Light Bulb With Bluetooth Speaker,Hidden Camera Light Bulb,Bluetooth Speaker With Led Light,Led Light Bulb Speaker from -Shenzhen Booming Technology Limited Supplier or Manufacturer on <http:\/\/Alibaba.com|Alibaba.com>",
+                "fallback": "www.alibaba.com: Hidden Camera Light Bulb With Bluetooth Speaker - Buy Hidden Camera Light Bulb,Bluetooth Speaker With Led Light,Led Light Bulb Speaker Product on Alibaba.com",
+                "thumb_url": "https:\/\/sc02.alicdn.com\/kf\/HTB13f.iHpXXXXc9aXXXq6xXFXXXn\/hidden-camera-light-bulb-with-bluetooth-speaker.jpg",
+                "from_url": "https:\/\/www.alibaba.com\/product-detail\/hidden-camera-light-bulb-with-bluetooth_60228970668.html",
+                "thumb_width": 1000,
+                "thumb_height": 1000,
+                "service_icon": "http:\/\/is.alicdn.com\/simg\/single\/icon\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1484644478.000093"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "無問題！",
+        "ts": "1484644494.000095",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2JUP48HG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "カメラと照明とBTスピーカー！？",
+        "ts": "1484644503.000096"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "もう一声、マイク！",
+        "ts": "1484644532.000097"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そうそう！",
+        "ts": "1484644554.000098"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ここまできたらw",
+        "ts": "1484644557.000099"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "よくよく考えたら、ロボット掃除機で部屋のマッピングしてるやつもあるので、その情報を取りだせたら使えそう",
+        "ts": "1484644567.000100"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "おお！ホームゲートウェイの最終型を見た感じ！",
+        "ts": "1484644616.000101"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "結局ルンバかー",
+        "ts": "1484644630.000102"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "僕たちはでんわでがんばろう",
+        "ts": "1484644680.000103"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "時々電話からスキャナー機能を持ったミニDroneが離着陸するとか",
+        "ts": "1484644725.000104"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "実用性なさそう…",
+        "ts": "1484644731.000105"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ルンバをでんわの手下にすればいいですね。",
+        "ts": "1484644870.000106"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "しましょうw",
+        "ts": "1484644893.000107"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "支配される前に支配下に置くということで",
+        "ts": "1484644900.000108"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "この人アツい\n<http:\/\/blog.studiok-i.net\/robot\/152.html>",
+        "attachments": [
+            {
+                "service_name": "PONTAの工房 ～プログラミング・電子工作～",
+                "title": "全方位カメラを作ってみた",
+                "title_link": "http:\/\/blog.studiok-i.net\/robot\/152.html",
+                "text": "東急ハンズで売っているステンレス半球を使って、全方位カメラを作ってみました。 材料 ステンレス半球(直径5cm) 東急ハンズ 本体：￥357, 送料：￥525, 合計：￥882 プラスティックの筒(水筒？) ダイソー ￥105 合計",
+                "fallback": "PONTAの工房 ～プログラミング・電子工作～: 全方位カメラを作ってみた",
+                "thumb_url": "http:\/\/blog.studiok-i.net\/wp-content\/uploads\/2013\/12\/cropped-studiok-i1-150x150.jpg",
+                "ts": 1372606054,
+                "from_url": "http:\/\/blog.studiok-i.net\/robot\/152.html",
+                "thumb_width": 150,
+                "thumb_height": 150,
+                "service_icon": "http:\/\/blog.studiok-i.net\/wp-content\/uploads\/2013\/10\/Favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1484645048.000109",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3SAXMF1R\/_________3d_________.png|全方位3Dカメラ.png> and commented: こんなんでステレオ立体視して、全方向深度情報とれませんかね",
+        "file": {
+            "id": "F3SAXMF1R",
+            "created": 1484645598,
+            "timestamp": 1484645598,
+            "name": "全方位3Dカメラ.png",
+            "title": "全方位3Dカメラ.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 39529,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3SAXMF1R\/_________3d_________.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3SAXMF1R\/download\/_________3d_________.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SAXMF1R-cdecbfd759\/_________3d__________64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SAXMF1R-cdecbfd759\/_________3d__________80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SAXMF1R-cdecbfd759\/_________3d__________360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 278,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SAXMF1R-cdecbfd759\/_________3d__________480.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 370,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SAXMF1R-cdecbfd759\/_________3d__________160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SAXMF1R-cdecbfd759\/_________3d__________720.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 555,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SAXMF1R-cdecbfd759\/_________3d__________960.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_960_w": 960,
+            "thumb_960_h": 741,
+            "image_exif_rotation": 1,
+            "original_w": 1011,
+            "original_h": 780,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3SAXMF1R\/_________3d_________.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F3SAXMF1R-998d389c6c",
+            "channels": [
+                "C3R4CKX8X"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3SFHM10V",
+                "created": 1484645598,
+                "timestamp": 1484645598,
+                "user": "U2JUP48HG",
+                "is_intro": true,
+                "comment": "こんなんでステレオ立体視して、全方向深度情報とれませんかね"
+            }
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1484645600.000111"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ありそうだけど",
+        "ts": "1484645658.000112"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "スチームパンクライトフィールドカメラですね！",
+        "ts": "1484646105.000113"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "スチームパンク？",
+        "ts": "1484646191.000114"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "スチームパンク風 「風」付け忘れてした。\nメカニカルといったほうがいいですねｗ",
+        "ts": "1484646252.000115"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "手作り感ですねw",
+        "ts": "1484646288.000116"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "カメラ側の焦点距離を変えて複数枚撮影することにすれば、ミラーは動かさなくても良いでしょうか?\n露出も変えないと難しいかな。。",
+        "ts": "1484646729.000117"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Depth of defocusですかね？",
+        "ts": "1484646837.000118"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "貧乏根性ということで、前述の安い距測センサーを回すことにしてみようかな…",
+        "ts": "1484646865.000119"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "バルブにつけるというのは斬新ですね。よく考えてみます",
+        "ts": "1484647104.000120"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ペンダントライトのフードの所でもいいような気がしますが（光るバルブと一体化したサーバーを作るとなると、私の技術力ではできない）",
+        "ts": "1484647188.000121"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ESP8266なら出来る気がします。\n<https:\/\/www.switch-science.com\/catalog\/2500\/>\n\n距離センサーを動かすのはこんな感じですね。\n<https:\/\/www.dexterindustries.com\/shop\/gopigo-starter-kit-2\/>",
+        "attachments": [
+            {
+                "service_name": "スイッチサイエンス",
+                "title": "ESPr Developer（ESP-WROOM-02開発ボード） - スイッチサイエンス",
+                "title_link": "https:\/\/www.switch-science.com\/catalog\/2500\/",
+                "text": "ESP-WROOM-02 Wi-FiモジュールとUSB-シリアル変換IC FT231XSを搭載した開発ボードです。その他にも3.3 V出力レギュレータやリセットスイッチ、動作モード切替用スイッチが搭載されているのでESP-WROOM-02 Wi-Fiモジュールをすぐにお使いいただけます。旧製品名：ESP-WROOM-02開発ボード。",
+                "fallback": "スイッチサイエンス: ESPr Developer（ESP-WROOM-02開発ボード） - スイッチサイエンス",
+                "thumb_url": "https:\/\/docid81hrs3j1.cloudfront.net\/contents\/large\/25001_tTK67dP.jpg",
+                "thumb_width": 500,
+                "thumb_height": 500,
+                "fields": [
+                    {
+                        "title": "価格",
+                        "value": "2,160 円",
+                        "short": true
+                    },
+                    {
+                        "title": "在庫",
+                        "value": "多数",
+                        "short": true
+                    }
+                ],
+                "from_url": "https:\/\/www.switch-science.com\/catalog\/2500\/",
+                "service_icon": "http:\/\/docid81hrs3j1.cloudfront.net\/apple-touch-icon-57x57.png",
+                "id": 1
+            },
+            {
+                "service_name": "Dexter Industries",
+                "title": "GoPiGo Starter Kit: the Raspberry Pi Robot Car",
+                "title_link": "https:\/\/www.dexterindustries.com\/shop\/gopigo-starter-kit-2\/",
+                "text": "The GoPiGo Starter Kit is a complete robot. The GoPiGo Kit raspberry pi robot car kit includes chassis, motors, encoders to get your Robot moving.",
+                "fallback": "Dexter Industries: GoPiGo Starter Kit: the Raspberry Pi Robot Car",
+                "thumb_url": "https:\/\/32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com\/wp-content\/uploads\/2014\/07\/GoPiGo-with-Servo-and-Ultrasonic-facing-right.jpg",
+                "from_url": "https:\/\/www.dexterindustries.com\/shop\/gopigo-starter-kit-2\/",
+                "thumb_width": 900,
+                "thumb_height": 900,
+                "service_icon": "https:\/\/32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com\/wp-content\/uploads\/2015\/05\/favicon.png",
+                "id": 2
+            }
+        ],
+        "ts": "1484647329.000122"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "かっこいいホームサーバーを作りたい気持ちと、電話を作りたい気持ちと、研究ネタにつながるものを作りたいといういろんな気持ちがあって、どの順番で作るかっていう",
+        "ts": "1484647356.000124"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "8266表面に貼るんですか？ファンですけど",
+        "ts": "1484647396.000125"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あっすみません、夏目さんに飲みに誘われました",
+        "ts": "1484647425.000126"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "めったにないので応じます",
+        "ts": "1484647428.000127"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "続きは後ほど！",
+        "ts": "1484647432.000128"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "長時間お付き合いいただきありがとうございました～",
+        "ts": "1484647441.000129"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "楽しかったです",
+        "ts": "1484647444.000130"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "こちらこそ！夏目さんによろしくお伝えください！",
+        "ts": "1484647471.000131"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": ":+1:",
+        "ts": "1484647676.000132"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3SFYMK53\/img_20170117_191349.jpg|littleBitsの8266>",
+        "file": {
+            "id": "F3SFYMK53",
+            "created": 1484648058,
+            "timestamp": 1484648058,
+            "name": "IMG_20170117_191349.jpg",
+            "title": "littleBitsの8266",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 2239531,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3SFYMK53\/img_20170117_191349.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3SFYMK53\/download\/img_20170117_191349.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SFYMK53-78b0e61b5b\/img_20170117_191349_64.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SFYMK53-78b0e61b5b\/img_20170117_191349_80.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SFYMK53-78b0e61b5b\/img_20170117_191349_360.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 270,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SFYMK53-78b0e61b5b\/img_20170117_191349_480.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 360,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SFYMK53-78b0e61b5b\/img_20170117_191349_160.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SFYMK53-78b0e61b5b\/img_20170117_191349_720.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 540,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SFYMK53-78b0e61b5b\/img_20170117_191349_960.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_960_w": 720,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3SFYMK53-78b0e61b5b\/img_20170117_191349_1024.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_1024_w": 768,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 3120,
+            "original_h": 4160,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3SFYMK53\/img_20170117_191349.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F3SFYMK53-8d9dda97cf",
+            "channels": [
+                "C3R4CKX8X"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "heart_eyes_cat",
+                    "users": [
+                        "U2JUM58F8"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1484648057.000133"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ゲートウェイ作り放題!",
+        "ts": "1484648130.000135"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "朝起きたら、slackが超絶凄いことになってますね。全方位カメラ結構安いんですね。",
+        "ts": "1484657993.000136"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ふふふ",
+        "ts": "1484706716.000002"
+    }
+]

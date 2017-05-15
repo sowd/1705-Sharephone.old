@@ -1,0 +1,116 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これ見てもわからないか",
+        "ts": "1489474826.930830"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "普通にindex.htmlのソースを見たほうがわかりやすいかも",
+        "ts": "1489474838.932005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "（見て下さいという意味じゃないです）",
+        "ts": "1489474845.932679"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "麺+スープ=スープ",
+        "ts": "1489475019.949442"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "orz",
+        "ts": "1489475020.949508"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "最後のやつが一番強い傾向が",
+        "ts": "1489475034.950797"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "FYI\n<https:\/\/www.npmjs.com\/package\/word2vec>",
+        "attachments": [
+            {
+                "service_name": "npm",
+                "title": "word2vec",
+                "title_link": "https:\/\/www.npmjs.com\/package\/word2vec",
+                "text": "node.js interface to the Google word2vec tool",
+                "fallback": "npm: word2vec",
+                "thumb_url": "https:\/\/www.npmjs.com\/static\/images\/touch-icons\/open-graph.png",
+                "from_url": "https:\/\/www.npmjs.com\/package\/word2vec",
+                "thumb_width": 1200,
+                "thumb_height": 630,
+                "service_icon": "https:\/\/www.npmjs.com\/static\/images\/touch-icons\/apple-touch-icon-57x57.png",
+                "id": 1
+            }
+        ],
+        "ts": "1489475978.041118"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "おお、僕みたいにpython慣れてない人でも使えそう",
+        "ts": "1489476027.046187"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "やっぱり正規化はやめました。あと、トップ３を出すようにしてみました：\n麺+スープ\nAnswer=[\"味\",\"[スープ]\",\"風味\"]",
+        "ts": "1489476311.074729"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "角カッコは、Wikipediaのエントリー文字列の場合につくそうです\n<http:\/\/www.cl.ecei.tohoku.ac.jp\/~m-suzuki\/jawiki_vector\/>",
+        "ts": "1489476368.080416"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "難しいのう",
+        "ts": "1489476778.122893"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "パリ-フランス+日本 = [\"日本\",\"[日本]\",\"東京\"]\n\n三番目には入ってました",
+        "ts": "1489477121.158875"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "い、いかんUIST締切4\/4だったあ！！",
+        "ts": "1489537743.564694"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すみませんマイペースでやりすぎました",
+        "ts": "1489537751.565689"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "電話書き取りサービスorz\n<https:\/\/asktetra.com\/>",
+        "ts": "1489556240.242266",
+        "reactions": [
+            {
+                "name": "scream",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

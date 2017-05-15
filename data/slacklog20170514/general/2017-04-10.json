@@ -1,0 +1,315 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ご無沙汰しております。ちょっとMESHのLED使いたくなってNodeのプログラム更新しました。\n<https:\/\/github.com\/comoc\/node-mesh-base>\n雑な実装でお恥ずかしいですが、起動してタグを見つけた後キーボードの1〜6のどれかのキーを押すとMESHのLEDが光ります。",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "comoc\/node-mesh-base",
+                "title_link": "https:\/\/github.com\/comoc\/node-mesh-base",
+                "text": "node-mesh-base - A Node.js script for accessing Sony MESH tags",
+                "fallback": "GitHub: comoc\/node-mesh-base",
+                "from_url": "https:\/\/github.com\/comoc\/node-mesh-base",
+                "thumb_url": "https:\/\/avatars1.githubusercontent.com\/u\/843396?v=3&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1491817313.441222"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "index.jsのLOCAL_NAMEというところを書き換えるとMotion Tagも使えるのですが、データの解析ができておらず、生データが見えるだけです。",
+        "ts": "1491817414.464359"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "おお！もう待ちきれない感がすばらしい！",
+        "ts": "1491883480.026241"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "人感か温湿度がつかえたらなー",
+        "thread_ts": "1491883494.027548",
+        "reply_count": 26,
+        "replies": [
+            {
+                "user": "U2JUM58F8",
+                "ts": "1491884266.106305"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491884307.110428"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491884347.114457"
+            },
+            {
+                "user": "U2JUM58F8",
+                "ts": "1491884398.119469"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491884408.120467"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491884438.123649"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491884444.124256"
+            },
+            {
+                "user": "U2JUM58F8",
+                "ts": "1491884500.129482"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491884519.131245"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491884540.133160"
+            },
+            {
+                "user": "U2JUM58F8",
+                "ts": "1491884603.139311"
+            },
+            {
+                "user": "U3QC4BL3V",
+                "ts": "1491950697.760325"
+            },
+            {
+                "user": "U3QC4BL3V",
+                "ts": "1491965079.761719"
+            },
+            {
+                "user": "U2JUM58F8",
+                "ts": "1491967524.026012"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969336.211229"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969343.211868"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969350.212513"
+            },
+            {
+                "user": "U3QC4BL3V",
+                "ts": "1491969533.230715"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969545.231844"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969556.232781"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969584.235753"
+            },
+            {
+                "user": "U3QC4BL3V",
+                "ts": "1491969866.267905"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969951.276748"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969964.278013"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969973.278940"
+            },
+            {
+                "user": "U2JUP48HG",
+                "ts": "1491969978.279540"
+            }
+        ],
+        "unread_count": 26,
+        "ts": "1491883494.027548"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "MESH関連開発の件は、MESHチームのスタンスが決まったようです。一言で言うと、社外には出さないということのようですが…",
+        "ts": "1491883536.031772"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "sowd: タグ貸してもらえれば解析してみますよ！",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884266.106305"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "まじすかっ！！",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884307.110428"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "アンオフィシャル感が出せればもうそれでいい気がw",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884347.114457"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "せっかくなので明日ちょっとやってみましょう。",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884398.119469"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "えっ、その場で！！？",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884408.120467"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すっげー",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884438.123649"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "いつも持ち歩いているのでありますw",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884444.124256"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ではやりましょう。\n検証用に本物の温度計と湿度計があれば簡単です。",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884500.129482"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "むしろ本物持ってないw",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884519.131245"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "BME280なら持ってるけど",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884540.133160"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "それでもいいです。エンコードされてるので、何かと比べないと分からないので。",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491884603.139311"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4Y37HSES\/img_20170411_132651.jpg|こいつに組み込まれてますw>",
+        "file": {
+            "id": "F4Y37HSES",
+            "created": 1491884858,
+            "timestamp": 1491884858,
+            "name": "IMG_20170411_132651.jpg",
+            "title": "こいつに組み込まれてますw",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 2068408,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F4Y37HSES\/img_20170411_132651.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F4Y37HSES\/download\/img_20170411_132651.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_64.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_80.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_360.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_480.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_160.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_720.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_800.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_800_w": 800,
+            "thumb_800_h": 600,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_960.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_960_w": 960,
+            "thumb_960_h": 720,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4Y37HSES-9042aa4daf\/img_20170411_132651_1024.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 768,
+            "image_exif_rotation": 1,
+            "original_w": 4160,
+            "original_h": 3120,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4Y37HSES\/img_20170411_132651.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F4Y37HSES-1f0f229f87",
+            "channels": [
+                "C2JUBSU13"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1491884862.164973"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "まあなんとかしますんで！",
+        "ts": "1491884902.169289"
+    }
+]

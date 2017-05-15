@@ -1,0 +1,85 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "やっと雑用が一段落つきそうなので勉強再開してます。",
+        "ts": "1489109247.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "小森さん、Forgeを使って三次元表示するのがベストだと思っていますが、今回の電話やら写真シェア機能を、以前作ったRPG表示にもとりこみたいなと思いまして。\n機能部分はライブラリとして再利用する想定でお願いしたいんですがいいですか？",
+        "ts": "1489109281.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あと、今回SkyWay使いますか？それともTwilio?",
+        "ts": "1489109618.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "はい。了解です。\nSkyWay良いなと思ったのですが音声認識は終わっちゃうんですね。\n<https:\/\/nttcom.github.io\/SkyWay-SpeechRec\/>\nTwilioかな。",
+        "ts": "1489110979.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "<https:\/\/www.youtube.com\/playlist?list=PL_6ApchKwjN9CZCqUl4RZrsyDvnTV1Jgb>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "title": "Autodesk Forge - YouTube",
+                "title_link": "https:\/\/www.youtube.com\/playlist?list=PL_6ApchKwjN9CZCqUl4RZrsyDvnTV1Jgb",
+                "text": "The world of building and manufacturing is changing. Forge provides a set of cloud services, APIs, and resources for developers to quickly create the data-ce...",
+                "fallback": "YouTube: Autodesk Forge - YouTube",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/30zN7-REVuo\/hqdefault.jpg?custom=true&w=120&h=90&jpg444=true&jpgq=90&sp=68&sigh=ISjQIOMqnfJBeur5ZIyKhZcoEy0",
+                "from_url": "https:\/\/www.youtube.com\/playlist?list=PL_6ApchKwjN9CZCqUl4RZrsyDvnTV1Jgb",
+                "thumb_width": 120,
+                "thumb_height": 90,
+                "service_icon": "https:\/\/s.ytimg.com\/yts\/img\/favicon-vflz7uhzw.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1489126761.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "<http:\/\/adndevblog.typepad.com\/cloud_and_mobile\/2016\/09\/introduction-to-model-derivative-api.html>",
+        "attachments": [
+            {
+                "service_name": "Cloud and Mobile",
+                "title": "Introduction to Model Derivative API",
+                "title_link": "http:\/\/adndevblog.typepad.com\/cloud_and_mobile\/2016\/09\/introduction-to-model-derivative-api.html",
+                "text": "By Virupaksha Aithal Here is the recording of the “Introduction to Model Derivative API ” presented on 27th September 2016. Live samples shown: <http:\/\/modelderivative.herokuapp.com> Source code for this sample: <https:\/\/github.com\/Developer-Autodesk\/model.derivative.api-nodejs-sample> YouTube video : <https:\/\/www.youtube.com\/watch?v=v8ngEnN3qZk> Click Here to download zip file which contains the presentation used.",
+                "fallback": "Cloud and Mobile: Introduction to Model Derivative API",
+                "from_url": "http:\/\/adndevblog.typepad.com\/cloud_and_mobile\/2016\/09\/introduction-to-model-derivative-api.html",
+                "service_icon": "http:\/\/adndevblog.typepad.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1489127622.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "これが今お話した、POSTMANのデータセットなどもダウンロードできるリンクです。（大和田さんへ補足：今小森さんと分科会してます）",
+        "edited": {
+            "user": "U3QC4BL3V",
+            "ts": "1489127687.000000"
+        },
+        "ts": "1489127641.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "<https:\/\/www.shadertoy.com\/>",
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1489130144.000000"
+        },
+        "ts": "1489130133.000008"
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "ありがとうございます！\n大変申し訳ないのですが、打ち合わせが延びて1920くらいには到着出来るかと思います。",
+        "ts": "1485942542.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ぼくも10分ぐらい遅れます。すみません。",
+        "ts": "1485943046.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "了解\nすでに入ってます",
+        "ts": "1485943394.000009"
+    },
+    {
+        "text": "added an integration to this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3R5LDG4F|Trello>",
+        "bot_id": "B3R5LDG4F",
+        "type": "message",
+        "subtype": "bot_add",
+        "user": "U2JUP48HG",
+        "ts": "1485951617.000010"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/D7tQdH6H|次回は8日？>\" added to list \"<https:\/\/trello.com\/b\/XVv9dNwt|基本水曜日>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/D7tQdH6H|次回は8日？>\" added to list \"<https:\/\/trello.com\/b\/XVv9dNwt|基本水曜日>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485951635.000011"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":true,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-01-23T09:00:00+09:00\",\"ped\":\"2017-01-27T18:00:00+09:00\"})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":true,\"ownerId\":false,\"dependencies\":[],\"psd\":\"2017-01-23T09:00:00+09:00\",\"ped\":\"2017-01-27T18:00:00+09:00\"})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/tZCgbmNw|170125 https:\/\/docs.google.com\/document\/d\/1Cf1eIamzj0RjoNtJb7489F4Mpt2jOweyseQXq9a-ix4\/edit>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485951684.000012"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[]})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[]})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/D7tQdH6H|次回は8日？>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1485951685.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すみません、2\/8ですが別件はいってました。19時まで本厚木。\n\n対面なら2\/9,14時までまたは 2\/10,13時以降\nテレコンなら上記日程に加え2\/7終日,2\/8,9の21時以降が可能です。",
+        "ts": "1485993408.000002"
+    }
+]

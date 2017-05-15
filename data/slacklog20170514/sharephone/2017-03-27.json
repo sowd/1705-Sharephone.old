@@ -1,0 +1,39 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "定例の（？）進捗報告です。URLかわりませんが、コーパスを選ぶだけで処理開始します。\n<http:\/\/hems.gallery:8080\/>\n\n話題ごとに分けたいので、その判断基準となる名詞を選び出すようにしました。すぐ出てくる黒字のところはMecabで探した固有・一般名詞（を多少セレクトしたもの）で、しばらく待つと赤くハイライトされるところは、出現頻度が一定以下の語です。出現頻度の統計は、この日常会話データ全てを用いて計算しました。\n\n「話題」のことを「あるグループの単語が出やすい文脈」と解釈すると、そこでだけ頻出する単語を選び出すことが必要だと思います。\nこの赤字の単語の特徴をword2vecで表現して、同じような特徴ベクトルになるところで分ければ台詞を話題別に分類できるのではと考えました。まずはクラスタ数を与えてK-meansで動かしてみます。\n\nうまく分かれたら、今度はユーザーが指定した場所の近傍をセグメントに分けるということをやります。\nセグメントに分かれたら、ようやく要約に踏み込めます。\n\nNLP結構大変ですね…",
+        "ts": "1490622137.550995"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "着々と進化してますね！\n大和田さんのアプローチとはあまり関係無いかもしれませんが、以前関わった業務で話題のポジティブ度\/ネガティブ度の遷移の判定が大事という議論がありました。\n感情の変化速度∝話題の重要度、という考え方です。",
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1490627781.000000"
+        },
+        "ts": "1490627744.279141"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "僕の進捗ですが、Qiitaに書いた通り、ForgeのbucketにアップロードしたファイルをForge Viewerで表示するワークフローは理解しました。(なぜかRetention policyをpersistentにしても数日でURNが無効になってしまうという現象はありますがきっと僕が何か見落としてるんだと思います)\n<http:\/\/qiita.com\/comocc\/items\/04e6a06e87d06dac20da#3-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89>\n次はいよいよMESHと繋ごうか、というところで年度末で本業が立て込んでしまっています(^^;もうひと頑張り。\n\nところで弊社内の3割(=3人)の間でPositive Computingがマイブームでして、キーワードとして「共感」というのが挙がっています。\n↑でポジネガともちょっと関連しますが、共感=話題の重要度と見なすと、大和田さんの書かれている要約の対象の絞り込みには肯定ワードの出現頻度が使えるかもしれませんね。",
+        "attachments": [
+            {
+                "service_name": "Qiita",
+                "title": "AutodeskのForge Viewerを利用してFBXファイルを表示する - Qiita",
+                "title_link": "http:\/\/qiita.com\/comocc\/items\/04e6a06e87d06dac20da#3-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89",
+                "text": "Autodesk社の[Forge Viewer](<https:\/\/developer.autodesk.com\/en\/docs\/viewer\/v2\/overview\/>)はWebGLベースのJavaScriptライブラリーであり、他の[...",
+                "fallback": "Qiita: AutodeskのForge Viewerを利用してFBXファイルを表示する - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/comocc\/items\/04e6a06e87d06dac20da#3-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 1
+            }
+        ],
+        "ts": "1490665986.911557"
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "分科会すばらしい",
+        "ts": "1489375528.481740"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "実装ガンガン進みそうで脅威（笑",
+        "ts": "1489375553.483517"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "要約はDeep Learningでもまだむずいらしい：\n<http:\/\/news.mynavi.jp\/news\/2016\/08\/26\/439\/>",
+        "attachments": [
+            {
+                "service_name": "マイナビニュース",
+                "title": "TensorFlowで文章要約はできるのか？ - Google Research Blog",
+                "title_link": "http:\/\/news.mynavi.jp\/news\/2016\/08\/26\/439\/",
+                "text": "毎日、人々は広大な情報の中に居る。ニュースやSNSから検索結果の情報まで。機械学習によって自動的に文章の要約が正確に届けられるのであれば、それはとても有益であり、また長い期間においての目標でもある。とGoogle Brain teamは\"Text summarization with TensorFlow\"と題した記事をGoogle Research Blogに投稿した。",
+                "fallback": "マイナビニュース: TensorFlowで文章要約はできるのか？ - Google Research Blog",
+                "image_url": "http:\/\/news.mynavi.jp\/news\/2016\/08\/26\/439\/index.iapp.jpg",
+                "from_url": "http:\/\/news.mynavi.jp\/news\/2016\/08\/26\/439\/",
+                "image_width": 320,
+                "image_height": 159,
+                "image_bytes": 28610,
+                "service_icon": "http:\/\/news.mynavi.jp\/apple-touch-icon-precomposed.png",
+                "id": 1
+            }
+        ],
+        "ts": "1489375571.484653"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "他方、今の研究でもよく使われている文の重要さのスコアリングアルゴリズムはMMR(maximal marginal relevance)という２０年も前に開発された手法らしい\n<http:\/\/citeseerx.ist.psu.edu\/viewdoc\/download?doi=10.1.1.188.3982&amp;rep=rep1&amp;type=pdf>",
+        "ts": "1489375707.493458"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これは実装せねば",
+        "ts": "1489375722.494489"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ということでまずはこれをやります",
+        "ts": "1489375761.497010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "こんなものを要約しないといかんのか…\n<https:\/\/www.dropbox.com\/s\/683rbttdd5eated\/data001.utf8n.txt?dl=0>",
+        "ts": "1489377983.643916"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> shared a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4HBKM4UV\/data001.utf8n.txt|data001.utf8n.txt>",
+        "file": {
+            "id": "F4HBKM4UV",
+            "created": 1489377984,
+            "timestamp": 1489377984,
+            "name": "data001.utf8n.txt",
+            "title": "data001.utf8n.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 53702,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/683rbttdd5eated\/data001.utf8n.txt?dl=0",
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4HBKM4UV\/data001.utf8n.txt",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1489377984.643978"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "形態素解析してみた：\n<https:\/\/www.dropbox.com\/s\/lh5yuqr35datyqi\/data001%E5%BD%A2%E6%85%8B%E7%B4%A0.xlsx?dl=0>",
+        "ts": "1489378023.646470"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> shared a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4HA2K928\/data001_________.xlsx|data001形態素.xlsx>",
+        "file": {
+            "id": "F4HA2K928",
+            "created": 1489378024,
+            "timestamp": 1489378024,
+            "name": "data001形態素.xlsx",
+            "title": "data001形態素.xlsx",
+            "mimetype": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "filetype": "xlsx",
+            "pretty_type": "Excel Spreadsheet",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 522127,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/lh5yuqr35datyqi\/data001%E5%BD%A2%E6%85%8B%E7%B4%A0.xlsx?dl=0",
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4HA2K928\/data001_________.xlsx",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1489378024.646552"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なかなか頭が痛いですね",
+        "ts": "1489378073.649890"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "「だから、がい、そとみだけは。なんか」\n⇒「だ|から|、|甲斐|、|そう|と|見る|だけ|は|。|何|か」",
+        "ts": "1489378350.667467"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "外見って言ってくれ…",
+        "ts": "1489378360.668083"
+    }
+]

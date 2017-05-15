@@ -1,0 +1,77 @@
+[
+    {
+        "user": "U2JUP48HG",
+        "text": "<@U2JUP48HG|sowd> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484618644.000002"
+    },
+    {
+        "user": "U2JUP48HG",
+        "purpose": "論文をよみ要約するスレ。Trelloの「Survey:」からはじまるボード（複数可）と連携させる。",
+        "text": "<@U2JUP48HG|sowd> set the channel purpose: 論文をよみ要約するスレ。Trelloの「Survey:」からはじまるボード（複数可）と連携させる。",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1484618645.000003"
+    },
+    {
+        "user": "U2JUM58F8",
+        "inviter": "U2JUP48HG",
+        "text": "<@U2JUM58F8|komori> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484618645.000004"
+    },
+    {
+        "user": "U3PQ45JD7",
+        "inviter": "U2JUP48HG",
+        "text": "<@U3PQ45JD7|trello> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484618645.000005"
+    },
+    {
+        "user": "U3QC4BL3V",
+        "inviter": "U2JUP48HG",
+        "text": "<@U3QC4BL3V|tetsuya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484618645.000006"
+    },
+    {
+        "text": "added an integration to this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3R5LDG4F|Trello>",
+        "bot_id": "B3R5LDG4F",
+        "type": "message",
+        "subtype": "bot_add",
+        "user": "U2JUP48HG",
+        "ts": "1484619625.000009"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Labels:* green",
+                "text": "*Labels:* green",
+                "pretext": "Label \"green\" added to card \"<https:\/\/trello.com\/c\/GQ7QJUiw|不確実性があるグラフの可視化。既存研究との差分は、グラフの局所的な特徴に着目するのではなく、確率分布をグラフレイアウトに変換するところだとのこと。一つ一つのアルゴリズムは手作り感あり（なら僕にもできそうという意味で）。最新論文だし、Node\/Edge Splattingなどの標準的な？手法の説明もあるので、何度も読み返したい。 論文リンクはこちら：http:\/\/hci.uni-kl.de\/~humayoun\/seminars-ws1617\/papers\/v2_1.pdf>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484619712.000010"
+    },
+    {
+        "text": "removed an integration from this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3R5LDG4F|Trello>",
+        "bot_id": "B3R5LDG4F",
+        "type": "message",
+        "subtype": "bot_remove",
+        "user": "U2JUP48HG",
+        "ts": "1484619787.000011"
+    }
+]

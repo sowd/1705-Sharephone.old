@@ -1,0 +1,42 @@
+[
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[]})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[]})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/cjp7r1Cs|Android KadecotとLinux Kadecotのバージョン合わせ（大仕事）>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486518083.000002"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[]})",
+                "text": "*Description:* \n\n---\n[Elegantt data. What's this?](<http:\/\/bit.ly\/elegantt-for-trello-whats-this>)\n[](Elegantt_data:dont_delete{\"ignored\":false,\"autoPlanned\":false,\"ownerId\":false,\"dependencies\":[]})",
+                "pretext": "Card updated \"<https:\/\/trello.com\/c\/QN5C7vqN|Android KadecotのExternal Plugin(クラウド連携機能）>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486518083.000003"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "BIMと音声に思わず反応してしまいました。\n<http:\/\/www.itmedia.co.jp\/smartjapan\/articles\/1701\/27\/news037.html>",
+        "attachments": [
+            {
+                "service_name": "スマートジャパン",
+                "title": "ワトソンが“声”で日本橋を案内、建物の「データベース化」で実現 (1\/2)",
+                "title_link": "http:\/\/www.itmedia.co.jp\/smartjapan\/articles\/1701\/27\/news037.html",
+                "text": "清水建設、日本IBM、三井不動産の3社は、東京・日本橋の商業施設で音声ナビゲーションシステムの実証実験を開始する。スマートフォンとビーコン、さらにBIMモデルのような建物の空間情報データベースを活用し、一般利用者の他、車いす利用者や視覚障がい者など、ユーザーごとに最適な経路をリアルタイムに音声で案内できるシステムだ。",
+                "fallback": "スマートジャパン: ワトソンが“声”で日本橋を案内、建物の「データベース化」で実現 (1\/2)",
+                "thumb_url": "http:\/\/image.itmedia.co.jp\/smartjapan\/articles\/1701\/27\/rk_170120_beacon01.jpg",
+                "from_url": "http:\/\/www.itmedia.co.jp\/smartjapan\/articles\/1701\/27\/news037.html",
+                "thumb_width": 590,
+                "thumb_height": 311,
+                "service_icon": "http:\/\/www.itmedia.co.jp\/smartjapan\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1485518880.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "おお！！\nIBMもBIMなんですねw",
+        "ts": "1485520297.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "一般家庭はまだまだですよね。うちらはそこで！",
+        "ts": "1485520315.000003"
+    }
+]

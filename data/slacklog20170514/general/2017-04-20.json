@@ -1,0 +1,93 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今作っているもの（僕がボトルネックで恐縮ですが）MFTで出しませんか？\n<http:\/\/makezine.jp\/event\/mft2017\/>",
+        "attachments": [
+            {
+                "service_name": "Maker Faire Tokyo 2017",
+                "title": "Maker Faire Tokyo 2017 | Maker Faire Tokyo 2017 | Make: Japan",
+                "title_link": "http:\/\/makezine.jp\/event\/mft2017\/",
+                "text": "Maker Faire Tokyo 2017は8月5日（土）、6日（日）東京ビッグサイトで開催！ユニークな発想と新しいテクノロジーの力で作り出される作品や、Makerたちに会いにいこう",
+                "fallback": "Maker Faire Tokyo 2017: Maker Faire Tokyo 2017 | Maker Faire Tokyo 2017 | Make: Japan",
+                "image_url": "http:\/\/makezine.jp\/event\/wp-content\/themes\/makerfairetokyo\/mft2017\/img\/make_ogp.png",
+                "from_url": "http:\/\/makezine.jp\/event\/mft2017\/",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 48468,
+                "service_icon": "http:\/\/makezine.jp\/event\/wp-content\/themes\/makerfairetokyo\/library\/images\/icons\/h\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1492735550.665946"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "「おうちハック同好会」名義で申し込もうかと思ってます",
+        "ts": "1492735560.667210",
+        "reactions": [
+            {
+                "name": "heart_eyes_cat",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ぜひ！\n弊社も例によってカオスでロックな品々を出展予定です。（まだ何も決まってない）",
+        "ts": "1492736894.833917"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "よーっし！！",
+        "ts": "1492737177.868203"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "雰囲気電話完成させたいですね",
+        "ts": "1492737193.869795"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "（名前が変わった？）",
+        "ts": "1492737198.870491"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Revitも組み込みたい",
+        "ts": "1492737225.873831"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "いいですね！！！！",
+        "ts": "1492737804.944560"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": ":kissing_heart:",
+        "ts": "1492737817.945966"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "MFTに関してはあまり内輪感が出るのもあれなので、あとで一応おうちハック同好会のFBで募集をかけますが、真っ先に手を挙げてくださいw",
+        "ts": "1492739724.179089"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": ":raised_hands:",
+        "ts": "1492739983.210034"
+    }
+]

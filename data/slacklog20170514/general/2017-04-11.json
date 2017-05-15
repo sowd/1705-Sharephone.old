@@ -1,0 +1,178 @@
+[
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "すごいですね！温湿度計持ってます。",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491950697.760325"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "もし、今日打ち合わせされるなら参加したいです！",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491965079.761719"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "13時から大和田さんとSony CSLで打ち合わせ予定です！",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491967524.026012"
+    },
+    {
+        "timestamp": "1491967524026012",
+        "is_multiteam": false,
+        "slog_is_shared": "0",
+        "slog_is_mpdm": "0",
+        "slog_is_slackbot_dm": false,
+        "slog_is_self_dm": false,
+        "is_thread_broadcast": true,
+        "plain_text": "13時から大和田さんとSony CSLで打ち合わせ予定です！",
+        "attachments": [
+            {
+                "from_url": "https:\/\/lifedesign-tech.slack.com\/archives\/C2JUBSU13\/p1491883494027548",
+                "fallback": "[April 10th, 2017 9:04 PM] sowd: 人感か温湿度がつかえたらなー",
+                "ts": "1491883494.027548",
+                "author_subname": "sowd",
+                "channel_id": "C2JUBSU13",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "人感か温湿度がつかえたらなー",
+                "author_name": "Shigeru Owada",
+                "author_link": "https:\/\/lifedesign-tech.slack.com\/team\/sowd",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-10-05\/87507494996_9b0e6637068fdd5ba73f_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "14 replies"
+            },
+            {
+                "fallback": "13時から大和田さんとSony CSLで打ち合わせ予定です！",
+                "author_name": "Akihiro Komori",
+                "author_subname": "komori",
+                "text": "13時から大和田さんとSony CSLで打ち合わせ予定です！",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "author_link": "https:\/\/lifedesign-tech.slack.com\/team\/komori",
+                "from_url": "https:\/\/lifedesign-tech.slack.com\/archives\/C2JUBSU13\/p1491967524026012?thread_ts=1491883494027548&cid=C2JUBSU13",
+                "ts": "1491967524.026012",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/c5d3d0065be3563bd1361cca886b80d9.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F3654%2Fimg%2Favatars%2Fava_0021-48.png",
+                "id": 2
+            }
+        ],
+        "text": "",
+        "type": "message",
+        "subtype": "reply_broadcast",
+        "user": "U2JUM58F8",
+        "ts": "1491967524.026022"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あーっ！",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969336.211229"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "全然気づいてなかったです！すみません",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969343.211868"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "歓迎ですけど…もう遅いかな",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969350.212513"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "なんと！2時前くらいの到着ですが、今日時間あるので向かおうと思います。ソニーCSL見てみたかったですしｗ",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969533.230715"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ぜんぜんＯＫ！！",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969545.231844"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "大崎あたりで一杯やりますかw",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969556.232781"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "着いたら連絡してください。会社には内緒で行きますので。電話でもＯＫ",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969584.235753"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "いいですねw了解です！",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969866.267905"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "夜は用事があるので、軽く一杯飲みくらいで。\n場所のアタリがないのですが、きっと小森さんなら知っているでしょう（無茶ブリ",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969951.276748"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "大崎の桜素敵でしたよ",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969964.278013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "小森さんは現在ハック中です",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969973.278940"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "まさかこの場でやっちゃうとはさすが",
+        "thread_ts": "1491883494.027548",
+        "parent_user_id": "U2JUP48HG",
+        "ts": "1491969978.279540"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "凄い閑静なところにありますね。",
+        "ts": "1491972470.527538"
+    }
+]

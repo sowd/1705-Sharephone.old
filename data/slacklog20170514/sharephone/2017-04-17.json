@@ -1,0 +1,104 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ひさびさですがほんのちょっとの現状報告です。\n要約のフォーマットを作るために、livedoor newsの「ざっくり言うと」と本文のデータを集めていました。Bookmarkletで手作業で集めるという面倒な方法ですが65通りくらいのデータを集めました。\n<https:\/\/github.com\/sowd\/w2vserv\/blob\/master\/data\/summarySupervise.json>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "sowd\/w2vserv",
+                "title_link": "https:\/\/github.com\/sowd\/w2vserv\/blob\/master\/data\/summarySupervise.json",
+                "text": "w2vserv - Word2Vec Node.js server",
+                "fallback": "GitHub: sowd\/w2vserv",
+                "from_url": "https:\/\/github.com\/sowd\/w2vserv\/blob\/master\/data\/summarySupervise.json",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/1326876?v=3&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1492427123.645286"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "電話のデータを「ざっくり言うと」形式で要約してほしいんですが…うまくいくんだろうか。\n<http:\/\/news.livedoor.com\/topics\/detail\/12947399\/>\nまだまだ先はありそうで、ごめんなさい。",
+        "attachments": [
+            {
+                "service_name": "ライブドアニュース",
+                "title": "中国当局 金正恩氏に対し「亡命」をするよう説得している可能性 (2017年4月17日掲載) - ライブドアニュース",
+                "title_link": "http:\/\/news.livedoor.com\/topics\/detail\/12947399\/",
+                "text": "中国当局が、金正恩氏に亡命するよう説得しているとの可能性が報じられた。韓国紙は「4月末までに、中国当局が金正恩委員長の亡命を説得する」と報道。「説得が失敗に終われば、米国は先制攻撃を加える」とした",
+                "fallback": "ライブドアニュース: 中国当局 金正恩氏に対し「亡命」をするよう説得している可能性 (2017年4月17日掲載) - ライブドアニュース",
+                "image_url": "http:\/\/image.news.livedoor.com\/newsimage\/a\/9\/a9883_1456_2dd83518_9e62732b.jpg",
+                "image_width": 379,
+                "image_height": 250,
+                "from_url": "http:\/\/news.livedoor.com\/topics\/detail\/12947399\/",
+                "image_bytes": 85367,
+                "service_icon": "http:\/\/parts.news.livedoor.com\/img\/favicon.ico?v=20131002",
+                "id": 1
+            }
+        ],
+        "ts": "1492427185.649780"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": ":+1: ",
+        "ts": "1492428632.760925"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "先が読みたくなるjsonファイル初めて見ました！w",
+        "ts": "1492428741.769418"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "さっき偶然FBの広告でこれ見つけまして、ご参考まで\n<https:\/\/www.ibm.com\/think\/jp-ja\/watson\/ai-transcription\/>",
+        "attachments": [
+            {
+                "service_name": "THINK Journal",
+                "title": "Watsonにテープ起こしさせてみた - IBM THINK Watson",
+                "title_link": "https:\/\/www.ibm.com\/think\/jp-ja\/watson\/ai-transcription\/",
+                "text": "「そうだ、Watson にテープ起こしさせよう！」ということで、IBM Bluemix で使える人工知能 Watson を使って、インタビューのテープ起こしをしてみました。",
+                "fallback": "THINK Journal: Watsonにテープ起こしさせてみた - IBM THINK Watson",
+                "thumb_url": "https:\/\/www.ibm.com\/think\/jp-ja\/wp-content\/uploads\/2017\/01\/ai-transcription.png",
+                "ts": 1484549142,
+                "from_url": "https:\/\/www.ibm.com\/think\/jp-ja\/watson\/ai-transcription\/",
+                "thumb_width": 1084,
+                "thumb_height": 600,
+                "service_icon": "http:\/\/www.ibm.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1492428900.781490",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2JUP48HG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "IBMのページですけど\n&gt; Watson の音声認識は、まだまだ発展途上です。\nなんて書いてて控えめですね。（実力以上に褒めるリスクの方が大きいでしょうが）\n\n電話音声のディクテーションではきれいな文字列になっていない可能性もあるのか…どうしよう、そこがうまくいってなければ自然言語解析がんばっても意味ない！\n\n「はやしすみこ」さんが「排水口 さん」になってるしー",
+        "edited": {
+            "user": "U2JUP48HG",
+            "ts": "1492430120.000000"
+        },
+        "ts": "1492430097.873868"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "&gt; 「はやしすみこ」さんが「排水口 さん」\n言った当人には分かるっちゃあ分かりますね〜",
+        "ts": "1492479730.077949"
+    }
+]

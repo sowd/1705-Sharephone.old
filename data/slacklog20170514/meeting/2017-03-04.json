@@ -1,0 +1,54 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なにかアカウントが必要ですか？",
+        "ts": "1488637257.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "あれ？いまスマホからアクセスしてみましたが見れないですね。Forgeにログインしないとだめなのかな？あとで調べてみます。",
+        "ts": "1488685540.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "小森さん\n帰国中で確認遅れました！あります！",
+        "ts": "1488685621.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "すごい！",
+        "ts": "1488686069.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "<https:\/\/models.autodesk.io\/ではurnを作成する際に一定時間経過すると、消える設定になっていると思います。>",
+        "ts": "1488686372.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "A360のデータを見るのは\n3-legged認証しないとですね。\n<http:\/\/adndevblog.typepad.com\/technology_perspective\/2017\/01\/forge-api-sample-to-evaluate-3-legged-authentication.html>",
+        "attachments": [
+            {
+                "service_name": "Technology Perspective from Japan",
+                "title": "3-legged 認証 Forge API サンプル",
+                "title_link": "http:\/\/adndevblog.typepad.com\/technology_perspective\/2017\/01\/forge-api-sample-to-evaluate-3-legged-authentication.html",
+                "text": "Model Derivative API と Data Management API を評価出来るサ...",
+                "fallback": "Technology Perspective from Japan: 3-legged 認証 Forge API サンプル",
+                "image_url": "http:\/\/adndevblog.typepad.com\/.a\/6a0167607c2431970b01bb0966fd74970d-600wi",
+                "from_url": "http:\/\/adndevblog.typepad.com\/technology_perspective\/2017\/01\/forge-api-sample-to-evaluate-3-legged-authentication.html",
+                "image_width": 369,
+                "image_height": 250,
+                "image_bytes": 25752,
+                "service_icon": "http:\/\/adndevblog.typepad.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1488686525.000006"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "user": "U2JUP48HG",
+        "members": [
+            "U2JUM58F8",
+            "U2JUP48HG",
+            "U3QC4BL3V"
+        ],
+        "text": "<@U2JUP48HG|sowd> archived the channel (w\/ 3 members)",
+        "type": "message",
+        "subtype": "channel_archive",
+        "ts": "1485989350.000002"
+    }
+]

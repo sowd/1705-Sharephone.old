@@ -1,0 +1,209 @@
+[
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "<https:\/\/youtu.be\/38BJkQPhj_o>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "IBM Research Cognitive Building",
+                "title_link": "https:\/\/youtu.be\/38BJkQPhj_o",
+                "author_name": "IBM Research",
+                "author_link": "https:\/\/www.youtube.com\/user\/IBMLabs",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/38BJkQPhj_o\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: IBM Research Cognitive Building",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"https:\/\/www.youtube.com\/embed\/38BJkQPhj_o?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/youtu.be\/38BJkQPhj_o",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485734500.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "autodesk の Forgeプラットフォームを IBMが使ってる動画です！",
+        "ts": "1485734546.000004",
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "cadはautodesk1択ですね！",
+        "ts": "1485735049.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "カメラ制御やヒートマップ描画はForgeの機能ですか？たまにこの手のUIを実装するのですが、フロアマップに合わせて手作業で作ることが多いので、自動化したいと思ってました！",
+        "ts": "1485737559.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "ヒートマップはデフォルトのAPIにはないですね。。サンプルはもちろんありますが。選択した箇所へのズームなどはForgeの機能です。",
+        "ts": "1485738218.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "テクスチャは任意に貼れますか？",
+        "ts": "1485739795.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あと、自分が決めたカメラワークを再現するプレゼンモードみたいなのは？",
+        "ts": "1485739839.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3XBLC997\/img_20170130_115503.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F3XBLC997",
+            "created": 1485744930,
+            "timestamp": 1485744930,
+            "name": "IMG_20170130_115503.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 443720,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3XBLC997\/img_20170130_115503.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3XBLC997\/download\/img_20170130_115503.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XBLC997-4465b6ce49\/img_20170130_115503_64.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XBLC997-4465b6ce49\/img_20170130_115503_80.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XBLC997-4465b6ce49\/img_20170130_115503_360.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XBLC997-4465b6ce49\/img_20170130_115503_480.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XBLC997-4465b6ce49\/img_20170130_115503_160.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XBLC997-4465b6ce49\/img_20170130_115503_720.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XBLC997-4465b6ce49\/img_20170130_115503_960.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XBLC997-4465b6ce49\/img_20170130_115503_1024.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3XBLC997\/img_20170130_115503.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F3XBLC997-d08e205a81",
+            "channels": [
+                "C2JUBSU13"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1485744932.000010"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3Y4FBTTN\/img_20170130_115538.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F3Y4FBTTN",
+            "created": 1485744963,
+            "timestamp": 1485744963,
+            "name": "IMG_20170130_115538.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 337989,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3Y4FBTTN\/img_20170130_115538.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3Y4FBTTN\/download\/img_20170130_115538.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3Y4FBTTN-ae236ab5b2\/img_20170130_115538_64.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3Y4FBTTN-ae236ab5b2\/img_20170130_115538_80.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3Y4FBTTN-ae236ab5b2\/img_20170130_115538_360.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3Y4FBTTN-ae236ab5b2\/img_20170130_115538_480.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3Y4FBTTN-ae236ab5b2\/img_20170130_115538_160.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3Y4FBTTN-ae236ab5b2\/img_20170130_115538_720.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3Y4FBTTN-ae236ab5b2\/img_20170130_115538_960.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3Y4FBTTN-ae236ab5b2\/img_20170130_115538_1024.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3Y4FBTTN\/img_20170130_115538.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F3Y4FBTTN-24b884cc79",
+            "channels": [
+                "C2JUBSU13"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1485744966.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ヒートマップにもみえるんですが、違う情報なんですね",
+        "ts": "1485745032.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "カメラワークもよく要望されるので、近い将来、実装される気がします。テクスチャはアップロードしたものを、上書きするイメージですよね？\n貼っている事例があったのでちょっと探してみます。\n一つ目は面内応力の分布ですね。\n構造も結構色々やってます。\n２枚目は点群データと設計データの合わせですね。\n色の強弱は恐らく、点群の密度によるものだと思います。",
+        "ts": "1485748788.000013"
+    }
+]

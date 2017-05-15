@@ -1,0 +1,80 @@
+[
+    {
+        "user": "U2JUP48HG",
+        "text": "<@U2JUP48HG|sowd> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484184169.000002"
+    },
+    {
+        "user": "U2JUM58F8",
+        "inviter": "U2JUP48HG",
+        "text": "<@U2JUM58F8|komori> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484184170.000003"
+    },
+    {
+        "user": "U2JUP48HG",
+        "purpose": "http:\/\/web3d2017.web3d.org\/",
+        "text": "<@U2JUP48HG|sowd> set the channel purpose: http:\/\/web3d2017.web3d.org\/",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1484184170.000004"
+    },
+    {
+        "user": "U3QC4BL3V",
+        "text": "<@U3QC4BL3V|tetsuya> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484189348.000005"
+    },
+    {
+        "user": "U3PQ45JD7",
+        "inviter": "U2JUP48HG",
+        "text": "<@U3PQ45JD7|trello> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484194409.000007"
+    },
+    {
+        "text": "added an integration to this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3R5LDG4F|Trello>",
+        "bot_id": "B3R5LDG4F",
+        "type": "message",
+        "subtype": "bot_add",
+        "user": "U2JUP48HG",
+        "ts": "1484194867.000011"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/2tGAK3NQ|Survey>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/2tGAK3NQ|Survey>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484194944.000012"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New list \"知財アクセス（投稿一か月前だそうだが間に合わない）\" added to board \"<https:\/\/trello.com\/b\/ksV2faXm|170213web3d>\"",
+                "text": "New list \"知財アクセス（投稿一か月前だそうだが間に合わない）\" added to board \"<https:\/\/trello.com\/b\/ksV2faXm|170213web3d>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484194967.000013"
+    }
+]

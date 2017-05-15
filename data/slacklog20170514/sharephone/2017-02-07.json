@@ -1,0 +1,34 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "<@U2JUP48HG> BluetoothPluginいじり始めました。\nREADME.mdにも書いていただいていますが、BLEデバイスの初期化のために、 `BluetoothProtocolClient` で `Context` 必要ですよね。 \nそこで `BluetoothPluginService.java` に以下のようなコードを足しても良いでしょうか?\n```\nprivate static BluetoothPluginService mService;\npublic void onCreate() {\n    mService = this;\n}\npublic static Context getContext() {\n    return mService != null ? mService.getApplicationContext() : null;\n}\n```",
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1486538608.000000"
+        },
+        "ts": "1486538579.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あっ、それでいいんだ！\nさっすかー！",
+        "ts": "1486539078.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "もちろん変更は小森さんの自由です！",
+        "ts": "1486539109.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "あと、　`minSdkVersion` が `15` になっていますが、 BLEを使えるようにするために `21` に上げても良いでしょうか?",
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1486541254.000000"
+        },
+        "ts": "1486540220.000006"
+    }
+]

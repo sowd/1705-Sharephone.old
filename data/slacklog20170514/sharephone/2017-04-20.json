@@ -1,0 +1,35 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "電話のエフェクトを思いついたのですが、\b感情抽出して、バラエティ番組や海外ドラマのような観客の声(笑い屋のおばちゃんとか)を自動挿入するのって出来ないでしょうか?\n本題じゃなくてすみませんが、今後盛り上げ屋の民主化が起こる気がしてて。",
+        "ts": "1492740201.148929"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "\b\bphonebotですって。全然メンテされてない。\n<https:\/\/github.com\/IBM-Bluemix\/phonebot>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "IBM-Bluemix\/phonebot",
+                "title_link": "https:\/\/github.com\/IBM-Bluemix\/phonebot",
+                "text": "phonebot - Slackbot using IBM Watson and Twilio to make phone calls via slack commands",
+                "fallback": "GitHub: IBM-Bluemix\/phonebot",
+                "from_url": "https:\/\/github.com\/IBM-Bluemix\/phonebot",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/7284885?v=3&s=400",
+                "thumb_width": 69,
+                "thumb_height": 69,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1492740573.025767"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "チャットと電話がシームレスにつながったらいいですね。当初書きかけたドラフトに近い",
+        "ts": "1492740626.030684"
+    }
+]

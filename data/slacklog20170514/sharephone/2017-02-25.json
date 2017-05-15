@@ -1,0 +1,205 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "その後も調査を進めています。方向性決定が遅くてすみません。",
+        "ts": "1488037489.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "最終目標：家中の会話を取得し、人間関係を類推し、それを可視化し、生活改善につなげること。家の作り方の改善に結び付けること。",
+        "edited": {
+            "user": "U2JUP48HG",
+            "ts": "1488040435.000000"
+        },
+        "ts": "1488037564.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "家中の会話を取得するというのは、先日書いた「Speechome」というプロジェクトですでにやっているが、こちらは子育てにフォーカスしており、2012年以降は進捗がレポートされていないようだ。\n<https:\/\/www.media.mit.edu\/cogmac\/projects\/hsp.html>\n<http:\/\/www.ted.com\/talks\/deb_roy_the_birth_of_a_word>",
+        "attachments": [
+            {
+                "service_name": "TED",
+                "service_url": "http:\/\/ted.com",
+                "title": "Deb Roy: The birth of a word",
+                "title_link": "http:\/\/www.ted.com\/talks\/deb_roy_the_birth_of_a_word",
+                "author_name": "Deb Roy",
+                "author_link": "http:\/\/www.ted.com\/speakers\/deb_roy",
+                "thumb_url": "https:\/\/pe.tedcdn.com\/images\/ted\/a1f5228246d1a5311ec7da7dd11cfb2fc9ead03d_240x180.jpg?lang=en",
+                "thumb_width": 240,
+                "thumb_height": 180,
+                "text": "MIT researcher Deb Roy wanted to understand how his infant son learned language -- so he wired up his house with videocameras to catch every moment (with exceptions) of his son's life, then parsed 90,000 hours of home video to watch \"gaaaa\" slowly turn into \"water.\" Astonishing, data-rich research with deep implications for how we learn.",
+                "fallback": "TED Video: Deb Roy: The birth of a word",
+                "from_url": "http:\/\/www.ted.com\/talks\/deb_roy_the_birth_of_a_word",
+                "service_icon": "https:\/\/pa.tedcdn.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1488038895.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "＃余談ですが、このTED Talkなかなかいいです\n====",
+        "edited": {
+            "user": "U2JUP48HG",
+            "ts": "1488040459.000000"
+        },
+        "ts": "1488038917.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "で、さしあたりやりたいこと：\n写真をシェアできる電話を作る。写真前後の会話を読み取り、手作業を加えて要約し写真のアノテーションとする。アノテーションには（思い出工学的な観点から）あとで主観的情報も追加できるようにする。",
+        "ts": "1488039053.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "テキストの要約の研究は非常にたくさんある。手作業を加えて要約するものも、手作業をコンピュータの知見でサポートするMachine Aided Human Summarization(MAHS)とか、逆に自動要約の事後プロセスに人手を加えるHuman Assisted Machine Summarization(HAMS)などあり、いくつか文献も見つけたが、最近はそんなに盛り上がっていない気がする。理由がわからないけど、きっと要約＋主観的アノテーションという概念はない気がするので、その路線で考えてみることにする",
+        "ts": "1488039310.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "電話の会話要約には、SkyWayが使えると思う。WebRTCで電話しながら、テキストチャットみたいに書き起こしができるらしい。書き起こせればあとは既存手法で要約できると思われる",
+        "ts": "1488039383.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "だんだんにライフログ的なところを情報として与え、共通の話題提供というような形に持っていきたい。",
+        "ts": "1488039463.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "電話を効率的要約できるというのは、コールセンター業務や家族新聞、育児交換日記などにも応用できると思う",
+        "ts": "1488039505.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "====",
+        "ts": "1488039562.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ということで、今度こそそろそろ作り始めたいと思います。",
+        "ts": "1488039577.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "作るものは前と変わらず、MESH Phoneの形。",
+        "ts": "1488039669.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "目的は「写真をシェアすることで会話が盛り上がる電話」",
+        "ts": "1488039746.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "手持ちの写真は、ジオタグと、機械学習により写っている物の名前を抽出しておく。",
+        "ts": "1488039873.000016"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "また、自分の会話履歴と行動履歴全てから、自分が興味がある位置やワードを抽出しておく。",
+        "ts": "1488039967.000017"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "電話の前に立つと人感センサーが反応。電話の側から、「この人と話しませんか？」のリコメンデーション",
+        "ts": "1488040021.000020"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "リコメンの理由は、\n・相手も電話の前にいること\n・自分の興味と相手の興味がマッチしていること。特にまだ見せていない写真の中に、相手の興味に合うものが含まれている場合にスコアが高くなる。",
+        "ts": "1488040099.000021"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "・話す前に、過去の会話要約がカードのように見られる。",
+        "ts": "1488040151.000022"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "・話しながら、写真の要約を作る（簡単なUIで品質向上？）",
+        "ts": "1488040212.000023"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "定量的データとしては、電話の頻度が増えたとか、長時間話すようになったという定量的データと、主観的に会話が盛り上がったというアンケート結果など。",
+        "ts": "1488040246.000024"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "また、自分の写真アルバムができる。電話でしゃべった結果を反映して、思い出もテキストとして添えられる。",
+        "ts": "1488040283.000025"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "====",
+        "ts": "1488040333.000026"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "論文としてはワンアイデアをシンプルに実装するものがいいんだけど、ちょっと分散してる感はありますね",
+        "ts": "1488040349.000027"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そこらへんは、ワンアイデアになるように区切りながら、また論文向けに違うストーリーをでっちあげたりしながら調整したいと思います。",
+        "ts": "1488040383.000028"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "既存研究の調査の進捗次第でコンセプトがぶれる可能性が多々あることはご了承下さい。",
+        "ts": "1488040413.000029"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今回のポイントとしては、高齢者という観点がないことが一つ。特になくてもいけるような気がするので。\nそれと関連して、写真はexif付きでdropboxに入っているものを電話中に閲覧しつつシェアするというつもりです。",
+        "ts": "1488041870.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "もう作りはじめていい気がしますが、論文ドラフトも書いてみます。\nあと、今回は別にいい気がするんですが、TED talkにも出てきた、家の全部屋の全映像、音声を閲覧できる三次元の家のモデルいいですね。autocadさんが家庭向けにやるサービスはああいうものから始まるのかもしれない。googleがやるかもしれません。\n個人的には何でもかんでも記録しておくべきなのか確信が持てないけど、一定の普遍的魅力はありますよね。",
+        "ts": "1488042086.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "室内全とりは天井ローバーのときにやりましょう！",
+        "ts": "1488062527.000002",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

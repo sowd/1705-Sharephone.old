@@ -1,0 +1,119 @@
+[
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "<http:\/\/www.robotshop.com\/jp\/ja\/rplidar-a2-360-laser-scanner.html?gclid=CjwKEAiArvTFBRCLq5-7-MSJ0jMSJABHBvp0TBJ1EE6fdPunVKo5vIEY575S23CPVBETsaHKMX1sjRoCY3vw_wcB>",
+        "ts": "1488792779.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "このライダーセンサー安くないですか？高いか。。\n<http:\/\/techable.jp\/archives\/37683>",
+        "attachments": [
+            {
+                "service_name": "Techable(テッカブル)",
+                "title": "全方位360度をスキャンできるライダーセンサー「Sweep」、お手ごろ価格で登場 | Techable(テッカブル)",
+                "title_link": "http:\/\/techable.jp\/archives\/37683",
+                "text": "光で距離などを測定できるLIDAR（ライダー）技術。高度かつ特殊な技術であることからこのセンサーは高価だが、ものづくりをする人がより手軽に活用できるようにと開発された「Sweep」を紹介しよう。 ・衝突回避センサーとして",
+                "fallback": "Techable(テッカブル): 全方位360度をスキャンできるライダーセンサー「Sweep」、お手ごろ価格で登場 | Techable(テッカブル)",
+                "thumb_url": "http:\/\/techable.jp\/wp-content\/uploads\/2016\/03\/Sweep-e1457196628901.jpg",
+                "from_url": "http:\/\/techable.jp\/archives\/37683",
+                "thumb_width": 600,
+                "thumb_height": 450,
+                "service_icon": "http:\/\/techable.jp\/wp-content\/uploads\/2015\/05\/techable.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1488792807.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "$229は安い！",
+        "ts": "1488793366.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "しかも40mいけるって？",
+        "ts": "1488793382.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "城主でもない限りは宅内全般いけそうですね。",
+        "ts": "1488793406.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "城主www",
+        "ts": "1488793416.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "菱田邸は城レベルかもしれませんが…",
+        "ts": "1488793440.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "いやいやいやいや",
+        "ts": "1488793450.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "集合住宅の共用部とかオフィスもいけますね",
+        "ts": "1488793485.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "レーザーの強度がわからないですね。目に入っても大丈夫なんでしょうか",
+        "ts": "1488793568.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "目に入れても痛くないレベルなら愛せますね！",
+        "ts": "1488793583.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あとAPIいるのかな",
+        "ts": "1488793605.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "会社で買えるなら買っておきたいすね",
+        "ts": "1488793617.000015"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "あ、robotshopの方見たら、6mですって",
+        "ts": "1488793659.000016"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ものが違うのかな、と思ったんですが？",
+        "ts": "1488793688.000017"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "私もそっち先に拝見したんですが、6mなら超音波ですいいんじゃないかとおもっちゃって。",
+        "ts": "1488793720.000018"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "別物でした。キックスタート今は$349ですね。<http:\/\/www.robotshop.com\/media\/files\/pdf2\/user_s_manual_sweep_v0.91.pdf>",
+        "ts": "1488793929.000019"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/QN5C7vqN|Android KadecotのExternal Plugin(クラウド連携機能）>\" added to list \"<https:\/\/trello.com\/b\/i63RqCzT|Do Someday>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/QN5C7vqN|Android KadecotのExternal Plugin(クラウド連携機能）>\" added to list \"<https:\/\/trello.com\/b\/i63RqCzT|Do Someday>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486420420.264851"
+    },
+    {
+        "text": "",
+        "bot_id": "B3YM2VCQ1",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/cjp7r1Cs|Android KadecotとLinux Kadecotのバージョン合わせ（大仕事）>\" added to list \"<https:\/\/trello.com\/b\/i63RqCzT|Do Someday>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/cjp7r1Cs|Android KadecotとLinux Kadecotのバージョン合わせ（大仕事）>\" added to list \"<https:\/\/trello.com\/b\/i63RqCzT|Do Someday>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486420501.265842"
+    }
+]

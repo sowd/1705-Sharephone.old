@@ -1,0 +1,297 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "[単なる報告] Semantic Sensor Networkについて勉強中。\n結構重い。",
+        "ts": "1484556739.000005"
+    },
+    {
+        "text": "removed an integration from this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3R5LDG4F|Trello>",
+        "bot_id": "B3R5LDG4F",
+        "type": "message",
+        "subtype": "bot_remove",
+        "user": "U2JUP48HG",
+        "ts": "1484619625.000002"
+    },
+    {
+        "text": "added an integration to this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3R5LDG4F|Trello>",
+        "bot_id": "B3R5LDG4F",
+        "type": "message",
+        "subtype": "bot_add",
+        "user": "U2JUP48HG",
+        "ts": "1484619787.000003"
+    },
+    {
+        "text": "removed an integration from this channel: <https:\/\/lifedesign-tech.slack.com\/services\/B3R5LDG4F|Trello>",
+        "bot_id": "B3R5LDG4F",
+        "type": "message",
+        "subtype": "bot_remove",
+        "user": "U2JUP48HG",
+        "ts": "1484619876.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "プロジェクタとカメラを使った3Dスキャン、これで出来るでしょうか。範囲は限定的だとは思いますが。\n<http:\/\/qiita.com\/nn_tok\/items\/b2233a5632ec9fcaf714>",
+        "attachments": [
+            {
+                "service_name": "Qiita",
+                "title": "OpenCVのstructured-lightを流用して3Dスキャン - Qiita",
+                "title_link": "http:\/\/qiita.com\/nn_tok\/items\/b2233a5632ec9fcaf714",
+                "text": "# 背景OpenCV3.1.0(?)からstructured-lightというコードが追加されたようです。これは、2台のカメラと1台のプロジェクターからなる3Dスキャン用のプログラムだと思いました。これを改造して1台のカメラと1...",
+                "fallback": "Qiita: OpenCVのstructured-lightを流用して3Dスキャン - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/nn_tok\/items\/b2233a5632ec9fcaf714",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 1
+            }
+        ],
+        "ts": "1484630362.000005",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U2JUP48HG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "これもわりと安いですね。\n<https:\/\/www.sparkfun.com\/products\/14117>",
+        "attachments": [
+            {
+                "title": "Scanse Sweep",
+                "title_link": "https:\/\/www.sparkfun.com\/products\/14117",
+                "text": "SEN-14117: The Scanse Sweep is a scanning LIDAR sensor designed to bring powerful 360-degree sensing capabilities to everyone for an affordable price. With a built-in",
+                "fallback": "Scanse Sweep",
+                "thumb_url": "https:\/\/cdn.sparkfun.com\/r\/92-92\/assets\/parts\/1\/2\/0\/0\/3\/14117-06.jpg",
+                "from_url": "https:\/\/www.sparkfun.com\/products\/14117",
+                "thumb_width": 92,
+                "thumb_height": 92,
+                "service_icon": "https:\/\/www.sparkfun.com\/fanboy.png",
+                "service_name": "sparkfun.com",
+                "id": 1
+            }
+        ],
+        "ts": "1484633952.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "OpenCVでできるんだ！",
+        "ts": "1484634051.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "昔勉強しましたが、ずいぶん手軽になってますね",
+        "ts": "1484634074.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今は超音波センサーあたってました",
+        "ts": "1484634089.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "秋月やスイッチサイエンスで手に入る手軽なモジュールだと、せいぜい6mどまりですね",
+        "ts": "1484634111.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<http:\/\/akizukidenshi.com\/catalog\/g\/gM-06685\/>",
+        "attachments": [
+            {
+                "title": "超音波センサー　ＳＲＦ０２: マイコン関連 秋月電子通商 電子部品 ネット通販",
+                "title_link": "http:\/\/akizukidenshi.com\/catalog\/g\/gM-06685\/",
+                "text": "電子部品,通販,販売,半導体,IC,マイコン,電子工作超音波センサー　ＳＲＦ０２秋月電子通商 電子部品の通販・販売",
+                "fallback": "超音波センサー　ＳＲＦ０２: マイコン関連 秋月電子通商 電子部品 ネット通販",
+                "from_url": "http:\/\/akizukidenshi.com\/catalog\/g\/gM-06685\/",
+                "service_icon": "http:\/\/akizukidenshi.com\/img\/usr\/apple-touch-icon.png",
+                "service_name": "akizukidenshi.com",
+                "id": 1
+            }
+        ],
+        "ts": "1484634117.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "いいやつはやっぱりレーザー",
+        "ts": "1484634153.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<https:\/\/www.switch-science.com\/catalog\/2981\/>",
+        "attachments": [
+            {
+                "service_name": "スイッチサイエンス",
+                "title": "LIDAR-Lite v3 - スイッチサイエンス",
+                "title_link": "https:\/\/www.switch-science.com\/catalog\/2981\/",
+                "text": "小型かつ高性能な、レーザーを利用した光学式測距モジュールです。搭載可能面積が少ない小型ロボットや、ドローン、無人走行車などに最適です。",
+                "fallback": "スイッチサイエンス: LIDAR-Lite v3 - スイッチサイエンス",
+                "thumb_url": "https:\/\/docid81hrs3j1.cloudfront.net\/contents\/large\/2981_001.jpg",
+                "thumb_width": 500,
+                "thumb_height": 500,
+                "fields": [
+                    {
+                        "title": "価格",
+                        "value": "21,748 円",
+                        "short": true
+                    },
+                    {
+                        "title": "在庫",
+                        "value": "多数",
+                        "short": true
+                    }
+                ],
+                "from_url": "https:\/\/www.switch-science.com\/catalog\/2981\/",
+                "service_icon": "http:\/\/docid81hrs3j1.cloudfront.net\/apple-touch-icon-57x57.png",
+                "id": 1
+            }
+        ],
+        "ts": "1484634155.000016"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "電話からレーザー放射されたら怖いので、できたら超音波かプロジェクション＋カメラにしたいところですね",
+        "ts": "1484634206.000018"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "モジュールじゃないけど超音波で12mまでいけるのもありました。\n<http:\/\/akizukidenshi.com\/catalog\/g\/gM-02737\/>",
+        "attachments": [
+            {
+                "title": "超音波距離計（完成品）ＭＳ−９８（２Ｇ）: 測定器・計測器関連 秋月電子通商 電子部品 ネット通販",
+                "title_link": "http:\/\/akizukidenshi.com\/catalog\/g\/gM-02737\/",
+                "text": "電子部品,通販,販売,半導体,IC,マイコン,電子工作超音波距離計（完成品）ＭＳ−９８（２Ｇ）秋月電子通商 電子部品の通販・販売",
+                "fallback": "超音波距離計（完成品）ＭＳ−９８（２Ｇ）: 測定器・計測器関連 秋月電子通商 電子部品 ネット通販",
+                "from_url": "http:\/\/akizukidenshi.com\/catalog\/g\/gM-02737\/",
+                "service_icon": "http:\/\/akizukidenshi.com\/img\/usr\/apple-touch-icon.png",
+                "service_name": "akizukidenshi.com",
+                "id": 1
+            }
+        ],
+        "ts": "1484634258.000019"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ただし＞\n※１２ｍ以上測定するときは、測定対象が、大きさ３ｍ×３ｍ、空気の相対湿度５０％以上である必要があります。 \n※測定のタイミングにより、実際の測定距離とは大きくかけはなれた値が表示される場合がありますが、超音波の性質上止むを得ないもので、故障ではありません。",
+        "ts": "1484634265.000021"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "とのこと。物理的限界なんですね",
+        "ts": "1484634273.000022"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "「不確定性の可視化」という目的を考えれば、かえって便利な性質ともいえるかもしれませんが^^;",
+        "ts": "1484634304.000023"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "645cm\n<https:\/\/www.switch-science.com\/catalog\/139\/>",
+        "attachments": [
+            {
+                "service_name": "スイッチサイエンス",
+                "title": "超音波距離センサモジュールMaxbotix LV-EZ1 - スイッチサイエンス",
+                "title_link": "https:\/\/www.switch-science.com\/catalog\/139\/",
+                "text": "Maxbotix社の超音波距離センサLV-EZ1",
+                "fallback": "スイッチサイエンス: 超音波距離センサモジュールMaxbotix LV-EZ1 - スイッチサイエンス",
+                "thumb_url": "https:\/\/docid81hrs3j1.cloudfront.net\/contents\/large\/139_1.jpg",
+                "thumb_width": 500,
+                "thumb_height": 500,
+                "fields": [
+                    {
+                        "title": "価格",
+                        "value": "3,761 円",
+                        "short": true
+                    },
+                    {
+                        "title": "在庫",
+                        "value": "多数",
+                        "short": true
+                    }
+                ],
+                "from_url": "https:\/\/www.switch-science.com\/catalog\/139\/",
+                "service_icon": "http:\/\/docid81hrs3j1.cloudfront.net\/apple-touch-icon-57x57.png",
+                "id": 1
+            }
+        ],
+        "ts": "1484634469.000024"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "レーザーのピコプロジェクター使えばパターン投影法も使えるのではと期待",
+        "ts": "1484634602.000026"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "夜間であれば特に。",
+        "ts": "1484634612.000027"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これとか。\n<http:\/\/www.itmedia.co.jp\/lifestyle\/articles\/1107\/06\/news098.html>",
+        "attachments": [
+            {
+                "service_name": "ITmedia LifeStyle",
+                "title": "レーザーだからフォーカスフリー、米MicroVisionの「Laser Pico Projector」が日本上陸",
+                "title_link": "http:\/\/www.itmedia.co.jp\/lifestyle\/articles\/1107\/06\/news098.html",
+                "text": "シネックスは、米MicroVisionのポータブルプロジェクター「SHOWWX＋　Laser Pico Projector」を国内販売する。iPodやiPadとドック接続するだけで映像を投影できるレーザースキャン方式のフロントプロジェクターだ。",
+                "fallback": "ITmedia LifeStyle: レーザーだからフォーカスフリー、米MicroVisionの「Laser Pico Projector」が日本上陸",
+                "image_url": "http:\/\/image.itmedia.co.jp\/images\/logo\/1200x630_500x500_lifestyle.gif",
+                "from_url": "http:\/\/www.itmedia.co.jp\/lifestyle\/articles\/1107\/06\/news098.html",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 10475,
+                "service_icon": "http:\/\/www.itmedia.co.jp\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1484634650.000028"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "げっ\n＞「レーザー光を直接見たり、他人の顔に向けたりしてはいけない」。",
+        "ts": "1484634668.000030"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ソニーもあった。高い。\n<https:\/\/www.amazon.co.jp\/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%82%BF%E3%83%BC-Projector-Resolution-Connectivity-MPCL1\/dp\/B018TUI3BA>",
+        "ts": "1484634827.000031"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "もうKinectでいい気がしてきちゃって…8mまでだそうですが。\n真ん中に置けば、20畳くらいまではとれるのではないかと",
+        "ts": "1484636777.000032"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ラズパイでは無理かもしれないが。",
+        "ts": "1484636817.000033"
+    }
+]

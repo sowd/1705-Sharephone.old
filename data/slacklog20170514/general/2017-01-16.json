@@ -1,0 +1,137 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "このチームの潜在能力をどうしたら最大限発揮できるか、役割分担を考えたいですね。\nみんな３Ｄに興味はあると思いますが、掘り下げると微妙に違ってくると思うので、それぞれ知識としては専門分野をもち、それぞれ調査などもしつつ、執筆や実装などに落とし込む段階では得意なスキルを分担して実施する感じかなーとざっくり思っています。\nバンドみたいなもので、楽器は違えどひとつの作品を作り上げる感じで。",
+        "ts": "1484621195.000002",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あと、週一か隔週くらいで、定例会議しません？",
+        "ts": "1484622944.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Skypeでいいので",
+        "ts": "1484623197.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "承知しました！\n\nSlackのSkype integrationありますね。\n<https:\/\/support.skype.com\/ja\/faq\/FA34589\/skype-integration-for-slacknosetsutoatsupufang-fa>",
+        "attachments": [
+            {
+                "title": " Skype integration for Slackのセットアップ方法 ",
+                "title_link": "https:\/\/support.skype.com\/ja\/faq\/FA34589\/skype-integration-for-slacknosetsutoatsupufang-fa",
+                "text": "Search results from <http:\/\/support.skype.com|support.skype.com> knowledgebase.",
+                "fallback": " Skype integration for Slackのセットアップ方法 ",
+                "from_url": "https:\/\/support.skype.com\/ja\/faq\/FA34589\/skype-integration-for-slacknosetsutoatsupufang-fa",
+                "service_icon": "https:\/\/az659314.vo.msecnd.net\/assets\/1.0.114\/images\/apollo\/ui\/icons\/apple-touch-icon.png",
+                "service_name": "support.skype.com",
+                "id": 1
+            }
+        ],
+        "ts": "1484623317.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あっそうなんですか？？",
+        "ts": "1484623333.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "セットアップお願いしますw",
+        "ts": "1484623337.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Slackすごいですね",
+        "ts": "1484623350.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "<#C3T1D9C9M|skype> チャンネル作って連携しました。\n\nWebRTCベースのものだと、この [<http:\/\/appear.in|appear.in>](<https:\/\/appear.in>) なんかも結構便利です。\n<http:\/\/hawk-a.com\/slack-appearin\/>\n<http:\/\/www.ikedahayato.com\/20150925\/41891525.html>",
+        "attachments": [
+            {
+                "title": "appear.in",
+                "title_link": "https:\/\/appear.in",
+                "text": "Video conversations with up to 8 people for free - no login, no downloads. Create a video room. Share the link. Appear together. Try it now at <https:\/\/appear.in>",
+                "fallback": "appear.in",
+                "image_url": "https:\/\/appear.in\/i\/static\/images\/appearin-preview-1200x630.png",
+                "from_url": "https:\/\/appear.in",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 12998,
+                "service_icon": "https:\/\/appear.in\/i\/static\/images\/icons\/favicon_v2-196x196.png",
+                "service_name": "appear.in",
+                "id": 1
+            },
+            {
+                "service_name": "まだ東京で消耗してるの？",
+                "title": "まだSkypeでミーティングしてるの？「appear.in」の方がぜんぜん便利ですよ。 : まだ東京で消耗してるの？",
+                "title_link": "http:\/\/www.ikedahayato.com\/20150925\/41891525.html",
+                "text": "これマジで便利です。意外と知られていない気がするのであらためて。<http:\/\/appear.in|appear.in> – one click video conversationsSkypeより簡単にビデオチャットができます。はい。まずはappear.inにアクセスします。そんで、適当にURLを設定します。すると、自分が映ります。",
+                "fallback": "まだ東京で消耗してるの？: まだSkypeでミーティングしてるの？「appear.in」の方がぜんぜん便利ですよ。 : まだ東京で消耗してるの？",
+                "image_url": "http:\/\/livedoor.blogimg.jp\/ihayato\/imgs\/0\/7\/07c69022.png",
+                "from_url": "http:\/\/www.ikedahayato.com\/20150925\/41891525.html",
+                "image_width": 438,
+                "image_height": 250,
+                "image_bytes": 424079,
+                "service_icon": "http:\/\/livedoor.blogimg.jp\/ihayato\/imgs\/6\/f\/favicon.ico",
+                "id": 2
+            }
+        ],
+        "ts": "1484624135.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ほー簡単そうですねー。",
+        "ts": "1484627083.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Google Hangoutより画質いいですか？",
+        "ts": "1484627092.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "先日３拠点でSkypeやろうとしたら映像が送れなくて、Hangoutに変更したら音切れがひどくて…",
+        "ts": "1484627123.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "画質・音質は通信帯域が支配的かと思いますー",
+        "ts": "1484629618.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なるほど",
+        "ts": "1484633990.000016"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "拠点が増えてきたら、パケット送受信の巧拙も関係するかなと思ったんですが^^;",
+        "ts": "1484634027.000017"
+    }
+]

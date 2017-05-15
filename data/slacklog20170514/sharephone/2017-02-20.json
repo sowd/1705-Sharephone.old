@@ -1,0 +1,313 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "MESHボタンがラズパイで動きました！",
+        "ts": "1487637532.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "かなりすんなりでしたね～",
+        "ts": "1487637551.000003",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2JUM58F8",
+                    "U3QC4BL3V"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今は使ってませんが、２つ目以降のタグを見つけるために、startCommunication();のあとで再びnoble.startScanning();しても問題ありませんか？",
+        "ts": "1487637610.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "大丈夫だと思います！",
+        "ts": "1487637733.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ありがとうございます！",
+        "ts": "1487637799.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これって他のタグの情報もハックされてるんですか？",
+        "ts": "1487637816.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "他も幾つかハック済みたいですね。ググって出てくるのはこの辺です。\n020103はnotifyを開始するためのコマンドで、先人がパケットキャプチャで見つけたものです。\n<https:\/\/www.google.co.jp\/search?client=ms-android-sonymobile&amp;ei=342rWMzsC4Gr8QX9mKW4BQ&amp;q=mesh+00020103&amp;oq=mesh+00020103&amp;gs_l=mobile-gws-serp.12...3444.7392.0.9073.5.4.1.0.0.0.192.526.0j3.3.0.hmcntre%2Chm-qwp-shp-ido%3D1%2Chm-qwp-shp-hmbtialc%3D1%2Chm-qwp-shp-fpl%3D1%2Ccfro%3D1...0...1.1j4.64.mobile-gws-serp..1.0.0.JM20cxDVyr8>",
+        "ts": "1487638215.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なるほど、その部分はボタンに限った話じゃないんですね",
+        "ts": "1487638358.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "やってみよう",
+        "ts": "1487638360.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "その後は\nnotifyCharacteristic.on('data', function (data, isNotification) {\nでわたって来るdataをじいっと眺めるとなんかわかるかも",
+        "ts": "1487638396.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "てなとこでしょうか",
+        "ts": "1487638399.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "そんな感じです。もし動かなかったらWeb Bluetooth版を参考にwriteを遅延実行するようにしてみてください。",
+        "ts": "1487638560.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "世の中そんなに甘くなかった",
+        "ts": "1487638603.000016"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "writeを遅らせる？",
+        "ts": "1487638624.000017"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あっでも他のタグ対応はここまでにします",
+        "ts": "1487638720.000018"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "とりあえずプラグインかを先行させます",
+        "ts": "1487638731.000019"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F47BQ3ZCG\/kadecot-mesh.png|という感じで容易にプラグイン化できました>",
+        "file": {
+            "id": "F47BQ3ZCG",
+            "created": 1487644903,
+            "timestamp": 1487644903,
+            "name": "Kadecot-MESH.png",
+            "title": "という感じで容易にプラグイン化できました",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 84922,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F47BQ3ZCG\/kadecot-mesh.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F47BQ3ZCG\/download\/kadecot-mesh.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F47BQ3ZCG-8d97ca64c0\/kadecot-mesh_64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F47BQ3ZCG-8d97ca64c0\/kadecot-mesh_80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F47BQ3ZCG-8d97ca64c0\/kadecot-mesh_360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 257,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F47BQ3ZCG-8d97ca64c0\/kadecot-mesh_480.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 342,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F47BQ3ZCG-8d97ca64c0\/kadecot-mesh_160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F47BQ3ZCG-8d97ca64c0\/kadecot-mesh_720.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 514,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F47BQ3ZCG-8d97ca64c0\/kadecot-mesh_960.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_960_w": 960,
+            "thumb_960_h": 685,
+            "image_exif_rotation": 1,
+            "original_w": 980,
+            "original_h": 699,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F47BQ3ZCG\/kadecot-mesh.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F47BQ3ZCG-480c8d9c89",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1487644905.000020"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ありがとうございます",
+        "ts": "1487644936.000021"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "nobleを手動で入れて、sudoでkadecotを実行することが必要です",
+        "ts": "1487645013.000024"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "萩原さんにどう言ったもんか",
+        "ts": "1487645022.000025"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "はや！\n\n&gt; 萩原さんにどう言ったもんか\n「ラズパイで動きました〜♡」\n\nちなみにSLEEPはSLEEPっぽい挙動をしていたからSLEEPとしてみただけで、設計仕様的にはSLEEPが正しいかは分かりません。",
+        "ts": "1487650698.000026"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "MESH pjとの開発コラボいけそうです。小森さんに加わっていただけるか交渉中です。",
+        "ts": "1487657582.000027",
+        "reactions": [
+            {
+                "name": "smile",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ところで、小森さん、菱田さんに投げかけたいのですが、僕らが作る電話でコミュニケーションしたい相手（親世代の高齢者？）ってデジカメ写真は結構撮る方ですか？",
+        "ts": "1487657621.000028"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "うちは数少ない趣味の一つですね",
+        "ts": "1487657629.000029"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "うちの親は孫や地域のイベントの写真を撮りまくってます。父はデジイチで、母はガラケーで。",
+        "ts": "1487657745.000031"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "父・母はスマホの写真をLineのアルバムによく載せます。一緒に食事に行ったとき私たちの子供の写真など。あとは、旅行が好きで、旅先の写真はよく撮っているようです。大叔母はまったく撮らないですね。",
+        "ts": "1487659040.000032"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なるほど。ありがとうございます。\n我々の親世代程度であれば、「共通な話題」って写真がすごくいい気がしますね。\n家族向けSNSって結構あるんですが、ほとんどが写真の共有システムになっていることもうなずけます。それだけに論文にはなりにくいんですが…",
+        "ts": "1487659467.000033"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今日は共通の話題という観点から国内論文をあたっています。",
+        "ts": "1487659482.000034"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "TrelloのSurveyにいくつか入れていますが、行動の類似性、あるいは周期性がなくなったところの判定というのは割とありそう",
+        "ts": "1487659559.000035"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "でもそんなに完成してないイメージ",
+        "ts": "1487659565.000036"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ライフログみたいなものから、なるべく自動的に盛り上がる話題を探してほしいんですが、話題というのは脳内に生成されるものなので、それをどう探すかがアイデアの出しどころな気がします。",
+        "ts": "1487659706.000037"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "写真は鉄板ですね。興味があるからシャッターを押しているわけだから。",
+        "ts": "1487659730.000038"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ただ、当たり前すぎて研究にはなりにくい",
+        "ts": "1487659820.000039"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "元々電話中に簡単に写真を共有できるシステム、というのが起点なわけだから、うまく独自性のある写真の使い方を考えたい",
+        "ts": "1487660038.000040"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "結局「何に興味があるか」を知りたいわけですよね",
+        "ts": "1487660202.000041"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "その痕跡はテレビ番組の閲覧履歴とか、いろんなところに残っているわけですね。でもテレビの閲覧履歴のシェアはソニーがたぶんやってるw (TV Sideviewとかで)",
+        "ts": "1487660261.000042"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これいいなあ\n<https:\/\/product.metamoji.com\/ja\/palu\/>",
+        "attachments": [
+            {
+                "title": "「Palu（パルー）」 手書きと写真で“ゆるやかにつながる”",
+                "title_link": "https:\/\/product.metamoji.com\/ja\/palu\/",
+                "text": "「Palu」は、家族や友人と「手書き」と「写真」で“ゆるやかにつながる”ことができる無料のアプリ＆サービスです。",
+                "fallback": "「Palu（パルー）」 手書きと写真で“ゆるやかにつながる”",
+                "from_url": "https:\/\/product.metamoji.com\/ja\/palu\/",
+                "service_name": "product.metamoji.com",
+                "id": 1
+            }
+        ],
+        "ts": "1487662793.000043"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ただし自分で書くのがめんどい",
+        "ts": "1487663417.000045"
+    }
+]

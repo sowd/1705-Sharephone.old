@@ -1,0 +1,108 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すごい！！普通に動いてますなーー",
+        "ts": "1488778414.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "さすが小森さん、軽々ですね…",
+        "ts": "1488778421.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "この半影はForgeで出しているんですか？",
+        "ts": "1488778452.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "かっこよす",
+        "ts": "1488778453.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "見落としが多くちょっとハマりました。\n影= Forge Viewerの機能ですね。",
+        "ts": "1488778497.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "すばらしいですね。長さなども計れます",
+        "ts": "1488778504.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "断面なども",
+        "ts": "1488778518.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "私の学生時代のテーマの一部だった、ポリゴンの切断も余裕ですなあ",
+        "ts": "1488778523.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すごすぎて笑いが出ちゃった",
+        "ts": "1488778556.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今後はアカウントの問題もないんですね？",
+        "ts": "1488778573.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "アカウントは問題ないですが、モデルデータを置いている場所が8時間で期限切れになってしまうので、あと6時間ぐらいで見えなくなってしまうと思います。",
+        "ts": "1488778655.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "永続させることもできますよ",
+        "ts": "1488778675.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "さすが中の人",
+        "ts": "1488778690.000014"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "<http:\/\/adndevblog.typepad.com\/technology_perspective\/2016\/07\/summary-about-bucket.html>",
+        "attachments": [
+            {
+                "service_name": "Technology Perspective from Japan",
+                "title": "Bucket に関してのサマリー",
+                "title_link": "http:\/\/adndevblog.typepad.com\/technology_perspective\/2016\/07\/summary-about-bucket.html",
+                "text": "クラウドにアップロードした各種デザイン ファイルを Model Derivative API を使用...",
+                "fallback": "Technology Perspective from Japan: Bucket に関してのサマリー",
+                "image_url": "http:\/\/adndevblog.typepad.com\/.a\/6a0167607c2431970b01b8d2073958970c-600wi",
+                "from_url": "http:\/\/adndevblog.typepad.com\/technology_perspective\/2016\/07\/summary-about-bucket.html",
+                "image_width": 560,
+                "image_height": 250,
+                "image_bytes": 87404,
+                "service_icon": "http:\/\/adndevblog.typepad.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1488778733.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ありがとうございます！\nこのadndevblogはオートデスク株式会社さんの開発者ブログ的な位置づけですか?日本語でググるとだいたいここに行き着きますね。",
+        "ts": "1488779451.000017"
+    }
+]

@@ -1,0 +1,269 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "FBにも書いたのですが、子供が野菜食べないので趣味と実益を兼ねて何とかしようと思って、Yahoo!知恵袋のAPIを使って、\"子供 偏食\"で検索した結果のベストアンサーを集めてみて形態素解析などしてみているのですが、いまいち実用性と面白みに欠けます。\n最終的にはクックパッドみたいに「ほうれん草」と入力したら、子供が喜ぶ料理名や調理法や子供の気持ちの盛り上げ方などが出るBotを作りたいのですが、何かアイデアありますか?",
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1492692245.000000"
+        },
+        "ts": "1492692143.307360"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ベストアンサー集を添付します。",
+        "ts": "1492692159.313111"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUM58F8|komori> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/komori\/F51V2SA02\/best_answers.txt|best_answers.txt>",
+        "file": {
+            "id": "F51V2SA02",
+            "created": 1492692170,
+            "timestamp": 1492692170,
+            "name": "best_answers.txt",
+            "title": "best_answers.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U2JUM58F8",
+            "editable": true,
+            "size": 99390,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F51V2SA02\/best_answers.txt?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F51V2SA02\/download\/best_answers.txt?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/komori\/F51V2SA02\/best_answers.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F51V2SA02-62a449f6e0",
+            "edit_link": "https:\/\/lifedesign-tech.slack.com\/files\/komori\/F51V2SA02\/best_answers.txt\/edit",
+            "preview": "助言は出来ないのですが、主様の投稿に同意します。  私は調停秘書官に良いようにされ、調停官、調査官に腸の煮えくる思いをしまして。  母子家庭はとにかく国や市町村から恩恵を受けられる額が異常です！  調査官の取り巻きは平気で嘘をつきますし、自らの発言には責任をもたないで偽証罪も適応できるくらいではないかと思います。 私はご主人様の意見には同意しますし、今の家庭に関する調停は憲法に違反してますよ！  本当に許せないです！ 探偵を使いしらべても良いかもしれませんね。   頼むから弁護士さんにかかる費用を安くしてもらいたいですね。\n \nそれは保育園がおかしいと思いますね。お子さんの様子、何も問題ないように思えます。担任の先生には直接伝えましたか？  働かないとまずいと言っているのに、どうしてそこまでして慣らし保育を延長するのか、担任の先生からも納得いく答えが得られないなら園長に聞いてみてください。\nヒマワリの種だけを与えることはお勧めしません。 長期間生きることを期待しないなら、別に止めはしませんが。  もしかしたらヒマワリの種に合った代謝をする遺伝子を持っているかもしれないので、繁殖させて子を取るのもいいでしょう。\n完璧なものなんて、育児にしろ子どもにしろ親にしろ、ありませんから。 睨まれて、あなたの育児も子どもも結婚記念日の息抜きも否定されたように感じたのですよね？ それを引き金に、偏食やチョコレートも親としての毎日も「苦しい」と叫びたくなったのですよね… 周りの目は、気にしたらキリがないです。 自分が精いっぱいやったなら、ある程度は相手の気持ちの処理の問題です。 すべてを完璧にこなそうなんて思わないことです。 できないのだから。無理っす。  あなたは毎日85点の母。しかし、電車で子どもが泣いたら0点の母に見られる。 そんな世の中かもしれませんが、あなたまでもが自分を0点だなんて思わないでください。そうではないのだから。",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>助言は出来ないのですが、主様の投稿に同意します。  私は調停秘書官に良いようにされ、調停官、調査官に腸の煮えくる思いをしまして。  母子家庭はとにかく国や市町村から恩恵を受けられる額が異常です！  調査官の取り巻きは平気で嘘をつきますし、自らの発言には責任をもたないで偽証罪も適応できるくらいではないかと思います。 私はご主人様の意見には同意しますし、今の家庭に関する調停は憲法に違反してますよ！  本当に許せないです！ 探偵を使いしらべても良いかもしれませんね。   頼むから弁護士さんにかかる費用を安くしてもらいたいですね。<\/pre><\/div>\n<div><pre> <\/pre><\/div>\n<div><pre>それは保育園がおかしいと思いますね。お子さんの様子、何も問題ないように思えます。担任の先生には直接伝えましたか？  働かないとまずいと言っているのに、どうしてそこまでして慣らし保育を延長するのか、担任の先生からも納得いく答えが得られないなら園長に聞いてみてください。<\/pre><\/div>\n<div><pre>ヒマワリの種だけを与えることはお勧めしません。 長期間生きることを期待しないなら、別に止めはしませんが。  もしかしたらヒマワリの種に合った代謝をする遺伝子を持っているかもしれないので、繁殖させて子を取るのもいいでしょう。<\/pre><\/div>\n<div><pre>完璧なものなんて、育児にしろ子どもにしろ親にしろ、ありませんから。 睨まれて、あなたの育児も子どもも結婚記念日の息抜きも否定されたように感じたのですよね？ それを引き金に、偏食やチョコレートも親としての毎日も「苦しい」と叫びたくなったのですよね… 周りの目は、気にしたらキリがないです。 自分が精いっぱいやったなら、ある程度は相手の気持ちの処理の問題です。 すべてを完璧にこなそうなんて思わないことです。 できないのだから。無理っす。  あなたは毎日85点の母。しかし、電車で子どもが泣いたら0点の母に見られる。 そんな世の中かもしれませんが、あなたまでもが自分を0点だなんて思わないでください。そうではないのだから。<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 90,
+            "lines_more": 85,
+            "preview_is_truncated": true,
+            "channels": [
+                "C2JUP4AAW"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUM58F8",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "komori",
+        "bot_id": null,
+        "ts": "1492692170.316953"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "質問にあった回答を探してきたいということですか？",
+        "ts": "1492692465.423687"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "文や段落の類似性を判断する方法は色々あるようですね。",
+        "ts": "1492692699.511350"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "質問のキーワードに対する要約された回答の中で、ポジティブな表現のものを抽出したいです。\n大和田さんの要約処理結果に、何らかのポジネガ判定処理を組み合わせた結果で辞書を作れば良いのでしょうかね。\n類似のものはたくさん出た時にどうするかは課題ですが。",
+        "ts": "1492693472.827891"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今感情コーパス探してます。しばしお待ちを",
+        "ts": "1492736503.281250"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "キットで切ると思います",
+        "ts": "1492736510.282488"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "きっと、出来ると思います",
+        "ts": "1492736517.283862"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "やった！ありがとうございます！\n\n知恵袋APIが4\/26で終了なので、それまでに育児の知恵をとりためて置こうと思ってます。",
+        "ts": "1492736758.326828"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "作り方を説明している人はいました",
+        "ts": "1492736778.330201"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<http:\/\/skozawa.hatenablog.com\/entry\/2014\/05\/26\/232429>",
+        "attachments": [
+            {
+                "service_name": "skozawa's blog",
+                "title": "日本語WordNet-Affectの構築 - skozawa's blog",
+                "title_link": "http:\/\/skozawa.hatenablog.com\/entry\/2014\/05\/26\/232429",
+                "text": "日本語版のWordNet-Affectが欲しかったので構築した。 WordNet-Affect WordNet-AffectはWordNetに対して感情情報を付与したもので、感情分析などに利用されている言語資源。 WordNet-Affect: an Affective Extension of WordNet日本語のWordNet-Affectを構築する論文はでているのだけど、構築された言語資源は特に公開はされていないようだったので、この論文に書かれている作り方とは少し違うけど、作ってみた。 Developing Japanese WordNet Affect for Analyzing E…",
+                "fallback": "skozawa's blog: 日本語WordNet-Affectの構築 - skozawa's blog",
+                "thumb_url": "https:\/\/cdn.blog.st-hatena.com\/images\/theme\/og-image-1500.png",
+                "ts": 1401114269,
+                "from_url": "http:\/\/skozawa.hatenablog.com\/entry\/2014\/05\/26\/232429",
+                "thumb_width": 1500,
+                "thumb_height": 1051,
+                "service_icon": "https:\/\/cdn.blog.st-hatena.com\/images\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1492736779.330391"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ここから参照している日本語WordNetというのはこれのようです\n<http:\/\/compling.hss.ntu.edu.sg\/wnja\/>",
+        "ts": "1492736802.334592"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "プログラムはここにあります：\n<https:\/\/github.com\/skozawa\/japanese-wordnet-affect>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "skozawa\/japanese-wordnet-affect",
+                "title_link": "https:\/\/github.com\/skozawa\/japanese-wordnet-affect",
+                "text": "Contribute to japanese-wordnet-affect development by creating an account on GitHub.",
+                "fallback": "GitHub: skozawa\/japanese-wordnet-affect",
+                "from_url": "https:\/\/github.com\/skozawa\/japanese-wordnet-affect",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/1400101?v=3&s=400",
+                "thumb_width": 108,
+                "thumb_height": 108,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1492736875.347240"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "英語のWordNet(1.6, 3.0), WordNet-Affectというのも必要な模様",
+        "ts": "1492736883.348694"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これが近いかもしれません。どうでしょう？？\n<https:\/\/alaginrc.nict.go.jp\/opinion\/>",
+        "attachments": [
+            {
+                "title": "意見（評価表現）抽出ツール",
+                "title_link": "https:\/\/alaginrc.nict.go.jp\/opinion\/",
+                "text": "意見（評価表現）抽出ツールは入力文から意見や評判情報を抽出するツールです。独立行政法人情報通信研究機構によって開発されました。",
+                "fallback": "意見（評価表現）抽出ツール",
+                "from_url": "https:\/\/alaginrc.nict.go.jp\/opinion\/",
+                "service_name": "alaginrc.nict.go.jp",
+                "id": 1
+            }
+        ],
+        "ts": "1492737052.378846"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "skozawaさんのやつでやってみたいと思います！\n\nNICTの抽出ツールはやりたいことにとても近い気がしますが、PerlとEUCは生理的にキビシイというのもありw",
+        "ts": "1492737843.515371"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "生理的w",
+        "ts": "1492737858.517963"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "wordnetの体験にもなりそうですね",
+        "ts": "1492737887.522924"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "僕はここまでNLPに踏み込むつもりなかったんですが、これからの重要技術だと思いますので腰を据えて取り組みたいと思います",
+        "ts": "1492737945.533059"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": ":heart: ",
+        "ts": "1492738032.547654"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "家の中のコミュニケーション推定は、ソニモバも巻き込みに成功しつつあります。まだオフレコですけど",
+        "ts": "1492738094.558078"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Xperia Agentがありますからね",
+        "ts": "1492738116.561982"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": ":+1: :+1: :+1: ",
+        "ts": "1492738139.565772"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "絵文字や写真もまとめて解釈できたらいいですね！",
+        "ts": "1492738225.580890"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そういえば絵文字の研究してた人いたなあ…内容は完全に忘れましたが",
+        "ts": "1492738268.588329"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "絵文字を取り除くコードならありますよw",
+        "ts": "1492738276.589547"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "15年ぐらい前に流行ってましたよね。\n絵文字や写真込みコンテキストからの感情推定。（FBやLINEはとっくにやってる気もしてきた）\n\nテキスト入力速度や、会話の間（ま）や、集中度合いが取れたら、いろいろタグ付けできそうですね。",
+        "ts": "1492738619.647715"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "後者が出来るのはデバイスベンダーならではの強み。かな？",
+        "ts": "1492738830.684097"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そうですね。感情推定とか１０年以上前のが多い。",
+        "ts": "1492739565.808513"
+    }
+]

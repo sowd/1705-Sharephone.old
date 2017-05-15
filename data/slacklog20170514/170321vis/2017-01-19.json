@@ -1,0 +1,20 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "GitHubにVis paperの秘密リポジトリを作りました。小森さんはアカウント知ってたのでCollaboratorに招待しましたが、菱田さんから聞いてましたっけ？GitHubアカウントあればお願いします！",
+        "ts": "1484892046.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "かなりざっくりと、概要とBackgroundを書いてみましたが、こういうのすでにある気がしてきてまして、手法(Our System)までざっくり書いたらまた調査してみます。",
+        "ts": "1484892125.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "README.mdはREADMEではなく（禅問答？）、論文ドラフトです。",
+        "ts": "1484892153.000004"
+    }
+]

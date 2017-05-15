@@ -1,0 +1,8 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Probabilistic Graph Layout for Uncertain Network Visualization (TVCG 2017 23(1) Vis2016)\n<http:\/\/hci.uni-kl.de\/~humayoun\/seminars-ws1617\/papers\/v2_1.pdf>\nをベースに、3Dをからめて拡張するのがよいのではと思ってます。\n3Dという制約を課すことで、回転やそれに伴うFrame-to-frame Coherencyといった課題が出てくるので。",
+        "ts": "1484620775.000002"
+    }
+]

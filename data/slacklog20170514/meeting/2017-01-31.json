@@ -1,0 +1,47 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今日7時Loungeですよね。楽しみにしてます。\n資料作りました。\n<https:\/\/www.dropbox.com\/s\/hrhdmusdg10hg6l\/170201.pdf?dl=0>",
+        "ts": "1485915333.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> shared a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3Z8Z85EY\/170201.pdf|170201.pdf>",
+        "file": {
+            "id": "F3Z8Z85EY",
+            "created": 1485915334,
+            "timestamp": 1485915334,
+            "name": "170201.pdf",
+            "title": "170201.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 389858,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/hrhdmusdg10hg6l\/170201.pdf?dl=0",
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3Z8Z85EY\/170201.pdf",
+            "channels": [
+                "C3T1D9C9M"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1485915334.000003"
+    }
+]

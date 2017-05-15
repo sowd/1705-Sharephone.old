@@ -1,0 +1,102 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すみません、10分だけ遅刻させてください！\n最寄り駅到着が9時2分になってしまいました",
+        "ts": "1486639518.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "URLは前のですか？",
+        "ts": "1486639551.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "前のがまだ生きてたので入ってみました！了解です。",
+        "ts": "1486641103.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なぜか繋がらないのでｐｃ再起動中",
+        "ts": "1486642350.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "僕もカメラがつながらないので再起動します。すみません！",
+        "ts": "1486642387.000004"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "Card renamed from \"次回は8日？\" to \"<https:\/\/trello.com\/c\/D7tQdH6H|appear.in>\"",
+                "text": "Card renamed from \"次回は8日？\" to \"<https:\/\/trello.com\/c\/D7tQdH6H|appear.in>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486642589.000005"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "<https:\/\/appear.in\/z6tnm69mnbeyc9w9pjmfnbln82mhdmpspkpryi8npzrwef7cwmphlctc6xwtucjbfwcfsdcqlxkulxbxhby5thclrluby289ijfus4hwkc9wqe8k343prgzppguydeqb34egvaldu4mxct4tkpgrsm>\n",
+                "text": "<https:\/\/appear.in\/z6tnm69mnbeyc9w9pjmfnbln82mhdmpspkpryi8npzrwef7cwmphlctc6xwtucjbfwcfsdcqlxkulxbxhby5thclrluby289ijfus4hwkc9wqe8k343prgzppguydeqb34egvaldu4mxct4tkpgrsm>\n",
+                "pretext": "New comment on card \"<https:\/\/trello.com\/c\/D7tQdH6H|appear.in>\" by Shigeru Owada",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1486642641.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "拡張された固定電話とAmazon Echoの違いについて考えてたのですが、Echoに\"Alexa, show me ○○\"って言ったとして、Echoが自分の近くにFire TVとかがあるのが分かってたら、「テレビに表示しましょうか？」とか聞いてくれるんでしょうか？\n言い換えると、カメラやマイクやMESHによって宅内におけるデバイスとユーザーの地図が作れたとして、データの性質や出力デバイス（レンダラー）のcapabilityに応じて適切な出力先や方法をユーザーに提示する事が出来れば、新たなサービスやコミュニケーションツールが作れないかと思った次第です。\nここで言う宅内とは、ユーザーの家だけでなく実家や外出先や車内など\nも含んでも良いものとします。\n",
+        "ts": "1486681410.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なるほど。賢いですね。",
+        "ts": "1486681467.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Alexa, tell her my loneliness\nて言ったら、彼女に'He seems to want to meet you'て伝えてくれたらうれしい",
+        "ts": "1486681556.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "そうそう、そんな感じです。\n\nあと、もうちょい補足すると、レガシーデバイスのUIに馴染んだ老人向けには、そのUIがそのまま新機能のUIとして使えるべきだと思います。電話で言えば受話器取って何か喋ったらAlexaが答えてくれる、的な。",
+        "ts": "1486694710.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "思ったことをメモ代わりに呟やいています。\n一つの機能に対して複数のUIがあるという状況は、うまく動作しているときは良いもののトラブルシューティングは困難になるので、他のカスタマイズ可能なUIを持つアプリなどの設計ポリシーなどをよく調べて適切に使う必要がありますね。\n関連:\nユーザビリティ <https:\/\/u-site.jp\/usability\/>\nパーソナライゼーションを成功させるための6つのヒント: <https:\/\/u-site.jp\/alertbox\/personalization>",
+        "edited": {
+            "user": "U2JUM58F8",
+            "ts": "1486704006.000000"
+        },
+        "ts": "1486703940.000002"
+    }
+]

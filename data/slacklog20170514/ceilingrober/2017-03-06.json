@@ -1,0 +1,56 @@
+[
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "<https:\/\/www.youtube.com\/watch?v=OTUHVJgsJMk&amp;feature=youtu.be>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Fully Autonomous Navigation in Obstacle Rich Environment",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=OTUHVJgsJMk&amp;feature=youtu.be",
+                "author_name": "Exyn Technologies",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UCq0K3THWHalx3cmVJyPIkaw",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/OTUHVJgsJMk\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Fully Autonomous Navigation in Obstacle Rich Environment",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/OTUHVJgsJMk?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=OTUHVJgsJMk&amp;feature=youtu.be",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1488792569.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "こんなのみつけました",
+        "ts": "1488792575.000004",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U2JUP48HG",
+                    "U2JUM58F8"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ロボットのパスプランニングは昔よく２次元で見たのですが、今では三次元的でかつ動的な変更に対応できるんですね！",
+        "ts": "1488848535.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "天井でもドアが閉まっていると通れないので動的な問題になりますね。スマートロックを操作して自分で開けられたらすごいなw",
+        "ts": "1488848631.000004"
+    }
+]

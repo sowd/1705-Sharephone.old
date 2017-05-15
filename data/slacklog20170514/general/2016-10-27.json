@@ -1,0 +1,22 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "横浜ガジェット祭りって知ってます？\nブースをもらったので、一緒に出ませんか？11\/17(木),18(金)の夜のみ。横浜駅徒歩８分。\n1000人くらい来るそうです。\nちらし：\n<https:\/\/www.dropbox.com\/sh\/m8ywejrx76kelsj\/AAAbuCgsvEbP-Qfh5suc_LZAa?dl=0>",
+        "attachments": [
+            {
+                "service_name": "Dropbox",
+                "title": "161117-横浜ガジェット祭り",
+                "title_link": "https:\/\/www.dropbox.com\/sh\/m8ywejrx76kelsj\/AAAbuCgsvEbP-Qfh5suc_LZAa?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 161117-横浜ガジェット祭り",
+                "thumb_url": "https:\/\/cf.dropboxstatic.com\/static\/images\/icons128\/folder_dropbox.png",
+                "from_url": "https:\/\/www.dropbox.com\/sh\/m8ywejrx76kelsj\/AAAbuCgsvEbP-Qfh5suc_LZAa?dl=0",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "id": 1
+            }
+        ],
+        "ts": "1477621641.000002"
+    }
+]

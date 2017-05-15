@@ -1,0 +1,38 @@
+[
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "議事録作りって感じですね。",
+        "ts": "1494235312.294470"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "二階マルコフ",
+        "ts": "1494235420.319326"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "メモメモ",
+        "ts": "1494235629.368314"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "二階マルコフ簡単でした。\n参照元での使い方は判然としませんが、botに喋らせるという文脈での話だと、生成中の文のラスト2つを見て、同じやつ（あるいは属性が似たもの）をコーパスから探してきて、その次の単語を喋らせるとそれっぽくなるという話らしいです。昔テクスチャ合成でさんざんやった方法でした。\nもちろんラストN個に一般化できて、そのn個の単語がつながったベクトルのことをn-gramと呼ぶらしいです。",
+        "ts": "1494236192.500276"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "コンピュータに作文させるときの常套手段なんだろうと思います",
+        "ts": "1494237072.703495"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今日も一本読みました。\n<http:\/\/lifedesign.tech\/2017\/05\/the-use-of-mmr-diversity-based-reranking-for-reordering-documents-and-producing-summaries-by-carbonell-goldstein\/>\nMMRという、重要文を抽出する基本アルゴリズムの元論文です。\n非常にコンパクトでかっこいい論文でした。",
+        "ts": "1494246866.765262"
+    }
+]

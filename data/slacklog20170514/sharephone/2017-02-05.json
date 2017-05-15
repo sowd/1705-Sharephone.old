@@ -1,0 +1,143 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "とある友達が、HackDayで固定電話のハックを作り受賞した模様です。ニーズあり？",
+        "ts": "1486351865.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "ありですね！",
+        "ts": "1486351885.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "以下無断転載：\n====\n昨日、一昨日と秋葉原UDXで開催された「HACKDAY2017」にチーム「genpei」で参加してきました♪\nそして有り難いことに「Hack賞」を頂きました★ミ\n今回作ったものは家庭用の電話機をハックして老若男女馴染みのあるインターフェースで簡単にWeb上にあるサービスが使えるいわゆる「Amazon dash」的なものを作りましたよ。\n今回24時間という制限があったので実装したのは特定の番号の組み合わせを入力すると電球が付くものと島原手延べそうめんが注文出来るというもので様々な方にお試し頂いて今回作った「HAKCFON」をアピールしつつ、それと同等か若しくは更に気持ちちょいのせで南島原手延べそうめんをアピールすることが出来ました！\n====",
+        "ts": "1486351885.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "なぜそうめんｗ",
+        "ts": "1486351909.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あ、この方島原そうめん大使なんです",
+        "ts": "1486351922.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なんでも、島原のハッカソンで優勝して大使に任命されたとか。",
+        "ts": "1486351944.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "東京のMashup Awardsのときに僕もたくさんそうめんもらいました。おいしかったです*^ ^*",
+        "ts": "1486351970.000008"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F41V74HSS\/16422532_10211564206241629_6070640328602341100_o.jpg|16422532_10211564206241629_6070640328602341100_o.jpg>",
+        "file": {
+            "id": "F41V74HSS",
+            "created": 1486352026,
+            "timestamp": 1486352026,
+            "name": "16422532_10211564206241629_6070640328602341100_o.jpg",
+            "title": "16422532_10211564206241629_6070640328602341100_o.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 57901,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F41V74HSS\/16422532_10211564206241629_6070640328602341100_o.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F41V74HSS\/download\/16422532_10211564206241629_6070640328602341100_o.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F41V74HSS-95dacd568f\/16422532_10211564206241629_6070640328602341100_o_64.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F41V74HSS-95dacd568f\/16422532_10211564206241629_6070640328602341100_o_80.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F41V74HSS-95dacd568f\/16422532_10211564206241629_6070640328602341100_o_360.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F41V74HSS-95dacd568f\/16422532_10211564206241629_6070640328602341100_o_480.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F41V74HSS-95dacd568f\/16422532_10211564206241629_6070640328602341100_o_160.jpg?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "image_exif_rotation": 1,
+            "original_w": 716,
+            "original_h": 403,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F41V74HSS\/16422532_10211564206241629_6070640328602341100_o.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F41V74HSS-2209e18076",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1486352027.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "固定電話を置き換えるのも良いですが、固定電話の間に入って生活をハックするのもいいですねー\n\n島原のやつこれですか?\n<http:\/\/htus.jp\/2016\/08\/%E5%8D%97%E5%B3%B6%E5%8E%9F%E3%83%8A%E3%82%A4%E3%83%88vol-1%E3%80%80%E5%AE%9F%E6%96%BD%E5%A0%B1%E5%91%8A\/>",
+        "attachments": [
+            {
+                "service_name": "エイチタス株式会社",
+                "title": "南島原ITナイト@東京Vol.1　実施報告",
+                "title_link": "http:\/\/htus.jp\/2016\/08\/%E5%8D%97%E5%B3%B6%E5%8E%9F%E3%83%8A%E3%82%A4%E3%83%88vol-1%E3%80%80%E5%AE%9F%E6%96%BD%E5%A0%B1%E5%91%8A\/",
+                "text": "8\/22（月）、中小機構TIP*S(東京･丸の内)にて「南島原ITナイト@東京Vol.1」を開催しました。  このイベントは、今秋に長崎県南島原市で行うアイデアソン・ハッカソン「いなかソンin南島原」",
+                "fallback": "エイチタス株式会社: 南島原ITナイト@東京Vol.1　実施報告",
+                "image_url": "http:\/\/htus.jp\/wp-content\/uploads\/2016\/08\/MG_5136_1.jpg",
+                "from_url": "http:\/\/htus.jp\/2016\/08\/%E5%8D%97%E5%B3%B6%E5%8E%9F%E3%83%8A%E3%82%A4%E3%83%88vol-1%E3%80%80%E5%AE%9F%E6%96%BD%E5%A0%B1%E5%91%8A\/",
+                "image_width": 375,
+                "image_height": 250,
+                "image_bytes": 2779513,
+                "service_icon": "http:\/\/htus.jp\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1486353126.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "あ、@東京、だったのかーー\n写真内に私の友達入ってない気がしますが",
+        "ts": "1486361338.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なんにせよ、同じものを作っても「固定電話の拡張」と言うのか、「HGWにコミュニケーション機能を足したもの」と言うのか、「間に立つもの（？）」と言うのか、最もMESHチームに響く説明方法がありそう",
+        "ts": "1486361427.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "コンセプト概要の第一印象だけで「いらん」とレッテルを貼られたら傷つきますのでね（人間そんなもんだとは思いますが）",
+        "ts": "1486361557.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "でも、言い方を苦慮しないといけないようなものということは、圧倒的な新しさや説得力を持たないとも言えますね。\nここは反省です…",
+        "ts": "1486361674.000015"
+    }
+]

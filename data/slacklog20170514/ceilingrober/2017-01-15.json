@@ -1,0 +1,179 @@
+[
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New list \"セマンティックセンサーネットワークというものが提案されているらしいので要調査\" added to board \"<https:\/\/trello.com\/b\/ksV2faXm|170213web3d>\"",
+                "text": "New list \"セマンティックセンサーネットワークというものが提案されているらしいので要調査\" added to board \"<https:\/\/trello.com\/b\/ksV2faXm|170213web3d>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484494120.000002"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/xi3VJA0m|海外：http:\/\/bit.ly\/2izDgaH>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|セマンティックセンサーネットワークというものが提案されているらしいので要調査>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/xi3VJA0m|海外：http:\/\/bit.ly\/2izDgaH>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|セマンティックセンサーネットワークというものが提案されているらしいので要調査>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484494201.000004"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "Card renamed from \"<https:\/\/scholar.google.co.jp\/scholar?q=%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF&amp;hl=ja&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart&amp;sa=X&amp;ved=0ahUKEwiW3OrHu8TRAhWBbrwKHczqCxEQgQMIHTAA>\" to \"<https:\/\/trello.com\/c\/aOeMqbrW|国内：http:\/\/bit.ly\/2izvopK>\"",
+                "text": "Card renamed from \"<https:\/\/scholar.google.co.jp\/scholar?q=%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF&amp;hl=ja&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart&amp;sa=X&amp;ved=0ahUKEwiW3OrHu8TRAhWBbrwKHczqCxEQgQMIHTAA>\" to \"<https:\/\/trello.com\/c\/aOeMqbrW|国内：http:\/\/bit.ly\/2izvopK>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484494250.000005"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "Card renamed from \"人間の位置だけでなく、コミュニケーションの様子が取得したい。とすると、誰がどこにいるか、誰としゃべったか、の情報がほしくなる。そこで、センサーは（複数の）マイクということにして、話者推定、話者の位置推定、話の参加者推定ができれば、将来の研究がかなり楽しくなる気がした（発言小町なんかを見ればわかるように、宅内の問題のほとんどは人間関係である！）技術的には：<http:\/\/www.osaka-kyoiku.ac.jp\/~challeng\/SIG-Challenge-B202\/B202-11.pdf>\" to \"<https:\/\/trello.com\/c\/ZvBrUeL8|人間の位置だけでなく、コミュニケーションの様子が取得したい。とすると、誰がどこにいるか、誰としゃべったか、の情報がほしくなる。そこで、センサーは（複数の）マイクということにして、話者推定、話者の位置推定、話の参加者推定ができれば、将来の研究がかなり楽しくなる気がした（発言小町なんかを見ればわかるように、宅内の問題のほとんどは人間関係である！）技術的には以下のもの（複数マイクで発音位置特定　とか。）：http:\/\/www.osaka-kyoiku.ac.jp\/~challeng\/SIG-Challenge-B202\/B202-11.pdf>\"",
+                "text": "Card renamed from \"人間の位置だけでなく、コミュニケーションの様子が取得したい。とすると、誰がどこにいるか、誰としゃべったか、の情報がほしくなる。そこで、センサーは（複数の）マイクということにして、話者推定、話者の位置推定、話の参加者推定ができれば、将来の研究がかなり楽しくなる気がした（発言小町なんかを見ればわかるように、宅内の問題のほとんどは人間関係である！）技術的には：<http:\/\/www.osaka-kyoiku.ac.jp\/~challeng\/SIG-Challenge-B202\/B202-11.pdf>\" to \"<https:\/\/trello.com\/c\/ZvBrUeL8|人間の位置だけでなく、コミュニケーションの様子が取得したい。とすると、誰がどこにいるか、誰としゃべったか、の情報がほしくなる。そこで、センサーは（複数の）マイクということにして、話者推定、話者の位置推定、話の参加者推定ができれば、将来の研究がかなり楽しくなる気がした（発言小町なんかを見ればわかるように、宅内の問題のほとんどは人間関係である！）技術的には以下のもの（複数マイクで発音位置特定　とか。）：http:\/\/www.osaka-kyoiku.ac.jp\/~challeng\/SIG-Challenge-B202\/B202-11.pdf>\"",
+                "id": 1,
+                "color": "8daec2",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484494534.000008"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/QCB9HS0u|位置推定はあまり重要でないかも。誰と誰が、どんなトーンで、どれくらいしゃべったかの情報から何か面白い結果が出そうな気が>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/QCB9HS0u|位置推定はあまり重要でないかも。誰と誰が、どんなトーンで、どれくらいしゃべったかの情報から何か面白い結果が出そうな気が>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484495113.000012"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/t83f9qcA|初音ミクに家電を操作してもらったの人がとっくにやってたw （この人友達） http:\/\/www27.cs.kobe-u.ac.jp\/achieve\/data\/pdf\/1096.pdf>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/t83f9qcA|初音ミクに家電を操作してもらったの人がとっくにやってたw （この人友達） http:\/\/www27.cs.kobe-u.ac.jp\/achieve\/data\/pdf\/1096.pdf>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484495388.000013"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/jL0F0DcX|部屋のラフな形状は、夜間の暗い時間帯に、webカメラとピコプロジェクターでなんとかとれないもんだろうか>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/jL0F0DcX|部屋のラフな形状は、夜間の暗い時間帯に、webカメラとピコプロジェクターでなんとかとれないもんだろうか>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484497321.777842"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/1by5jXiz|https:\/\/www.amazon.co.jp\/gp\/aw\/d\/B014SOHVXM?psc=1>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/1by5jXiz|https:\/\/www.amazon.co.jp\/gp\/aw\/d\/B014SOHVXM?psc=1>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484497332.777888"
+    },
+    {
+        "text": "",
+        "bot_id": "B3R5LDG4F",
+        "mrkdwn": true,
+        "attachments": [
+            {
+                "fallback": "New card \"<https:\/\/trello.com\/c\/EyALPTcr|このレベルのプロジェクターで。ラズパイ電話とカメラとピコプロジェクター。>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "text": "New card \"<https:\/\/trello.com\/c\/EyALPTcr|このレベルのプロジェクターで。ラズパイ電話とカメラとピコプロジェクター。>\" added to list \"<https:\/\/trello.com\/b\/ksV2faXm|ドラフト作成>\"",
+                "id": 1,
+                "color": "8daec2"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1484497378.778190"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "会話いいですね！ちょっと盗聴っぽいけど、もはや、電話応対とかもアルゴリズムで処理される時代ですからね。",
+        "ts": "1484532914.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ありがとうございます。\nあまり3D CGっぽくないけど、ちょっと調べてみます！\n実は小森さんと、去年電話を作ったことがあるんです。\n<http:\/\/qiita.com\/sgrowd\/items\/dd1fc682718a2a623e4c>",
+        "attachments": [
+            {
+                "service_name": "Qiita",
+                "title": "もうハマらない！Twilio × Asteriskで普通の外線電話を作る - Qiita",
+                "title_link": "http:\/\/qiita.com\/sgrowd\/items\/dd1fc682718a2a623e4c",
+                "text": "この記事ではKDDIの電話バックエンドであるTwilioを用いて携帯電話や固定電話と通話できる「普通の電話」を作ります。はっきり言って、これをやっている人は結構います。しかし、自分でやってみたところ予想外に苦戦してしまったので、ど...",
+                "fallback": "Qiita: もうハマらない！Twilio × Asteriskで普通の外線電話を作る - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/sgrowd\/items\/dd1fc682718a2a623e4c",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 1
+            }
+        ],
+        "ts": "1484533958.000003"
+    }
+]

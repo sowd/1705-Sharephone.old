@@ -1,0 +1,103 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Trelloでタスク管理、ChromeにこのPlus for Trelloを入れるとやりやすくなります。\n<https:\/\/chrome.google.com\/webstore\/detail\/plus-for-trello-time-trac\/gjjpophepkbhejnglcmkdnncmaanojkf>",
+        "attachments": [
+            {
+                "title": "Plus for Trello (time track, reports, scrum)",
+                "title_link": "https:\/\/chrome.google.com\/webstore\/detail\/plus-for-trello-time-trac\/gjjpophepkbhejnglcmkdnncmaanojkf",
+                "text": "Reports, Timers, hashtags, offline, burn-downs, spent vs estimate by card, list, board, user, team, history and more!",
+                "fallback": "Plus for Trello (time track, reports, scrum)",
+                "from_url": "https:\/\/chrome.google.com\/webstore\/detail\/plus-for-trello-time-trac\/gjjpophepkbhejnglcmkdnncmaanojkf",
+                "thumb_url": "https:\/\/lh5.googleusercontent.com\/EB0U40HWbyZUSKa2eIQrRevSwvDmnk4sRsILj_qjvdx-fP3W1B2Syj5awUdQtOh2yDmaf8NCsA",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "service_icon": "https:\/\/www.google.com\/images\/icons\/product\/chrome_web_store-32.png",
+                "service_name": "chrome.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1485348119.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "★５つですね！入れました。",
+        "ts": "1485390059.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3WM2P01J\/cap.png|プラグインがいっぱいあってびっくりしました。Scrum for Trelloなんてものまで>",
+        "file": {
+            "id": "F3WM2P01J",
+            "created": 1485390078,
+            "timestamp": 1485390078,
+            "name": "cap.png",
+            "title": "プラグインがいっぱいあってびっくりしました。Scrum for Trelloなんてものまで",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 110878,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3WM2P01J\/cap.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3WM2P01J\/download\/cap.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3WM2P01J-4c1c1a5c52\/cap_64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3WM2P01J-4c1c1a5c52\/cap_80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3WM2P01J-4c1c1a5c52\/cap_360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 211,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3WM2P01J-4c1c1a5c52\/cap_480.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 281,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3WM2P01J-4c1c1a5c52\/cap_160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3WM2P01J-4c1c1a5c52\/cap_720.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3WM2P01J-4c1c1a5c52\/cap_960.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_960_w": 960,
+            "thumb_960_h": 562,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3WM2P01J-4c1c1a5c52\/cap_1024.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 600,
+            "image_exif_rotation": 1,
+            "original_w": 1349,
+            "original_h": 790,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3WM2P01J\/cap.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F3WM2P01J-e47d2ee26e",
+            "channels": [
+                "C3R4XQCDC"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1485390081.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "サーて使いこなせるかな",
+        "ts": "1485390264.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "とりあえずは締切入力からだな…",
+        "ts": "1485390274.000005"
+    }
+]

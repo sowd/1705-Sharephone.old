@@ -1,0 +1,660 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "独り言です。MMRの元論文はかなりざっくりとしていて、そのざっくりの範囲内では理解したつもりなんですがその中に文書間の類似性を比較するところがあり、どうしたもんかなと思っていたら単語間の類似性を比較するword2vecという方法が日本語でもみんながんがんに使ってて学習済みDBもあるので、こいつを使えばある程度出来そうな気がしてきました。（小森さんはご存知かも）\n<http:\/\/www.cl.ecei.tohoku.ac.jp\/~m-suzuki\/jawiki_vector\/>\n\nword2vecも出てきたのが2013年なのでまだまだ新しさを感じてもらえるかも。\n<https:\/\/radimrehurek.com\/gensim\/models\/word2vec.html>\n\n実際要約に使ってみた人もいました。\n<https:\/\/www.slideshare.net\/recruitcojp\/ss-56150629>",
+        "attachments": [
+            {
+                "title": "gensim: topic modelling for humans",
+                "title_link": "https:\/\/radimrehurek.com\/gensim\/models\/word2vec.html",
+                "text": "Efficient topic modelling in Python",
+                "fallback": "gensim: topic modelling for humans",
+                "from_url": "https:\/\/radimrehurek.com\/gensim\/models\/word2vec.html",
+                "service_icon": "https:\/\/radimrehurek.com\/favicon.ico",
+                "service_name": "radimrehurek.com",
+                "id": 1
+            },
+            {
+                "title": "リクルート式　自然言語処理技術の適応事例紹介",
+                "title_link": "https:\/\/www.slideshare.net\/recruitcojp\/ss-56150629",
+                "text": "2015\/11\/20 数理システムユーザーコンファレンス 2015での、池田の講演資料になります",
+                "fallback": "リクルート式　自然言語処理技術の適応事例紹介",
+                "thumb_url": "https:\/\/cdn.slidesharecdn.com\/ss_thumbnails\/20151120ikeda-151215054451-thumbnail-4.jpg?cb=1450158420",
+                "from_url": "https:\/\/www.slideshare.net\/recruitcojp\/ss-56150629",
+                "thumb_width": 768,
+                "thumb_height": 576,
+                "service_icon": "https:\/\/public.slidesharecdn.com\/b\/favicon.ico?d8e2a4ed15",
+                "service_name": "slideshare.net",
+                "id": 2
+            }
+        ],
+        "ts": "1489390214.489420"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "まずはチャットデータに入れてみるところまで行ってみます。",
+        "ts": "1489390268.494618"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "それと、単にチャットを要約するだけだと、NLP専門家たちとのガチ勝負になってしまい勝ち目がないので、会話内容を電話でシェアするとか、カードの形にまとめて送るとかプレゼンに変換するとか新聞にするとか、他の人があまりやらなさそうなニッチな応用を研究のメインにして、NLPの手法自体に拘泥しすぎることがないよう心がけます。",
+        "ts": "1489390667.533280"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "げっプレゼン変換もうあった：\n<https:\/\/www.dropbox.com\/s\/r3bm5tt8xks2rbp\/%E9%BB%92%E6%A9%8B05-%E4%BC%9A%E8%A9%B1%E5%9E%8B%E7%9F%A5%E8%AD%98%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AE%E8%87%AA%E5%8B%95%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.pdf?dl=0>",
+        "ts": "1489390954.560811"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> shared a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4J0Z7Z3R\/______05-_______________________________________________________________________________________.pdf|黒橋05-会話型知識プロセスのためのテキストの自動プレゼンテーション.pdf>",
+        "file": {
+            "id": "F4J0Z7Z3R",
+            "created": 1489390955,
+            "timestamp": 1489390955,
+            "name": "黒橋05-会話型知識プロセスのためのテキストの自動プレゼンテーション.pdf",
+            "title": "黒橋05-会話型知識プロセスのためのテキストの自動プレゼンテーション.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 144318,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/r3bm5tt8xks2rbp\/%E9%BB%92%E6%A9%8B05-%E4%BC%9A%E8%A9%B1%E5%9E%8B%E7%9F%A5%E8%AD%98%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AE%E8%87%AA%E5%8B%95%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.pdf?dl=0",
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4J0Z7Z3R\/______05-_______________________________________________________________________________________.pdf",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1489390955.560913"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "word2vecは使ってないと思うが",
+        "ts": "1489390962.561524"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ちょうど先日投稿したForgeについてのQiitaのエントリーを書く時に、全体の記事の傾向を分析したら面白いかなと思いword2vecについて調べてました。まだ調べただけですが。\nこことか、ここの参照先とか見てました。\n<http:\/\/qiita.com\/tsuruchan\/items\/7d3af5c5e9182230db4e>",
+        "attachments": [
+            {
+                "service_name": "Qiita",
+                "title": "word2vecを使って、日本語wikipediaのデータを学習する - Qiita",
+                "title_link": "http:\/\/qiita.com\/tsuruchan\/items\/7d3af5c5e9182230db4e",
+                "text": "### 環境 OS X El Capitan 10.11.5 MacBook Pro (Retina 13-inch、Early 2015) [2016\/8\/1現在] ## MeCab, mecab-ipadic-NEologd ...",
+                "fallback": "Qiita: word2vecを使って、日本語wikipediaのデータを学習する - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/tsuruchan\/items\/7d3af5c5e9182230db4e",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 1
+            }
+        ],
+        "ts": "1489390971.562391"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "気が合いますね！www",
+        "ts": "1489391012.566360",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "日本語wikipediaを学習データに使うのが定石のようです",
+        "ts": "1489391036.568727"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<http:\/\/qiita.com\/keigohtr\/items\/2705bb439d920b7a0a5b>",
+        "attachments": [
+            {
+                "service_name": "Qiita",
+                "title": "日本語Word2Vecを作って公開した - Qiita",
+                "title_link": "http:\/\/qiita.com\/keigohtr\/items\/2705bb439d920b7a0a5b",
+                "text": "## はじめに Word2Vecを[Apitoreで公開](<https:\/\/apitore.com\/store\/apis\/details?id=8>)しました。日本語Wikipediaに[Neologd](<https:\/\/github>....",
+                "fallback": "Qiita: 日本語Word2Vecを作って公開した - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/keigohtr\/items\/2705bb439d920b7a0a5b",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 1
+            }
+        ],
+        "ts": "1489391059.571075"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "とか",
+        "ts": "1489391062.571281"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "gensimが強すぎて、ほとんどの人はPythonで試してますね",
+        "ts": "1489391275.592713"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Web電話に組み込むなら、ajaxで解析エンジンを適宜呼び出す感じですかね",
+        "ts": "1489391306.595983"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "先程見つけた学習済みのデータはテキスト形式で言語に依存せずいいんですが、2GBくらいあるので、どっちみちブラウザにダウンロードさせるわけにはいきませんな",
+        "ts": "1489391370.602556"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ですね。適宜FirebaseとかMongoDBとかに入れてごにょごにょする感じですね。",
+        "ts": "1489391572.623261"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Firebaseきたーー！！",
+        "ts": "1489391585.624770"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すみません、ここでFirebaseの話したことありましたっけ？",
+        "ts": "1489391597.625983"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "最近KadecotのクラウドはFirebaseにしようと思ってて試しているところだったので、単語が出てきてすごくびっくりしてます",
+        "ts": "1489391623.628738"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "話したことないと思います。いろんなIoTのログ扱うならFirebaseが気軽でいいですよね。",
+        "ts": "1489391675.634250"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "前にFirebase使うシステム作ったときは、このアーキテクチャが参考になりました。\n<http:\/\/www.thedesignium.com\/development\/10288>",
+        "ts": "1489391878.656178"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "そうなんですよね～\nAWS使っている人が多いからそうしようかと思ったんですが、いろいろ組み合わせるのに学習コストが高いかなと思って…\nFirebaseまだ使いこなしてないですが、バランスがとてもいい印象。安いし。",
+        "edited": {
+            "user": "U2JUP48HG",
+            "ts": "1489392606.000000"
+        },
+        "ts": "1489392471.727941"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "この方クラウドの入り口では自前のWebサーバ立ててるんですね。",
+        "ts": "1489392531.735362"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "私はスケールさせるためになるべく仮想マシンを立てるような構成は避けようと思いまして、宅内の端末から直接Firebaseにつなげないか模索中です",
+        "ts": "1489392581.741339"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Firebaseの一抹の不安は継続性ですな。googleは本当に残酷ですから…",
+        "ts": "1489392717.758430"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "Niftyのmobile backendも良さげですね。\n(Qiitaの記事読んだだけですが^^;)\n<http:\/\/qiita.com\/nnsnodnb\/items\/e84f134e774930aa4afe>",
+        "attachments": [
+            {
+                "service_name": "Qiita",
+                "title": "【iOS】「Firebase」と「nifty cloud mobile backend」のPush通知サービスを比較してみる - Qiita",
+                "title_link": "http:\/\/qiita.com\/nnsnodnb\/items\/e84f134e774930aa4afe",
+                "text": "## はじめに Firebase及びnifty cloud mobile backend導入からプッシュ通知を受信するところまで説明してできればそれぞれのメリット、デメリットを書ければと思います！ ## Firebase ht...",
+                "fallback": "Qiita: 【iOS】「Firebase」と「nifty cloud mobile backend」のPush通知サービスを比較してみる - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/nnsnodnb\/items\/e84f134e774930aa4afe",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 1
+            }
+        ],
+        "ts": "1489461208.856143"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なんてタイムリーなの！！？",
+        "ts": "1489471738.670054"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今日は例のWikipediaのword2vecデータをNifty mobile backendに突っ込みました。",
+        "ts": "1489471766.672218"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "100万エントリー以上あったので途中で落ちたり苦労したのですが、何とか先程突っ込み終わりまして。",
+        "ts": "1489471808.675651"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "で、word2vecのテスト用フロントエンドがまさに今できたところ",
+        "ts": "1489471834.677865",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2JUM58F8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4HR8DN11\/cap.png|王女になるはずなんですがw>",
+        "file": {
+            "id": "F4HR8DN11",
+            "created": 1489471874,
+            "timestamp": 1489471874,
+            "name": "cap.png",
+            "title": "王女になるはずなんですがw",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 25363,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F4HR8DN11\/cap.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F4HR8DN11\/download\/cap.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4HR8DN11-750918bae6\/cap_64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4HR8DN11-750918bae6\/cap_80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4HR8DN11-750918bae6\/cap_360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 292,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4HR8DN11-750918bae6\/cap_480.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 390,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4HR8DN11-750918bae6\/cap_160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "image_exif_rotation": 1,
+            "original_w": 557,
+            "original_h": 452,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4HR8DN11\/cap.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F4HR8DN11-9380095c38",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1489471875.681029"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "まあ姫は…いい線いっているってことにしようかな",
+        "ts": "1489471953.687135"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "よかったら皆さんも試してください\n<http:\/\/sowd.info\/work\/1703-word2vec\/>",
+        "ts": "1489471970.688557"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "日本語の単語で演算ができます。\n+や-は半角でよろしく",
+        "ts": "1489471993.690266"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "単語がDBに入ってない場合は素直におかしくなると思います（苦笑）。サーバー側が落ちるかも",
+        "ts": "1489472026.692915"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "計算の結果、一番近いワードを探す部分にはDBを使っておらず、テキストファイルから全部つぶさに探して一番近い単語を選びます。\nDBを使うとページングを扱うのが面倒だし、APIの回数もどんどん増えていくので上限に達したらいやだなと思って。",
+        "ts": "1489472098.698323"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "その代わり、１分くらいかかります。",
+        "ts": "1489472105.698924"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "（一人でサーバを使った場合）",
+        "ts": "1489472117.699890"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4H7C2KB3\/cap.png|一発で月の上限の半分までいきました>",
+        "file": {
+            "id": "F4H7C2KB3",
+            "created": 1489472174,
+            "timestamp": 1489472174,
+            "name": "cap.png",
+            "title": "一発で月の上限の半分までいきました",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 116920,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F4H7C2KB3\/cap.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F4H7C2KB3\/download\/cap.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7C2KB3-3dee6ff5d8\/cap_64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7C2KB3-3dee6ff5d8\/cap_80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7C2KB3-3dee6ff5d8\/cap_360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 165,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7C2KB3-3dee6ff5d8\/cap_480.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 220,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7C2KB3-3dee6ff5d8\/cap_160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7C2KB3-3dee6ff5d8\/cap_720.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 330,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7C2KB3-3dee6ff5d8\/cap_960.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_960_w": 960,
+            "thumb_960_h": 440,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7C2KB3-3dee6ff5d8\/cap_1024.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 470,
+            "image_exif_rotation": 1,
+            "original_w": 1398,
+            "original_h": 641,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4H7C2KB3\/cap.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F4H7C2KB3-b314d216da",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1489472175.704787"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "王様-男=comでした。コンピュータってこと？",
+        "ts": "1489472219.708307"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "パリ-フランス+日本=日本\nになっちゃった",
+        "ts": "1489472344.718411"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "やり方が間違っているのだろうか？",
+        "ts": "1489472351.718897"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "（東京になるはず）",
+        "ts": "1489472358.719543"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "オバマ-大統領=勝",
+        "ts": "1489472492.730026"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "移項すると大統領選挙に勝ったのがオバマってこと？",
+        "ts": "1489472752.751089"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ダウンタウン-浜田 = ダウンタウン",
+        "ts": "1489472765.752032"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "浜田はいらないんだな",
+        "ts": "1489472773.752620"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "なくても同じ",
+        "ts": "1489472778.753008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "これ絶対バグってる",
+        "ts": "1489472802.754901"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "すごい！バグってるにしても爆速！！",
+        "ts": "1489473470.812673"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "バグってちゃしょうがない（泣",
+        "ts": "1489473502.815460"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ちなみにダウンタウン-松本でもダウンタウンになっちゃいました。",
+        "ts": "1489473517.816661"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ベクトルを足したり引いたりして、その結果に一番近いベクトルになる言葉を探せばいいんだと思ってたんだけど違うんだろうか…",
+        "ts": "1489473549.819185"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ベクトルの距離は内積（コサイン距離？）になってるはず",
+        "ts": "1489473576.821606"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "比較前に正規化かなあ？？",
+        "ts": "1489473947.853616"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUM58F8|komori> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/komori\/F4H7JDB2M\/pasted_image_at_2017_03_14_03_47_pm.png|Pasted image at 2017-03-14, 3:47 PM> and commented: 長考に入ったようです。\nラーメンかそばかうどんで迷ってる?",
+        "file": {
+            "id": "F4H7JDB2M",
+            "created": 1489474103,
+            "timestamp": 1489474103,
+            "name": "Pasted image at 2017_03_14 03_47 PM.png",
+            "title": "Pasted image at 2017-03-14, 3:47 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUM58F8",
+            "editable": false,
+            "size": 24571,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F4H7JDB2M\/pasted_image_at_2017_03_14_03_47_pm.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F4H7JDB2M\/download\/pasted_image_at_2017_03_14_03_47_pm.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7JDB2M-f8b1899797\/pasted_image_at_2017_03_14_03_47_pm_64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7JDB2M-f8b1899797\/pasted_image_at_2017_03_14_03_47_pm_80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7JDB2M-f8b1899797\/pasted_image_at_2017_03_14_03_47_pm_360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 168,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F4H7JDB2M-f8b1899797\/pasted_image_at_2017_03_14_03_47_pm_160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "image_exif_rotation": 1,
+            "original_w": 379,
+            "original_h": 177,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/komori\/F4H7JDB2M\/pasted_image_at_2017_03_14_03_47_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F4H7JDB2M-35678b9498",
+            "channels": [
+                "C3ZR8JDKP"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4H7JDETT",
+                "created": 1489474103,
+                "timestamp": 1489474103,
+                "user": "U2JUM58F8",
+                "is_intro": true,
+                "comment": "長考に入ったようです。\nラーメンかそばかうどんで迷ってる?"
+            }
+        },
+        "user": "U2JUM58F8",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "komori",
+        "bot_id": null,
+        "ts": "1489474104.866956"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ははは！！",
+        "ts": "1489474118.868147"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ワンステップごと毎回正規化かなあ？",
+        "ts": "1489474125.868765"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "そんな気がしますね。",
+        "ts": "1489474168.872328"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "どっかよめば書いてあるような気もしますが、とりあえずそれでやってみます",
+        "ts": "1489474188.874076"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "だめだー\n王様-男+女=女",
+        "ts": "1489474585.908592"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "今日はもう諦めて明日よく考えます",
+        "ts": "1489474765.924215"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ちなみにサーバのソースはこちらです（丸見え）\n<http:\/\/sowd.info\/work\/1703-word2vec\/wordvec\/server.js>",
+        "ts": "1489474776.925030"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Niftyの秘密トークンも余裕で見えますので悪用なきようww",
+        "ts": "1489474797.927041"
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "宅内ドローンはもうあった：\n<http:\/\/thebridge.jp\/2016\/03\/rook-home-drone>",
+        "attachments": [
+            {
+                "service_name": "THE BRIDGE（ザ・ブリッジ）",
+                "title": "外出先でも自宅内をモニターできる宅内ドローン「Rook」",
+                "title_link": "http:\/\/thebridge.jp\/2016\/03\/rook-home-drone",
+                "text": "自宅の様子を外出先からスマートフォンで確認できるホームモニター、ペットモニター。家庭でもしばしば見られるようになってきたこういった製品の多くは、固定したカメラの角度を変更できたりする程度で、1台のカメラで自宅の様子を隅々までチェックできるというわけではない。 この点を解決してくれそうなのが、現在、Indiegogoでクラウドファンディング中の「Rook」だ。 自宅の中を飛び回り、リアルタイムでスマートフォンに映像をストリーミングすることができる、世界初の家庭用・宅内ドローンだという。Indiegogoでは、記事執筆時点で約48,000ドルの資金調達に成功している。 この「Rook」はHDカメラを搭載した小型のドローンで、普段は自宅内にセットした充電台に待機する。 宅内のWi-Fiルータ等でインターネットに接続しておけば、外出先からスマートフォンのアプリを使って遠隔操作することができる。自宅内を飛行して、その様子をストリーミング中継をすることができるというわけだ。ボタン操作だけでなく、音声コマンドにも対応しているという。 部屋と部屋の間に扉がなければ、別の部屋にも飛行していき、その様子をチェックすることができるというすぐれもの。小さな子どもやペットの様子を外出先から確認することができる。 「ドアの鍵を閉め忘れてたかも」、「サイフがない、自宅に置き忘れたかも」、「火元の確認をするのを忘れた！」など、自宅を出た後にハッとする経験をしたことがある方は多いのではないだろうか。 「Rook」があれば、そんな時でも家まで戻らず、アプリを起動して宅内を確認する、なんていうことができそうだ。 市販予定価格は200ドルで、Indiegogoのクラウドファンディングでは129ドルの支援から「Rook」1台を手に入れることができる。（スタート時は99ドルだったが、既に限定数終了）。発送は2016年12月が予定されている。 <https:\/\/vimeo.com\/155203647>",
+                "fallback": "THE BRIDGE（ザ・ブリッジ）: 外出先でも自宅内をモニターできる宅内ドローン「Rook」",
+                "image_url": "http:\/\/thebridge.jp\/wp\/wp-content\/uploads\/2016\/03\/001-3.jpg",
+                "image_width": 476,
+                "image_height": 250,
+                "ts": 1459206955,
+                "from_url": "http:\/\/thebridge.jp\/2016\/03\/rook-home-drone",
+                "image_bytes": 75807,
+                "service_icon": "http:\/\/thebridge.jp\/wp\/wp-content\/uploads\/2016\/03\/thebridge_logo_square-240x240.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485700395.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "違う方法考えてます",
+        "ts": "1485700622.000004"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3XUUAYUA\/____________8.png|現在の宅内映像取得システム>",
+        "file": {
+            "id": "F3XUUAYUA",
+            "created": 1485705652,
+            "timestamp": 1485705652,
+            "name": "スライド8.PNG",
+            "title": "現在の宅内映像取得システム",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 315840,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3XUUAYUA\/____________8.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3XUUAYUA\/download\/____________8.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUAYUA-110c022a8e\/____________8_64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUAYUA-110c022a8e\/____________8_80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUAYUA-110c022a8e\/____________8_360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUAYUA-110c022a8e\/____________8_480.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUAYUA-110c022a8e\/____________8_160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUAYUA-110c022a8e\/____________8_720.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "image_exif_rotation": 1,
+            "original_w": 960,
+            "original_h": 720,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3XUUAYUA\/____________8.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F3XUUAYUA-4bdbd5cc35",
+            "channels": [
+                "C3UP5DZ4H"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1485705654.000005"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> uploaded a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3XUUDLTC\/____________9.png|提案：Balloon Rober>",
+        "file": {
+            "id": "F3XUUDLTC",
+            "created": 1485705689,
+            "timestamp": 1485705689,
+            "name": "スライド9.PNG",
+            "title": "提案：Balloon Rober",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 264549,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3XUUDLTC\/____________9.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T2JUH2VT3-F3XUUDLTC\/download\/____________9.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUDLTC-b5930d1888\/____________9_64.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUDLTC-b5930d1888\/____________9_80.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUDLTC-b5930d1888\/____________9_360.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUDLTC-b5930d1888\/____________9_480.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUDLTC-b5930d1888\/____________9_160.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T2JUH2VT3-F3XUUDLTC-b5930d1888\/____________9_720.png?t=xoxe-86969097921-184205147654-183499677349-8b622dfdd5",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "image_exif_rotation": 1,
+            "original_w": 960,
+            "original_h": 720,
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F3XUUDLTC\/____________9.png",
+            "permalink_public": "https:\/\/slack-files.com\/T2JUH2VT3-F3XUUDLTC-30fca0d2ed",
+            "channels": [
+                "C3UP5DZ4H"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1485705692.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "自分ではなかなかいいアイデアだと思ってるけどどう？",
+        "ts": "1485705704.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "バルーンローバー斬新ですね！\nかなりいいと思います。\n軽量化しないと、結構風船が大きくなる気がしますが、このアイディア好きです。",
+        "ts": "1485735667.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ヤモリみたいに静かに家を守ってくれてる感じで素敵です！ヤモリの足裏の構造真似して天井でも壁でも歩けるやつも考えてみたくなりました。",
+        "ts": "1485736660.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ありがとうございます！やばいテンションあがってきた(誉めてくれるパートナー大事:yum:",
+        "ts": "1485737776.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ヤモリ風の微細構造で引っ付いて壁や天井歩くロボは昨日たまたま見つけてTrelloのSurveyのとこにYouTubeリンク入れときました。アレの方が隣の部屋とかに行くのにはメリット大きいですね。",
+        "ts": "1485737992.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "よく見てみます。",
+        "ts": "1485738033.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "こういうネタはVisよりUISTやUbicomp向けですね。電話と併せてネタがでてよかった",
+        "ts": "1485738309.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "Visのアプローチ思案中です",
+        "ts": "1485738344.000008"
+    }
+]

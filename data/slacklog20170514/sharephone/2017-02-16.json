@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "がーーーーん！！！\nばれたか！！！\n<https:\/\/japan.cnet.com\/article\/35096669\/?tag=nl>",
+        "attachments": [
+            {
+                "service_name": "CNET Japan",
+                "title": "次の電話機は「Amazon Echo」か「Google Home」になるかもしれない",
+                "title_link": "https:\/\/japan.cnet.com\/article\/35096669\/?tag=nl",
+                "text": "アマゾンとグーグルは、「Amazon Echo」や「Google Home」で今度は電話をかけられるようにする方法を検討しているという。",
+                "fallback": "CNET Japan: 次の電話機は「Amazon Echo」か「Google Home」になるかもしれない",
+                "image_url": "https:\/\/japan.cnet.com\/storage\/2017\/02\/16\/cf633d2c0baa662004bac78878e38119\/t\/640\/480\/d\/google-home-vs-amazon-echo_640x480.jpg",
+                "from_url": "https:\/\/japan.cnet.com\/article\/35096669\/?tag=nl",
+                "image_width": 333,
+                "image_height": 250,
+                "image_bytes": 105653,
+                "service_icon": "https:\/\/japan.cnet.com\/static\/img\/apple-touch-icon-57x57.png",
+                "id": 1
+            }
+        ],
+        "ts": "1487284768.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": ":scream_cat: ",
+        "ts": "1487297372.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "うちの場合、義母と妻と子供が、iPhoneのハンズフリーモードを使って楽しそうに話をしていますが、これがEchoで通話が出来るように変わると、複数人のコミュニケーションにAlexaが加わって、会話の中に出てきた商品の予約や購入が自然な流れの中でワンストップで出来る様になるわけですね。",
+        "ts": "1487301342.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "アマゾンずるい",
+        "ts": "1487301365.000004"
+    }
+]

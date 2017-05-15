@@ -1,0 +1,38 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "こういうのって定量的に判定できるんですかね？\n<http:\/\/www.garbagenews.net\/archives\/2112851.html>",
+        "attachments": [
+            {
+                "service_name": "ガベージニュース",
+                "title": "子供のストレス過多のシグナルを探る - ガベージニュース",
+                "title_link": "http:\/\/www.garbagenews.net\/archives\/2112851.html",
+                "text": "人間が社会生活を営む動物である以上、他人との接触は日常茶飯事的なもので、それに伴い誰もが多かれ少なかれストレスを覚えることになる。また一人で居る時間が長くとも、多様な点でストレスの原因となる物事と対面しながら日々を過ごす。いわば人はストレスと向かい合いな",
+                "fallback": "ガベージニュース: 子供のストレス過多のシグナルを探る - ガベージニュース",
+                "thumb_url": "http:\/\/livedoor.blogimg.jp\/raizo_fuwa\/imgs\/b\/f\/bf51f87c.jpg",
+                "from_url": "http:\/\/www.garbagenews.net\/archives\/2112851.html",
+                "thumb_width": 70,
+                "thumb_height": 70,
+                "service_icon": "http:\/\/www.garbagenews.net\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1487520286.000002",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3QC4BL3V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "フック電話。\nかけたい相手にフックしておくと、相手が応対可能になった瞬間に通知がきて、ワンタッチでかけられる。",
+        "ts": "1487548707.000002"
+    }
+]

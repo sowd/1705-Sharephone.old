@@ -1,0 +1,60 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "菱田さんどうですか",
+        "ts": "1486423549.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "私は2\/9であれば、18:30以降オッケーです。",
+        "ts": "1486423992.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "<https:\/\/sp.otsuka-shokai.co.jp\/event\/jsf\/tokyo\/?02=86_jsf17_top_top-menu_tokyo>",
+        "attachments": [
+            {
+                "title": "【東京会場】 大塚商会 実践ソリューションフェア2017 in 東京",
+                "title_link": "https:\/\/sp.otsuka-shokai.co.jp\/event\/jsf\/tokyo\/?02=86_jsf17_top_top-menu_tokyo",
+                "text": "大塚商会 実践ソリューションフェア2017 東京会場は、最新のIT製品と実践的なサービス＆サポートを組み合わせてご紹介する、ITの総合展示会＆セミナーです。",
+                "fallback": "【東京会場】 大塚商会 実践ソリューションフェア2017 in 東京",
+                "image_url": "https:\/\/www.otsuka-shokai.co.jp\/otsuka-shokai-ogp-image.png",
+                "from_url": "https:\/\/sp.otsuka-shokai.co.jp\/event\/jsf\/tokyo\/?02=86_jsf17_top_top-menu_tokyo",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 6161,
+                "service_icon": "https:\/\/www.otsuka-shokai.co.jp\/favicon.ico",
+                "service_name": "otsuka-shokai.co.jp",
+                "id": 1
+            }
+        ],
+        "ts": "1486423996.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "このイベントで、品川にいます。",
+        "ts": "1486424163.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "あ、うそ品川じゃないわ。すいません",
+        "ts": "1486424401.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "2\/9は14時までならいいのですが、夜はNGです。",
+        "ts": "1486424637.000008"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "深夜のテレコンならOKなのですが",
+        "ts": "1486424642.000009"
+    }
+]

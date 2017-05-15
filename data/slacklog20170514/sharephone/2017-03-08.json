@@ -1,0 +1,47 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "やってみました！問題やリクエストなどあればお知らせ下さい〜\n<http:\/\/qiita.com\/comocc\/items\/93ac6753d4facf8fb176>",
+        "attachments": [
+            {
+                "service_name": "Qiita",
+                "title": "オートデスク株式会社さんのブログTechnology Perspective from Japanの索引を作ってみた - Qiita",
+                "title_link": "http:\/\/qiita.com\/comocc\/items\/93ac6753d4facf8fb176",
+                "text": "[Technology Perspective from Japan](<http:\/\/adndevblog.typepad.com\/technology_perspective\/>) は、様々な製品やサービスの使い方がとても詳しく書かれ...",
+                "fallback": "Qiita: オートデスク株式会社さんのブログTechnology Perspective from Japanの索引を作ってみた - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/comocc\/items\/93ac6753d4facf8fb176",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 1
+            }
+        ],
+        "ts": "1489009140.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すっごい！",
+        "ts": "1489045618.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "すっごごごごい！",
+        "ts": "1489045635.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "採用しないと",
+        "ts": "1489045664.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "とらばーゆ",
+        "ts": "1489045671.000005"
+    }
+]

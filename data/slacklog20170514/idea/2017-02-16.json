@@ -1,0 +1,36 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "これってローバー系ですね。\n<http:\/\/techon.nikkeibp.co.jp\/atcl\/news\/16\/021606317\/>",
+        "attachments": [
+            {
+                "service_name": "日経テクノロジーオンライン",
+                "title": "ホロレンズをつけたPepper、自走での空港案内に向け検証",
+                "title_link": "http:\/\/techon.nikkeibp.co.jp\/atcl\/news\/16\/021606317\/",
+                "text": "全日本空輸（ANA）と新日鉄住金ソリューションズ（NSSOL）は、人型ロボット「Pepper」の自走による空港案内を実現するための検証を開始した。",
+                "fallback": "日経テクノロジーオンライン: ホロレンズをつけたPepper、自走での空港案内に向け検証",
+                "image_url": "http:\/\/techon.nikkeibp.co.jp\/atcl\/news\/16\/021606317\/facebook.jpg",
+                "from_url": "http:\/\/techon.nikkeibp.co.jp\/atcl\/news\/16\/021606317\/",
+                "image_width": 421,
+                "image_height": 237,
+                "image_bytes": 28398,
+                "service_icon": "http:\/\/techon.nikkeibp.co.jp\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1487240060.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "系ですね。\nオリンピックイヤー狙いかな？",
+        "ts": "1487246070.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "ああ早く天井ローバー作りたい‥",
+        "ts": "1487246213.000003"
+    }
+]

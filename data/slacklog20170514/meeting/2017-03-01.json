@@ -1,0 +1,158 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "appear.in入りました",
+        "ts": "1488423582.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "こんにちは！本日都合によりテキストのみで12:30までの参加となってしまいましたが、どうぞよろしくお願いします。",
+        "ts": "1488423631.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "了解",
+        "ts": "1488423642.000004"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "ありがとうございました！\n菱田さん出張ご安全に！",
+        "ts": "1488425541.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": ":kissing_heart:",
+        "ts": "1488425571.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "appear.inってWindow閉じるとチャットログ消えちゃうんだ！！",
+        "ts": "1488425585.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "コピろうと思って開いたらもうない…",
+        "ts": "1488425596.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "あ、私もmm",
+        "ts": "1488425632.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "おなじく！\n\nざっくりこんな感じ?\n\n* 自然言語コーパス\n\n目的:\n* 家の場所とコミュニケーションと非言語情報・感情を結びつける。家のどこがハッピーな場所、とか。\n\n参考:\n* TEDのビデオ8分ぐらいから、場所と感情の関連がある。\n* 写真を撮っている姿が記録されている。\n\n作るもの:\n* Revit ViewerにQ.boardやMESHを繋ぐ。非言語の\n\n役割:\n* 大和田さん: H\/W\n* 菱田さん: Revitにまつわる部分\n* 小森: S\/W(Web Bluetoothや音声認識など)\n\n大和田さん、送っていただいたリンク、もう一度共有お願いします。",
+        "ts": "1488426066.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "<https:\/\/nknet.ninjal.ac.jp\/nuc\/templates\/nuc.html>\n<http:\/\/www.ted.com\/talks\/deb_roy_the_birth_of_a_word>\n<https:\/\/www.youtube.com\/watch?v=z_fSd4vPebs&amp;t=1s>",
+        "attachments": [
+            {
+                "title": "日本語自然会話書き起こしコーパス（旧名大会話コーパス）",
+                "title_link": "https:\/\/nknet.ninjal.ac.jp\/nuc\/templates\/nuc.html",
+                "text": "日本語自然会話書き起こしコーパス（旧名大会話コーパス）",
+                "fallback": "日本語自然会話書き起こしコーパス（旧名大会話コーパス）",
+                "from_url": "https:\/\/nknet.ninjal.ac.jp\/nuc\/templates\/nuc.html",
+                "service_name": "nknet.ninjal.ac.jp",
+                "id": 1
+            },
+            {
+                "service_name": "TED",
+                "service_url": "http:\/\/ted.com",
+                "title": "Deb Roy: The birth of a word",
+                "title_link": "http:\/\/www.ted.com\/talks\/deb_roy_the_birth_of_a_word",
+                "author_name": "Deb Roy",
+                "author_link": "http:\/\/www.ted.com\/speakers\/deb_roy",
+                "thumb_url": "https:\/\/pe.tedcdn.com\/images\/ted\/a1f5228246d1a5311ec7da7dd11cfb2fc9ead03d_240x180.jpg?lang=en",
+                "thumb_width": 240,
+                "thumb_height": 180,
+                "text": "MIT researcher Deb Roy wanted to understand how his infant son learned language -- so he wired up his house with videocameras to catch every moment (with exceptions) of his son's life, then parsed 90,000 hours of home video to watch \"gaaaa\" slowly turn into \"water.\" Astonishing, data-rich research with deep implications for how we learn.",
+                "fallback": "TED Video: Deb Roy: The birth of a word",
+                "from_url": "http:\/\/www.ted.com\/talks\/deb_roy_the_birth_of_a_word",
+                "service_icon": "https:\/\/pa.tedcdn.com\/apple-touch-icon.png",
+                "id": 2
+            },
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "「うなボ」 by 大和田　茂　（社会人）",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=z_fSd4vPebs&amp;t=1s",
+                "author_name": "Kadecot SonyCSL",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UCijdLLrN3S9wPrWs5_yVrhA",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/z_fSd4vPebs\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: 「うなボ」 by 大和田　茂　（社会人）",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/z_fSd4vPebs?feature=oembed&start=1&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=z_fSd4vPebs&amp;t=1s",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 3
+            }
+        ],
+        "ts": "1488431176.000011"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すみません、ありがとうございます！",
+        "ts": "1488432376.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "作るものの図\n<https:\/\/www.dropbox.com\/s\/p9ugxatmdlbq3s2\/Figs.pptx?dl=0>",
+        "ts": "1488432449.000014"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2JUP48HG|sowd> shared a file: <https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4CE4MCCT\/figs.pptx|Figs.pptx>",
+        "file": {
+            "id": "F4CE4MCCT",
+            "created": 1488432450,
+            "timestamp": 1488432450,
+            "name": "Figs.pptx",
+            "title": "Figs.pptx",
+            "mimetype": "application\/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "filetype": "pptx",
+            "pretty_type": "PowerPoint Presentation",
+            "user": "U2JUP48HG",
+            "editable": false,
+            "size": 660907,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/p9ugxatmdlbq3s2\/Figs.pptx?dl=0",
+            "permalink": "https:\/\/lifedesign-tech.slack.com\/files\/sowd\/F4CE4MCCT\/figs.pptx",
+            "channels": [
+                "C3T1D9C9M"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2JUP48HG",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "sowd",
+        "bot_id": null,
+        "ts": "1488432450.000015"
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "type": "message",
+        "user": "U2JUM58F8",
+        "text": "書きました！\n<http:\/\/qiita.com\/comocc\/items\/04e6a06e87d06dac20da>",
+        "attachments": [
+            {
+                "service_name": "Qiita",
+                "title": "AutodeskのForge Viewerを利用してFBXファイルを表示する - Qiita",
+                "title_link": "http:\/\/qiita.com\/comocc\/items\/04e6a06e87d06dac20da",
+                "text": "Autodesk社の[Forge Viewer](<https:\/\/developer.autodesk.com\/en\/docs\/viewer\/v2\/overview\/>)はWebGLベースのJavaScriptライブラリーであり、他の[...",
+                "fallback": "Qiita: AutodeskのForge Viewerを利用してFBXファイルを表示する - Qiita",
+                "thumb_url": "http:\/\/cdn.qiita.com\/assets\/qiita-fb-2887e7b4aad86fd8c25cea84846f2236.png",
+                "from_url": "http:\/\/qiita.com\/comocc\/items\/04e6a06e87d06dac20da",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "http:\/\/cdn.qiita.com\/assets\/favicons\/public\/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                "id": 1
+            }
+        ],
+        "ts": "1489590890.661344",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U2JUP48HG",
+                    "U3QC4BL3V"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "すばらしす！\nTwitterで見つけて早速支援しときました！！",
+        "ts": "1489591340.853481",
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "U2JUM58F8",
+                    "U3QC4BL3V"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

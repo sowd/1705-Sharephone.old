@@ -1,0 +1,84 @@
+[
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "単純に小森さんに紹介いただいた、appear.inがいい感じだったので試したかった次第です笑。",
+        "ts": "1485256479.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<https:\/\/appear.in\/z6tnm69mnbeyc9w9pjmfnbln82mhdmpspkpryi8npzrwef7cwmphlctc6xwtucjbfwcfsdcqlxkulxbxhby5thclrluby289ijfus4hwkc9wqe8k343prgzppguydeqb34egvaldu4mxct4tkpgrsm>",
+        "attachments": [
+            {
+                "service_name": "appear.in",
+                "title": "Join the room",
+                "title_link": "https:\/\/appear.in\/z6tnm69mnbeyc9w9pjmfnbln82mhdmpspkpryi8npzrwef7cwmphlctc6xwtucjbfwcfsdcqlxkulxbxhby5thclrluby289ijfus4hwkc9wqe8k343prgzppguydeqb34egvaldu4mxct4tkpgrsm",
+                "text": "<http:\/\/appear.in|appear.in> is the easiest way to talk to people over video.",
+                "fallback": "appear.in: Join the room",
+                "image_url": "https:\/\/d1x2efl61akomv.cloudfront.net\/images\/icons\/invite-1200x630.2aced955.png",
+                "from_url": "https:\/\/appear.in\/z6tnm69mnbeyc9w9pjmfnbln82mhdmpspkpryi8npzrwef7cwmphlctc6xwtucjbfwcfsdcqlxkulxbxhby5thclrluby289ijfus4hwkc9wqe8k343prgzppguydeqb34egvaldu4mxct4tkpgrsm",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 724933,
+                "service_icon": "https:\/\/d1x2efl61akomv.cloudfront.net\/images\/icons\/apple-touch-icon-57x57.69ba267a.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485258389.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "にしてみました",
+        "ts": "1485258544.000005"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "別にランダム文字列にする必要ないのかもしれませんが",
+        "ts": "1485258561.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "了解です！",
+        "ts": "1485308033.000002"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "はいってまーす",
+        "ts": "1485327420.000003"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "共有メモ\n<https:\/\/docs.google.com\/document\/d\/1Cf1eIamzj0RjoNtJb7489F4Mpt2jOweyseQXq9a-ix4\/edit?usp=sharing>",
+        "ts": "1485327486.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3QC4BL3V",
+        "text": "すごい！",
+        "ts": "1485327621.000006"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<https:\/\/docs.google.com\/document\/d\/1Cf1eIamzj0RjoNtJb7489F4Mpt2jOweyseQXq9a-ix4\/edit?usp=sharing>",
+        "ts": "1485328871.000007"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "リンク同じっぽいですね",
+        "ts": "1485328877.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2JUP48HG",
+        "text": "<http:\/\/www.town.motegi.tochigi.jp\/motegi\/download\/11317.pdf>",
+        "ts": "1485328945.000010"
+    }
+]
