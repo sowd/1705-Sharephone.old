@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 </head>
 <body style="overflow:auto;height:100%;">
-<font style='color:#ccc'>Phone UI (Enterで送信):</font>
-<input type='text' id='myname' size='7' placeholder="自分の名前"></input>
-<input type='text' id='sendtext' size='40' placeholder='送りたい言葉'></input>
+<font style='color:#ccc'>Phone UI:</font>
+<input type='text' id='myname' size='7' placeholder="自分の名前"></input><input type='button' value='call' id='oncall'></input>
+<input type='text' id='sendtext' size='40'></input><input type='button' value='send' id='onsend'></input>
 <hr />
 <div id="left" style="float:left;width:30%;overflow-y:scroll;height:100%;">
 <font size='+2' style='color:#ccc'>Suggestions</font>
@@ -32,6 +32,8 @@ var log = console.log ;
 
 var raw_lines = [] , lines = [] ;
 var corpus_words = {} , corpus_words_total;
+
+
 
 function msg(msg){
 	$('#msgarea').text(' / '+msg) ;
@@ -208,16 +210,19 @@ function showZakkuris(){
 var bot ;
 onload = function(){
 
-	$( '#myname' ).keypress( function ( e ) {if ( e.which == 13 ) {
+	$('[name=call]').change(function() {
+		var val = $('[name=call]').val();
+		console.log(val); // 出力：ABC
+	});
+
+	$('#oncall').click(function(){
 		var myname = $('#myname').val() ;
 		bot = new Bot(myname,'ドモ子');
 		bot.talk().then(utt=>{
 			addutt(false,utt) ;
 		}) ;
-		return false;
-	} } );
-
-	$( '#sendtext' ).keypress( function ( e ) {if ( e.which == 13 ) {
+	});
+	$('#onsend').click(function(){
 		if( bot == undefined ){
 			alert('Please call to bot first.') ;
 			return ;
@@ -227,9 +232,8 @@ onload = function(){
 	    addutt(true,sendtxt) ;
 		bot.talk(sendtxt).then(utt=>{
 			addutt(false,utt) ;
-			$('#sendtext').val('') ;
 		}) ;
-	} } );
+	});
 
 /*
 	$.getJSON('/corpus',re=>{

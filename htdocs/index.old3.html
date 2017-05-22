@@ -4,50 +4,31 @@
 <meta charset="UTF-8">
 </head>
 <body style="overflow:auto;height:100%;">
-<font style='color:#ccc'>Phone UI (Enterで送信):</font>
-<input type='text' id='myname' size='7' placeholder="自分の名前"></input>
-<input type='text' id='sendtext' size='40' placeholder='送りたい言葉'></input>
+<span id='msgarea'></span><br />
 <hr />
-<div id="left" style="float:left;width:30%;overflow-y:scroll;height:100%;">
-<font size='+2' style='color:#ccc'>Suggestions</font>
-</div>
-<div id="center" style="float:left;width:40%;overflow-y:scroll;background-color:#eef;height:100%;">
-	<font size='+2' style='color:#ccc'>Dialog</font>
-	<div id='chattxt' style=""></div>
-</div>
+<!-- div id="left" style="float:left;width:auto;max-width:70%;overflow-y:scroll;height:100%;" -->
+	<select id='corpusselect'><option value="null">Select corpus</option></select>
+	<div id='srctxt' style=""></div>
+<!-- /div>
 <div id="right" style="float:right;width:30%;overflow-y:scroll;height:100%;">
-<font size='+2' style='color:#ccc'>Diary</font>
-</div>
+</div -->
 </body>
 <script src='jquery.min.js'></script>
-<script src='bot.js'></script>
 <script>
-
-
 const WORD_FREQ_THRESHOLD = 1 ;
 //const WORD_FREQ_THRESHOLD = 0.0011 ;
-
 
 var log = console.log ;
 
 var raw_lines = [] , lines = [] ;
 var corpus_words = {} , corpus_words_total;
+//var sel_words = {} ;
+//var zakkuris = [] ;
 
 function msg(msg){
-	$('#msgarea').text(' / '+msg) ;
+	$('#msgarea').text(msg) ;
 	console.log(msg) ;
 }
-function addutt(bMy , txt){
-	var ht ;
-	if(bot==undefined) ht = 'Not connected.' ;
-	else {
-		var name = (bMy?bot.name:bot.tgtname) ;
-		ht = `${name} : ${txt}` ;
-	}
-	$('#chattxt').append(ht+'<br />') ;
-}
-
-/*
 
 function genhtline(li){
 	var l = lines[li] ;
@@ -190,7 +171,6 @@ function word_analylsis_completed(){
 
 	msg(ht.slice(1)) ;
 }
-*/
 
 /*
 function showZakkuris(){
@@ -205,33 +185,8 @@ function showZakkuris(){
 }
 */
 
-var bot ;
 onload = function(){
 
-	$( '#myname' ).keypress( function ( e ) {if ( e.which == 13 ) {
-		var myname = $('#myname').val() ;
-		bot = new Bot(myname,'ドモ子');
-		bot.talk().then(utt=>{
-			addutt(false,utt) ;
-		}) ;
-		return false;
-	} } );
-
-	$( '#sendtext' ).keypress( function ( e ) {if ( e.which == 13 ) {
-		if( bot == undefined ){
-			alert('Please call to bot first.') ;
-			return ;
-		}
-
-	    var sendtxt = $('#sendtext').val() ;
-	    addutt(true,sendtxt) ;
-		bot.talk(sendtxt).then(utt=>{
-			addutt(false,utt) ;
-			$('#sendtext').val('') ;
-		}) ;
-	} } );
-
-/*
 	$.getJSON('/corpus',re=>{
 		var selector = $('#corpusselect') ;
 		re.corpus.forEach(corpusname=>{
@@ -250,7 +205,7 @@ onload = function(){
 			) ;
 		}) ;
 	}) ;
-*/
+
 /*
 	$.getJSON('/livedoorNewsSummary',re=>{
 		for( var et in re )
