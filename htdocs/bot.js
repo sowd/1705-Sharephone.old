@@ -13,7 +13,7 @@ class Bot {
 		utt:q_if_exist
 		, context:this.context
 		, nickname:this.name
-		, t:20	// なし:デフォルトキャラ 20:関西弁, 30:赤ちゃん
+		//, t:20	// なし:デフォルトキャラ 20:関西弁, 30:赤ちゃん
 		, birthdateY:2000
 		, birthdateM:1
 		, birthdateD:1

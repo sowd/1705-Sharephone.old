@@ -7,9 +7,11 @@
 <font style='color:#ccc'>Phone UI (Enterで送信):</font>
 <input type='text' id='myname' size='7' placeholder="自分の名前"></input>
 <input type='text' id='sendtext' size='40' placeholder='送りたい言葉'></input>
+<span id='msgarea'></span>
 <hr />
 <div id="left" style="float:left;width:30%;overflow-y:scroll;height:100%;">
 <font size='+2' style='color:#ccc'>Suggestions</font>
+<span id='qresult'></span>
 </div>
 <div id="center" style="float:left;width:40%;overflow-y:scroll;background-color:#eef;height:100%;">
 	<font size='+2' style='color:#ccc'>Dialog</font>
@@ -23,190 +25,91 @@
 <script src='bot.js'></script>
 <script>
 
-
-const WORD_FREQ_THRESHOLD = 1 ;
+const IMAGES_PATH = '/images/' ;
+//const WORD_FREQ_THRESHOLD = 1 ;
 //const WORD_FREQ_THRESHOLD = 0.0011 ;
 
 
 var log = console.log ;
 
-var raw_lines = [] , lines = [] ;
-var corpus_words = {} , corpus_words_total;
-
+////////////////////////////////
+// Utilities
 function msg(msg){
-	$('#msgarea').text(' / '+msg) ;
-	console.log(msg) ;
+	$('#msgarea').text( msg ) ;
+	log(msg) ;
 }
+
 function addutt(bMy , txt){
 	var ht ;
 	if(bot==undefined) ht = 'Not connected.' ;
 	else {
 		var name = (bMy?bot.name:bot.tgtname) ;
 		ht = `${name} : ${txt}` ;
+
+		$.getJSON( '/mecab/' ,{ q:txt } , m_re=>{
+			var urls = {} ;
+			m_re.forEach(w=>{
+				//if( w[1]=='名詞' /*w[2]=='固有名詞'*/ ) words += ','+w[0] ;
+				if( tagged_images[w[0]] == undefined ) return ;
+				tagged_images[w[0]].forEach(url=>{
+					urls[url]=null;
+				}) ;
+			})
+
+			var q_ht = '' ;
+			for( var iurl in urls )
+				q_ht += `<img src="${IMAGES_PATH}${iurl}" width="100%"></img>` ;
+			$('#qresult').html(q_ht) ;
+		} ) ;
 	}
 	$('#chattxt').append(ht+'<br />') ;
 }
 
-/*
-
-function genhtline(li){
-	var l = lines[li] ;
-	return `${l.lineid}:${l.speaker}:<span id="line_${li}" style="color:#888;">${l.content}</span><br />` ;
-//	return `${l.lineid}:${l.speaker}:<span id="line_${li}" style="color:#888;" onclick="analyze_line(${l.lineid})">${l.content}</span><br />` ;
-}
-
-function oncorpusloaded(){
-	if( raw_lines.length==0 ){
-		alert('No corpus selected.') ;
-		return ;
-	}
-
-	msg( 'Corpus loaded. Analyzing lines..') ;
-
-	var ht = '' ;
-	var speaker = '' ;
-	lines = [] ;
-	//sel_words = {} ;
-	corpus_words = {} ;
-	corpus_words_total = 0 ;
-	
-	raw_lines.forEach( line => {
-		var match_result = line.match( /(^[MF]...)：/ ) ;
-		if( match_result == null ){
+// Word2vec
+/*$.ajax({
+	//type: オプションは$.ajaxの初期値で"GET"です。
+	url: '/w2v/'
+	, dataType: 'json'
+	, data: { q:tgt_word }
+	, success: w_re=>{
+		if( w_re.error != undefined || w_re.freq>WORD_FREQ_THRESHOLD){
+			word_analylsis_completed() ;
 			return ;
 		}
-		var speaker = match_result[1] ;
-		var body = line.slice(5) ;
+		$(tgt_id).css('color','#f00') ;
 
-		var lineid = lines.length ;
-
-		lines.push( {lineid:lineid , speaker:speaker , content: body } )
-		ht += genhtline(lineid) ;
-		analyze_line(lineid) ;
-	}) ;
-
-	$('#srctxt').html(ht) ;
-}
-
-
-function analyze_line(lineid){
-	$.getJSON(
-		'/mecab/'
-		,{ q:lines[lineid].content }
-		,m_re=>{
-			// Mecab completed
-			//log('形態素解析結果：'+JSON.stringify(m_re)) ;
-
-			// highlight 名詞
-			var ht = '' ;
-			for( var wi=0;wi<m_re.length;++wi){
-				var w = m_re[wi] ;
-				if( w[0] != "\r" && w[1] != 'フィラー'){
-					if( corpus_words[w[0]] == undefined )	corpus_words[w[0]] = {count:1} ;
-					else ++corpus_words[w[0]].count ;
-					++corpus_words_total ;
-				}
-
-				if( w[0] == 'F' || w[0] == 'M' || w[0] == '笑い'
-				 || w[1] != '名詞' || w[2] != '固有名詞' ){
-				// || w[1] != '名詞' || (w[2] != '固有名詞' && w[2] != '一般') ){
-					ht += w[0] ;
-					continue ;
-				}
-				ht += `<span id="word_${lineid}_${wi}" style="color:#000;">[${w[0]}]</span>` ;
-
-				(()=>{
-					var tgt_word = w[0] ;
-					var lid = lineid ;
-					var tgt_id = `#word_${lid}_${wi}` ;
-					// analyze by word2vec
-					word_analylsis_started() ;
-
-					$.ajax({
-						//type: オプションは$.ajaxの初期値で"GET"です。
-						url: '/w2v/'
-						, dataType: 'json'
-						, data: { q:tgt_word }
-						, success: w_re=>{
-							if( w_re.error != undefined || w_re.freq>WORD_FREQ_THRESHOLD){
-								word_analylsis_completed() ;
-								return ;
-							}
-							$(tgt_id).css('color','#f00') ;
-
-							if( lines[lid].analysis == undefined ){
-								lines[lid].analysis = {w2v:w_re.w2v , w2vnum:1} ;
-							} else {
-								var an = lines[lid].analysis ;
-								if( w_re.w2v == undefined ){
-									console.log('Why?') ;
-								}
-								for( var vi=0;vi<w_re.w2v.length;++vi )
-									an.w2v[vi] += w_re.w2v[vi] ;
-								++ an.w2vnum ;
-							}
-
-							//sel_words[tgt_word] = w_re.w2v ;
-							corpus_words[tgt_word].w2v = w_re.w2v ;
-							corpus_words[tgt_word].freq = w_re.freq ;
-							corpus_words[tgt_word].tf = w_re.tf ;
-
-							word_analylsis_completed() ;
-						}
-						, error: word_analylsis_completed
-					});
-				})() ;
+		if( lines[lid].analysis == undefined ){
+			lines[lid].analysis = {w2v:w_re.w2v , w2vnum:1} ;
+		} else {
+			var an = lines[lid].analysis ;
+			if( w_re.w2v == undefined ){
+				console.log('Why?') ;
 			}
-
-			$('#line_'+lineid).html(ht) ;
-
+			for( var vi=0;vi<w_re.w2v.length;++vi )
+				an.w2v[vi] += w_re.w2v[vi] ;
+			++ an.w2vnum ;
 		}
-	);
-}
 
+		//sel_words[tgt_word] = w_re.w2v ;
+		corpus_words[tgt_word].w2v = w_re.w2v ;
+		corpus_words[tgt_word].freq = w_re.freq ;
+		corpus_words[tgt_word].tf = w_re.tf ;
 
-var word_analysis_countdown = 0 ;
-function word_analylsis_started(){ ++word_analysis_countdown ; }
-function word_analylsis_completed(){
-	if( --word_analysis_countdown > 0 ) return ;
-
-	log('Lines analyzed.') ;
-
-	var sel_words = [] ;
-	for( var w in corpus_words ){
-		var cw = corpus_words[w] ;
-		if( cw.w2v == undefined ) continue ;
-		cw.idf = cw.count / (cw.freq*corpus_words_total) ;
-		cw.tfidf = cw.tf * cw.idf ;
-		cw.word = w ;
-		sel_words.push(cw) ;
+		word_analylsis_completed() ;
 	}
-	sel_words.sort((p,q)=>{return q.tfidf - p.tfidf ;}) ;
+	, error: word_analylsis_completed
+});*/
 
-	var ht = '' ;
-	for( var i=0;i<sel_words.length;++i ){
-		ht += `,${sel_words[i].word}` ;
-	}
-
-	msg(ht.slice(1)) ;
-}
-*/
-
-/*
-function showZakkuris(){
-	var ht = '' ;
-	for( var zi=0;zi<zakkuris.length;++zi ){
-		var ts = zakkuris[zi] ;
-		ht += '1.'+ts[0]+'<br />' ;
-		ht += '2.'+ts[1]+'<br />' ;
-		ht += '3.'+ts[2]+'<hr />' ;
-	}
-	$('#right').html(ht) ;
-}
-*/
 
 var bot ;
+var tagged_images = {} ;
 onload = function(){
+
+
+	$.getJSON( IMAGES_PATH+'index.json' , m_re=>{
+		tagged_images = m_re ;
+	} ) ;
+
 
 	$( '#myname' ).keypress( function ( e ) {if ( e.which == 13 ) {
 		var myname = $('#myname').val() ;
@@ -225,39 +128,11 @@ onload = function(){
 
 	    var sendtxt = $('#sendtext').val() ;
 	    addutt(true,sendtxt) ;
+		$('#sendtext').val('') ;
 		bot.talk(sendtxt).then(utt=>{
 			addutt(false,utt) ;
-			$('#sendtext').val('') ;
 		}) ;
 	} } );
-
-/*
-	$.getJSON('/corpus',re=>{
-		var selector = $('#corpusselect') ;
-		re.corpus.forEach(corpusname=>{
-			var option = $('<option>')
-				.val(corpusname)
-				.text(corpusname)
-				//.prop('selected', isSelected)
-				;
-			selector.append(option) ;
-		}) ;
-		selector.change(()=>{
-			score_table = undefined ;
-			msg( 'loading '+selector.val() );
-			$.getJSON('/corpus/'+selector.val(),
-				_lines=>{raw_lines=_lines;oncorpusloaded();}
-			) ;
-		}) ;
-	}) ;
-*/
-/*
-	$.getJSON('/livedoorNewsSummary',re=>{
-		for( var et in re )
-			zakkuris.push(re[et]) ;
-		showZakkuris() ;
-	}) ;
-	*/
 } ;
 </script>
 </html>

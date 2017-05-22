@@ -11,6 +11,7 @@ const OUTPUT_WORD_FREQUENCY_STATISTICS = false ;
 
 var fs = require('fs');
 var NCMB = require("ncmb");
+var mime = require('mime') ;
 
 const ncmbinfo = JSON.parse(fs.readFileSync('ncmbinfo.json').toString()) ;
 var ncmb = new NCMB( ncmbinfo.ak,ncmbinfo.ck );
@@ -363,8 +364,15 @@ app.get('/corpus*',(req,res)=>{
 app.get('/*',(req,res)=>{
 	try {
 		if( req.url == '/') req.url='/index.html' ;
-		res.write(fs.readFileSync('htdocs'+req.url).toString());
-		res.end();
+			fs.readFile('htdocs'+req.url,(err,data)=>{
+			if(err){
+				res.status(404).send('No such resource');
+				return ;
+			}
+			res.set('Content-Type', mime.lookup(req.url) /*'text/html; charset=UTF-8'*/);
+			res.status(200);
+			res.send(data) ;
+		}) ;
 	} catch(e){
 		res.write('No such file') ;
 		res.end() ;
