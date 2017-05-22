@@ -9,23 +9,27 @@ class Bot {
   	this.tgtname = tgtname ;
   }
   talk(q_if_exist){
+  	var args = {
+		utt:q_if_exist
+		, context:this.context
+		, nickname:this.name
+		, t:20	// なし:デフォルトキャラ 20:関西弁, 30:赤ちゃん
+		, birthdateY:2000
+		, birthdateM:1
+		, birthdateD:1
+		, age:17
+		, constellations:'山羊座'
+		, place:'千葉'
+	} ;
+  	var url = DOCOMO_REQ_URL ;
+  	/*for( var k in args ){
+  		url += `?${k}=${args[k]}` ;
+  	}*/
   	return new Promise((ac,rj)=>{
 		$.ajax({
-			url:DOCOMO_REQ_URL
+			url:url //DOCOMO_REQ_URL
 			,type:'POST'
-			,data:JSON.stringify({
-				utt:q_if_exist
-				, context:this.context
-				, nickname:this.name
-				, t:20	// なし:デフォルトキャラ 20:関西弁, 30:赤ちゃん
-				, birthdateY:2000
-				, birthdateM:1
-				, birthdateD:1
-				, age:17
-				, constellations:'山羊座'
-				, place:'千葉'
-				, 
-			})
+			,data:JSON.stringify(args)
 			,contentType:'application/json; charset=utf-8'
 			,dataType:'json'
 			,success:re=>{
