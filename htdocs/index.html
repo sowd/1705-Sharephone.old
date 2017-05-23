@@ -5,10 +5,8 @@
 </head>
 <body style="overflow:auto;height:100%;">
 <font style='color:#ccc'>Phone UI (Enterで送信):</font>
-<input type='text' id='myname' size='7' placeholder="自分の名前"></input>
-<input type='text' id='sendtext' size='40' placeholder='送りたい言葉'></input>
+<!-- input type='text' id='sendtext' size='40' placeholder='送りたい言葉'></input -->
 <span id='msgarea'></span>
-<input type="button" onClick="record()" value="start" id='recbtn'></input>
 <hr />
 <div id="left" style="float:left;width:30%;overflow-y:scroll;height:100%;">
 <font size='+2' style='color:#ccc'>Suggestions</font>
@@ -41,7 +39,7 @@ function msg(msg){
 	log(msg) ;
 }
 
-function addutt(bMy , txt){
+function addutt(bMy , txt , addtxt){
 	var ht ;
 	if(bot==undefined) ht = 'Not connected.' ;
 	else {
@@ -64,7 +62,7 @@ function addutt(bMy , txt){
 			$('#qresult').html(q_ht) ;
 		} ) ;
 	}
-	$('#chattxt').append(ht+'<br />') ;
+	$('#chattxt').append(ht+(addtxt?addtxt:'')+'<br />') ;
 }
 
 // Word2vec
@@ -110,16 +108,7 @@ onload = function(){
 		tagged_images = m_re ;
 	} ) ;
 
-
-	$( '#myname' ).keypress( function ( e ) {if ( e.which == 13 ) {
-		var myname = $('#myname').val() ;
-		bot = new Bot(myname,'ドモ子');
-		bot.talk().then(utt=>{
-			addutt(false,utt) ;
-		}) ;
-		return false;
-	} } );
-
+/*
 	$( '#sendtext' ).keypress( function ( e ) {if ( e.which == 13 ) {
 		if( bot == undefined ){
 			alert('Please call to bot first.') ;
@@ -133,64 +122,106 @@ onload = function(){
 			addutt(false,utt) ;
 		}) ;
 	} } );
+*/
 
-} ;
+	var myname = $('#myname').val() ;
+	bot = new Bot('自分','ドモ子');
+	bot.talk().then(utt=>{
+		addutt(false,utt) ;
+	}) ;
 
 
+	var last_power = 0 ;
+	(function(){
+	    // Raw audio recording
+		// https://blanktar.jp/blog/2016/01/html5-audio-context.html
+		navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
+
+		var bPowerOffCountdown = 0 , power_samples , power_total ;
+		const POWER_THRESHOLD = 20 , POWER_OFF_MILLIS = 1000 ;
+
+		navigator.getUserMedia(
+			{audio : true},
+			function(stream){
+				document.querySelector('audio').src = URL.createObjectURL(stream);
+				var audioContext = new AudioContext();
+				var analyser = audioContext.createAnalyser();
+				var timeDomain = new Uint8Array(analyser.frequencyBinCount);
+				//var timeDomain = new Float32Array(analyser.frequencyBinCount);
+				//var frequency = new Uint8Array(analyser.frequencyBinCount);
+				audioContext.createMediaStreamSource(stream).connect(analyser);
+
+				var prev_time = Date.now() ;
+
+				(function animation(){
+					analyser.getByteTimeDomainData(timeDomain);
+					//analyser.getFloatTimeDomainData(timeDomain);
+					//analyser.getByteFrequencyData(frequency);
+					var power=0 ;
+					timeDomain.forEach(y=>{power+=(y-127)*(y-127);}) ;
+					if( power / timeDomain.length > POWER_THRESHOLD ){
+						// On
+						if( bPowerOffCountdown > 0 ){	// ON=>ON
+							power_samples += timeDomain.length ;
+							power_total += power ;
+						} else {						// OFF=>ON
+							power_samples = timeDomain.length ;
+							power_total = power ;
+							bPowerOn = true ;
+						}
+						bPowerOffCountdown = POWER_OFF_MILLIS ;
+						prev_time = Date.now() ;
+					} else {
+						// Off
+						if( bPowerOffCountdown>0 ){
+							var now_time = Date.now() ;
+							bPowerOffCountdown -= now_time - prev_time ;
+							prev_time = now_time ;
+
+							if( bPowerOffCountdown <= 0 ){
+								last_power = power_total/power_samples ;
+								console.log('Power off:' + last_power  ) ;
+							}
+						}
+					}
+					requestAnimationFrame(animation);
+				})();
+
+			},
+			console.log
+		);
+	})() ;
 
 
-	// Speech recognition test
+	// Speech recognition
 	window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 	var recognition = new SpeechRecognition();//webkitSpeechRecognition();
 	recognition.continuous = true;
 	recognition.lang = 'ja';
 
-	// 認識終了
 	recognition.addEventListener('result', function(event){
 		var last_re = event.results.item(event.results.length-1) ;
 		var it = last_re.item(0) ;
 		console.log(event.results.length+':'+it.transcript+' / '+it.confidence) ;
+
+		addutt(true,it.transcript,` (${last_power})`) ;
+		bot.talk(it.transcript).then(utt=>{
+			addutt(false,utt) ;
+		}) ;
 	}, false);
 
 	recognition.addEventListener('end', function(event){
-		if( $('#recbtn').val() == 'stop'){
-		    recognition.start();
-			console.log('recognition restarted') ;
-		}
+	    recognition.start();
+		console.log('recognition restarted') ;
 	}, false);
 
-	// 録音開始
-	function record(){
-		if( $('#recbtn').val() == 'start' ){
-		    $('#recbtn').val('stop') ;
-		    recognition.start();
-		} else {
-		    $('#recbtn').val('start') ;
-		    recognition.stop();
-		}
-	}
+    recognition.start();
 
-	// https://blanktar.jp/blog/2016/01/html5-audio-context.html
 
-	navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
-	navigator.getUserMedia(
-	{audio : true},
-	function(stream){
-		document.querySelector('audio').src = URL.createObjectURL(stream);
-		var audioContext = new AudioContext();
-		var analyser = audioContext.createAnalyser();
-		var timeDomain = new Float32Array(analyser.frequencyBinCount);
-		var frequency = new Uint8Array(analyser.frequencyBinCount);
-		audioContext.createMediaStreamSource(stream).connect(analyser);
 
-		(function animation(){
-			analyser.getFloatTimeDomainData(timeDomain);
-			analyser.getByteFrequencyData(frequency);
-			requestAnimationFrame(animation);
-		})();
+} ;
 
-	},
-	console.log
-);
+
+
 </script>
 </html>
