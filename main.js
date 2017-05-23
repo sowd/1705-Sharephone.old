@@ -8,6 +8,7 @@
 // just call post_process_word_freq() after loading word_freq, rather than
 // setting this to true.
 const OUTPUT_WORD_FREQUENCY_STATISTICS = false ;
+const URL_PREFIX = '/SharePhone' ;
 
 var fs = require('fs');
 var NCMB = require("ncmb");
@@ -307,7 +308,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/corpus*',(req,res)=>{
+app.get(URL_PREFIX+'/corpus*',(req,res)=>{
 	if( req.params.length == 0 || req.params[0].length==0 || req.params[0] == '/'){
 		var ret_json = {} ;
 		ret_json.corpus = [] ;
@@ -342,7 +343,7 @@ app.get('/corpus*',(req,res)=>{
 	,['livedoorNews',storeLivedoorNewsSummaryData]
 	,['livedoorNewsSummary',getLivedoorNewsSummary]
 ].forEach(fun=>{
-	app.get('/'+fun[0],(req,res)=>{
+	app.get(URL_PREFIX+'/'+fun[0],(req,res)=>{
 		/*if( req.query.q == undefined ){
 			res.jsonp({error:'Please specify a sentence as GET parameter q!'}) ;
 			return ;
@@ -361,8 +362,10 @@ app.get('/corpus*',(req,res)=>{
 }) ;
 
 // Static contents
-app.get('/*',(req,res)=>{
+app.get(URL_PREFIX+'/*',(req,res)=>{
 	try {
+		//console.log(req.url) ;
+		req.url = req.url.slice( URL_PREFIX.length ) ;
 		if( req.url == '/') req.url='/index.html' ;
 			fs.readFile('htdocs'+req.url,(err,data)=>{
 			if(err){
